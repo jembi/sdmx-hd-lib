@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_COUNTRY" agencyID="UNAIDS" version="1.0" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist=UNAIDS:CL_COUNTRY">
+      <structure:Name xml:lang="en">Countries</structure:Name>
+      <structure:Description xml:lang="en">Countries</structure:Description>
+      <structure:Code value="BG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BG">
+        <structure:Description xml:lang="en">Bulgaria</structure:Description>
+      </structure:Code>
+      <structure:Code value="UY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].UY">
+        <structure:Description xml:lang="en">Uruguay</structure:Description>
+      </structure:Code>
+      <structure:Code value="CH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CH">
+        <structure:Description xml:lang="en">Switzerland</structure:Description>
+      </structure:Code>
+      <structure:Code value="BS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BS">
+        <structure:Description xml:lang="en">Bahamas</structure:Description>
+      </structure:Code>
+      <structure:Code value="SO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SO">
+        <structure:Description xml:lang="en">Somalia</structure:Description>
+      </structure:Code>
+      <structure:Code value="GR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GR">
+        <structure:Description xml:lang="en">Greece</structure:Description>
+      </structure:Code>
+      <structure:Code value="YE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].YE">
+        <structure:Description xml:lang="en">Yemen</structure:Description>
+      </structure:Code>
+      <structure:Code value="MN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MN">
+        <structure:Description xml:lang="en">Mongolia</structure:Description>
+      </structure:Code>
+      <structure:Code value="LT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LT">
+        <structure:Description xml:lang="en">Lithuania</structure:Description>
+      </structure:Code>
+      <structure:Code value="IR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].IR">
+        <structure:Description xml:lang="en">Iran, Islamic Republic Of</structure:Description>
+      </structure:Code>
+      <structure:Code value="SL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SL">
+        <structure:Description xml:lang="en">Sierra Leone</structure:Description>
+      </structure:Code>
+      <structure:Code value="NG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].NG">
+        <structure:Description xml:lang="en">Nigeria</structure:Description>
+      </structure:Code>
+      <structure:Code value="MA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MA">
+        <structure:Description xml:lang="en">Morocco</structure:Description>
+      </structure:Code>
+      <structure:Code value="BE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BE">
+        <structure:Description xml:lang="en">Belgium</structure:Description>
+      </structure:Code>
+      <structure:Code value="WS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].WS">
+        <structure:Description xml:lang="en">Samoa</structure:Description>
+      </structure:Code>
+      <structure:Code value="GY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GY">
+        <structure:Description xml:lang="en">Guyana</structure:Description>
+      </structure:Code>
+      <structure:Code value="TZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TZ">
+        <structure:Description xml:lang="en">United Republic of Tanzania</structure:Description>
+      </structure:Code>
+      <structure:Code value="NI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].NI">
+        <structure:Description xml:lang="en">Nicaragua</structure:Description>
+      </structure:Code>
+      <structure:Code value="SR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SR">
+        <structure:Description xml:lang="en">Suriname</structure:Description>
+      </structure:Code>
+      <structure:Code value="JO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].JO">
+        <structure:Description xml:lang="en">Jordan</structure:Description>
+      </structure:Code>
+      <structure:Code value="LY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LY">
+        <structure:Description xml:lang="en">Libyan Arab Jamahiriya</structure:Description>
+      </structure:Code>
+      <structure:Code value="LU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LU">
+        <structure:Description xml:lang="en">Luxembourg</structure:Description>
+      </structure:Code>
+      <structure:Code value="MW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MW">
+        <structure:Description xml:lang="en">Malawi</structure:Description>
+      </structure:Code>
+      <structure:Code value="AF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AF">
+        <structure:Description xml:lang="en">Afghanistan</structure:Description>
+      </structure:Code>
+      <structure:Code value="KP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].KP">
+        <structure:Description xml:lang="en">Democratic People's Republic of Korea</structure:Description>
+      </structure:Code>
+      <structure:Code value="BJ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BJ">
+        <structure:Description xml:lang="en">Benin</structure:Description>
+      </structure:Code>
+      <structure:Code value="GT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GT">
+        <structure:Description xml:lang="en">Guatemala</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].IS">
+        <structure:Description xml:lang="en">Iceland</structure:Description>
+      </structure:Code>
+      <structure:Code value="AL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AL">
+        <structure:Description xml:lang="en">Albania</structure:Description>
+      </structure:Code>
+      <structure:Code value="LB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LB">
+        <structure:Description xml:lang="en">Lebanon</structure:Description>
+      </structure:Code>
+      <structure:Code value="SN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SN">
+        <structure:Description xml:lang="en">Senegal</structure:Description>
+      </structure:Code>
+      <structure:Code value="MT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MT">
+        <structure:Description xml:lang="en">Malta</structure:Description>
+      </structure:Code>
+      <structure:Code value="GW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GW">
+        <structure:Description xml:lang="en">Guinea-Bissau</structure:Description>
+      </structure:Code>
+      <structure:Code value="PT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].PT">
+        <structure:Description xml:lang="en">Portugal</structure:Description>
+      </structure:Code>
+      <structure:Code value="BH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BH">
+        <structure:Description xml:lang="en">Bahrain</structure:Description>
+      </structure:Code>
+      <structure:Code value="NA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].NA">
+        <structure:Description xml:lang="en">Namibia</structure:Description>
+      </structure:Code>
+      <structure:Code value="BW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BW">
+        <structure:Description xml:lang="en">Botswana</structure:Description>
+      </structure:Code>
+      <structure:Code value="LC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LC">
+        <structure:Description xml:lang="en">Saint Lucia</structure:Description>
+      </structure:Code>
+      <structure:Code value="FI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].FI">
+        <structure:Description xml:lang="en">Finland</structure:Description>
+      </structure:Code>
+      <structure:Code value="ML" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].ML">
+        <structure:Description xml:lang="en">Mali</structure:Description>
+      </structure:Code>
+      <structure:Code value="BY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BY">
+        <structure:Description xml:lang="en">Belarus</structure:Description>
+      </structure:Code>
+      <structure:Code value="BF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BF">
+        <structure:Description xml:lang="en">Burkina Faso</structure:Description>
+      </structure:Code>
+      <structure:Code value="MY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MY">
+        <structure:Description xml:lang="en">Malaysia</structure:Description>
+      </structure:Code>
+      <structure:Code value="CZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CZ">
+        <structure:Description xml:lang="en">Czech Republic</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].VC">
+        <structure:Description xml:lang="en">Saint Vincent and the Grenadines</structure:Description>
+      </structure:Code>
+      <structure:Code value="BA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BA">
+        <structure:Description xml:lang="en">Bosnia and Herzegovina</structure:Description>
+      </structure:Code>
+      <structure:Code value="CM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CM">
+        <structure:Description xml:lang="en">Cameroon</structure:Description>
+      </structure:Code>
+      <structure:Code value="VE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].VE">
+        <structure:Description xml:lang="en">Venezuela</structure:Description>
+      </structure:Code>
+      <structure:Code value="UG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].UG">
+        <structure:Description xml:lang="en">Uganda</structure:Description>
+      </structure:Code>
+      <structure:Code value="LI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LI">
+        <structure:Description xml:lang="en">Liechtenstein</structure:Description>
+      </structure:Code>
+      <structure:Code value="FJ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].FJ">
+        <structure:Description xml:lang="en">Fiji</structure:Description>
+      </structure:Code>
+      <structure:Code value="AM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AM">
+        <structure:Description xml:lang="en">Armenia</structure:Description>
+      </structure:Code>
+      <structure:Code value="KE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].KE">
+        <structure:Description xml:lang="en">Kenya</structure:Description>
+      </structure:Code>
+      <structure:Code value="ES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].ES">
+        <structure:Description xml:lang="en">Spain</structure:Description>
+      </structure:Code>
+      <structure:Code value="LV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LV">
+        <structure:Description xml:lang="en">Latvia</structure:Description>
+      </structure:Code>
+      <structure:Code value="GH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GH">
+        <structure:Description xml:lang="en">Ghana</structure:Description>
+      </structure:Code>
+      <structure:Code value="IT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].IT">
+        <structure:Description xml:lang="en">Italy</structure:Description>
+      </structure:Code>
+      <structure:Code value="GD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GD">
+        <structure:Description xml:lang="en">Grenada</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SG">
+        <structure:Description xml:lang="en">Singapore</structure:Description>
+      </structure:Code>
+      <structure:Code value="EE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].EE">
+        <structure:Description xml:lang="en">Estonia</structure:Description>
+      </structure:Code>
+      <structure:Code value="DM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].DM">
+        <structure:Description xml:lang="en">Dominica</structure:Description>
+      </structure:Code>
+      <structure:Code value="IL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].IL">
+        <structure:Description xml:lang="en">Israel</structure:Description>
+      </structure:Code>
+      <structure:Code value="RU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].RU">
+        <structure:Description xml:lang="en">Russian Federation</structure:Description>
+      </structure:Code>
+      <structure:Code value="SK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SK">
+        <structure:Description xml:lang="en">Slovakia</structure:Description>
+      </structure:Code>
+      <structure:Code value="LA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LA">
+        <structure:Description xml:lang="en">Lao People's Democratic Republic</structure:Description>
+      </structure:Code>
+      <structure:Code value="BD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BD">
+        <structure:Description xml:lang="en">Bangladesh</structure:Description>
+      </structure:Code>
+      <structure:Code value="MU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MU">
+        <structure:Description xml:lang="en">Mauritius</structure:Description>
+      </structure:Code>
+      <structure:Code value="TR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TR">
+        <structure:Description xml:lang="en">Turkey</structure:Description>
+      </structure:Code>
+      <structure:Code value="LK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LK">
+        <structure:Description xml:lang="en">Sri Lanka</structure:Description>
+      </structure:Code>
+      <structure:Code value="LR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LR">
+        <structure:Description xml:lang="en">Liberia</structure:Description>
+      </structure:Code>
+      <structure:Code value="KG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].KG">
+        <structure:Description xml:lang="en">Kyrgyzstan</structure:Description>
+      </structure:Code>
+      <structure:Code value="MV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MV">
+        <structure:Description xml:lang="en">Maldives</structure:Description>
+      </structure:Code>
+      <structure:Code value="OM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].OM">
+        <structure:Description xml:lang="en">Oman</structure:Description>
+      </structure:Code>
+      <structure:Code value="TV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TV">
+        <structure:Description xml:lang="en">Tuvalu</structure:Description>
+      </structure:Code>
+      <structure:Code value="PH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].PH">
+        <structure:Description xml:lang="en">Philippines</structure:Description>
+      </structure:Code>
+      <structure:Code value="CL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CL">
+        <structure:Description xml:lang="en">Chile</structure:Description>
+      </structure:Code>
+      <structure:Code value="GN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GN">
+        <structure:Description xml:lang="en">Guinea</structure:Description>
+      </structure:Code>
+      <structure:Code value="TJ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TJ">
+        <structure:Description xml:lang="en">Tajikistan</structure:Description>
+      </structure:Code>
+      <structure:Code value="LS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].LS">
+        <structure:Description xml:lang="en">Lesotho</structure:Description>
+      </structure:Code>
+      <structure:Code value="CO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CO">
+        <structure:Description xml:lang="en">Colombia</structure:Description>
+      </structure:Code>
+      <structure:Code value="PW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].PW">
+        <structure:Description xml:lang="en">Palau</structure:Description>
+      </structure:Code>
+      <structure:Code value="RO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].RO">
+        <structure:Description xml:lang="en">Romania</structure:Description>
+      </structure:Code>
+      <structure:Code value="EC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].EC">
+        <structure:Description xml:lang="en">Ecuador</structure:Description>
+      </structure:Code>
+      <structure:Code value="VN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].VN">
+        <structure:Description xml:lang="en">Viet Nam</structure:Description>
+      </structure:Code>
+      <structure:Code value="TH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TH">
+        <structure:Description xml:lang="en">Thailand</structure:Description>
+      </structure:Code>
+      <structure:Code value="MK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MK">
+        <structure:Description xml:lang="en">The former Yugoslav Republic of Macedonia</structure:Description>
+      </structure:Code>
+      <structure:Code value="CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CA">
+        <structure:Description xml:lang="en">Canada</structure:Description>
+      </structure:Code>
+      <structure:Code value="CD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CD">
+        <structure:Description xml:lang="en">Democratic Republic of the Congo</structure:Description>
+      </structure:Code>
+      <structure:Code value="KR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].KR">
+        <structure:Description xml:lang="en">Republic of Korea</structure:Description>
+      </structure:Code>
+      <structure:Code value="HU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].HU">
+        <structure:Description xml:lang="en">Hungary</structure:Description>
+      </structure:Code>
+      <structure:Code value="SC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SC">
+        <structure:Description xml:lang="en">Seychelles</structure:Description>
+      </structure:Code>
+      <structure:Code value="KM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].KM">
+        <structure:Description xml:lang="en">Comoros</structure:Description>
+      </structure:Code>
+      <structure:Code value="ST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].ST">
+        <structure:Description xml:lang="en">Sao Tome and Principe</structure:Description>
+      </structure:Code>
+      <structure:Code value="NE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].NE">
+        <structure:Description xml:lang="en">Niger</structure:Description>
+      </structure:Code>
+      <structure:Code value="TN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TN">
+        <structure:Description xml:lang="en">Tunisia</structure:Description>
+      </structure:Code>
+      <structure:Code value="ZA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].ZA">
+        <structure:Description xml:lang="en">South Africa</structure:Description>
+      </structure:Code>
+      <structure:Code value="TT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TT">
+        <structure:Description xml:lang="en">Trinidad and Tobago</structure:Description>
+      </structure:Code>
+      <structure:Code value="TL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TL">
+        <structure:Description xml:lang="en">Timor-Leste</structure:Description>
+      </structure:Code>
+      <structure:Code value="PY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].PY">
+        <structure:Description xml:lang="en">Paraguay</structure:Description>
+      </structure:Code>
+      <structure:Code value="VU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].VU">
+        <structure:Description xml:lang="en">Vanuatu</structure:Description>
+      </structure:Code>
+      <structure:Code value="PK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].PK">
+        <structure:Description xml:lang="en">Pakistan</structure:Description>
+      </structure:Code>
+      <structure:Code value="MD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MD">
+        <structure:Description xml:lang="en">Moldova</structure:Description>
+      </structure:Code>
+      <structure:Code value="UA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].UA">
+        <structure:Description xml:lang="en">Ukraine</structure:Description>
+      </structure:Code>
+      <structure:Code value="MZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MZ">
+        <structure:Description xml:lang="en">Mozambique</structure:Description>
+      </structure:Code>
+      <structure:Code value="CU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CU">
+        <structure:Description xml:lang="en">Cuba</structure:Description>
+      </structure:Code>
+      <structure:Code value="KN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].KN">
+        <structure:Description xml:lang="en">Saint Kitts and Nevis</structure:Description>
+      </structure:Code>
+      <structure:Code value="NL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].NL">
+        <structure:Description xml:lang="en">Netherlands</structure:Description>
+      </structure:Code>
+      <structure:Code value="TM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TM">
+        <structure:Description xml:lang="en">Turkmenistan</structure:Description>
+      </structure:Code>
+      <structure:Code value="SM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SM">
+        <structure:Description xml:lang="en">San Marino</structure:Description>
+      </structure:Code>
+      <structure:Code value="BT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BT">
+        <structure:Description xml:lang="en">Bhutan</structure:Description>
+      </structure:Code>
+      <structure:Code value="RS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].RS">
+        <structure:Description xml:lang="en">Serbia</structure:Description>
+      </structure:Code>
+      <structure:Code value="NR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].NR">
+        <structure:Description xml:lang="en">Nauru</structure:Description>
+      </structure:Code>
+      <structure:Code value="PG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].PG">
+        <structure:Description xml:lang="en">Papua New Guinea</structure:Description>
+      </structure:Code>
+      <structure:Code value="AZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AZ">
+        <structure:Description xml:lang="en">Azerbaijan</structure:Description>
+      </structure:Code>
+      <structure:Code value="GQ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GQ">
+        <structure:Description xml:lang="en">Equatorial Guinea</structure:Description>
+      </structure:Code>
+      <structure:Code value="MC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MC">
+        <structure:Description xml:lang="en">Monaco</structure:Description>
+      </structure:Code>
+      <structure:Code value="SZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SZ">
+        <structure:Description xml:lang="en">Swaziland</structure:Description>
+      </structure:Code>
+      <structure:Code value="MG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MG">
+        <structure:Description xml:lang="en">Madagascar</structure:Description>
+      </structure:Code>
+      <structure:Code value="NP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].NP">
+        <structure:Description xml:lang="en">Nepal</structure:Description>
+      </structure:Code>
+      <structure:Code value="DE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].DE">
+        <structure:Description xml:lang="en">Germany</structure:Description>
+      </structure:Code>
+      <structure:Code value="PL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].PL">
+        <structure:Description xml:lang="en">Poland</structure:Description>
+      </structure:Code>
+      <structure:Code value="IE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].IE">
+        <structure:Description xml:lang="en">Ireland</structure:Description>
+      </structure:Code>
+      <structure:Code value="BO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BO">
+        <structure:Description xml:lang="en">Bolivia</structure:Description>
+      </structure:Code>
+      <structure:Code value="EG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].EG">
+        <structure:Description xml:lang="en">Egypt</structure:Description>
+      </structure:Code>
+      <structure:Code value="GE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GE">
+        <structure:Description xml:lang="en">Georgia</structure:Description>
+      </structure:Code>
+      <structure:Code value="BI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BI">
+        <structure:Description xml:lang="en">Burundi</structure:Description>
+      </structure:Code>
+      <structure:Code value="DK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].DK">
+        <structure:Description xml:lang="en">Denmark</structure:Description>
+      </structure:Code>
+      <structure:Code value="AU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AU">
+        <structure:Description xml:lang="en">Australia</structure:Description>
+      </structure:Code>
+      <structure:Code value="ID" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].ID">
+        <structure:Description xml:lang="en">Indonesia</structure:Description>
+      </structure:Code>
+      <structure:Code value="DO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].DO">
+        <structure:Description xml:lang="en">Dominican Republic</structure:Description>
+      </structure:Code>
+      <structure:Code value="CR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CR">
+        <structure:Description xml:lang="en">Costa Rica</structure:Description>
+      </structure:Code>
+      <structure:Code value="KH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].KH">
+        <structure:Description xml:lang="en">Cambodia</structure:Description>
+      </structure:Code>
+      <structure:Code value="JP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].JP">
+        <structure:Description xml:lang="en">Japan</structure:Description>
+      </structure:Code>
+      <structure:Code value="QA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].QA">
+        <structure:Description xml:lang="en">Qatar</structure:Description>
+      </structure:Code>
+      <structure:Code value="ZW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].ZW">
+        <structure:Description xml:lang="en">Zimbabwe</structure:Description>
+      </structure:Code>
+      <structure:Code value="GM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GM">
+        <structure:Description xml:lang="en">Gambia</structure:Description>
+      </structure:Code>
+      <structure:Code value="SE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SE">
+        <structure:Description xml:lang="en">Sweden</structure:Description>
+      </structure:Code>
+      <structure:Code value="TG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TG">
+        <structure:Description xml:lang="en">Togo</structure:Description>
+      </structure:Code>
+      <structure:Code value="HR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].HR">
+        <structure:Description xml:lang="en">Croatia</structure:Description>
+      </structure:Code>
+      <structure:Code value="FR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].FR">
+        <structure:Description xml:lang="en">France</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AG">
+        <structure:Description xml:lang="en">Antigua and Barbuda</structure:Description>
+      </structure:Code>
+      <structure:Code value="KI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].KI">
+        <structure:Description xml:lang="en">Kiribati</structure:Description>
+      </structure:Code>
+      <structure:Code value="BN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BN">
+        <structure:Description xml:lang="en">Brunei Darussalam</structure:Description>
+      </structure:Code>
+      <structure:Code value="MM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MM">
+        <structure:Description xml:lang="en">Myanmar</structure:Description>
+      </structure:Code>
+      <structure:Code value="AR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AR">
+        <structure:Description xml:lang="en">Argentina</structure:Description>
+      </structure:Code>
+      <structure:Code value="MH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MH">
+        <structure:Description xml:lang="en">Marshall Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value="KW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].KW">
+        <structure:Description xml:lang="en">Kuwait</structure:Description>
+      </structure:Code>
+      <structure:Code value="CF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CF">
+        <structure:Description xml:lang="en">Central African Republic</structure:Description>
+      </structure:Code>
+      <structure:Code value="CG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CG">
+        <structure:Description xml:lang="en">Republic of the Congo</structure:Description>
+      </structure:Code>
+      <structure:Code value="SA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SA">
+        <structure:Description xml:lang="en">Saudi Arabia</structure:Description>
+      </structure:Code>
+      <structure:Code value="SB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SB">
+        <structure:Description xml:lang="en">Solomon Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value="HN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].HN">
+        <structure:Description xml:lang="en">Honduras</structure:Description>
+      </structure:Code>
+      <structure:Code value="HT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].HT">
+        <structure:Description xml:lang="en">Haiti</structure:Description>
+      </structure:Code>
+      <structure:Code value="CY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CY">
+        <structure:Description xml:lang="en">Cyprus</structure:Description>
+      </structure:Code>
+      <structure:Code value="AO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AO">
+        <structure:Description xml:lang="en">Angola</structure:Description>
+      </structure:Code>
+      <structure:Code value="PE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].PE">
+        <structure:Description xml:lang="en">Peru</structure:Description>
+      </structure:Code>
+      <structure:Code value="JM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].JM">
+        <structure:Description xml:lang="en">Jamaica</structure:Description>
+      </structure:Code>
+      <structure:Code value="SV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SV">
+        <structure:Description xml:lang="en">El Salvador</structure:Description>
+      </structure:Code>
+      <structure:Code value="NZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].NZ">
+        <structure:Description xml:lang="en">New Zealand</structure:Description>
+      </structure:Code>
+      <structure:Code value="AT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AT">
+        <structure:Description xml:lang="en">Austria</structure:Description>
+      </structure:Code>
+      <structure:Code value="CI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CI">
+        <structure:Description xml:lang="en">Cote d'Ivoire</structure:Description>
+      </structure:Code>
+      <structure:Code value="BR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BR">
+        <structure:Description xml:lang="en">Brazil</structure:Description>
+      </structure:Code>
+      <structure:Code value="MR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MR">
+        <structure:Description xml:lang="en">Mauritania</structure:Description>
+      </structure:Code>
+      <structure:Code value="GB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GB">
+        <structure:Description xml:lang="en">United Kingdom of Great Britain and Northern Ireland</structure:Description>
+      </structure:Code>
+      <structure:Code value="KZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].KZ">
+        <structure:Description xml:lang="en">Kazakhstan</structure:Description>
+      </structure:Code>
+      <structure:Code value="BZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BZ">
+        <structure:Description xml:lang="en">Belize</structure:Description>
+      </structure:Code>
+      <structure:Code value="AD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AD">
+        <structure:Description xml:lang="en">Andorra</structure:Description>
+      </structure:Code>
+      <structure:Code value="SY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SY">
+        <structure:Description xml:lang="en">Syrian Arab Republic</structure:Description>
+      </structure:Code>
+      <structure:Code value="CV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CV">
+        <structure:Description xml:lang="en">Cape Verde</structure:Description>
+      </structure:Code>
+      <structure:Code value="ZM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].ZM">
+        <structure:Description xml:lang="en">Zambia</structure:Description>
+      </structure:Code>
+      <structure:Code value="GA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].GA">
+        <structure:Description xml:lang="en">Gabon</structure:Description>
+      </structure:Code>
+      <structure:Code value="MX" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].MX">
+        <structure:Description xml:lang="en">Mexico</structure:Description>
+      </structure:Code>
+      <structure:Code value="TD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TD">
+        <structure:Description xml:lang="en">Chad</structure:Description>
+      </structure:Code>
+      <structure:Code value="SD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SD">
+        <structure:Description xml:lang="en">Sudan</structure:Description>
+      </structure:Code>
+      <structure:Code value="IN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].IN">
+        <structure:Description xml:lang="en">India</structure:Description>
+      </structure:Code>
+      <structure:Code value="ME" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].ME">
+        <structure:Description xml:lang="en">Montenegro</structure:Description>
+      </structure:Code>
+      <structure:Code value="IQ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].IQ">
+        <structure:Description xml:lang="en">Iraq</structure:Description>
+      </structure:Code>
+      <structure:Code value="TO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].TO">
+        <structure:Description xml:lang="en">Tonga</structure:Description>
+      </structure:Code>
+      <structure:Code value="PA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].PA">
+        <structure:Description xml:lang="en">Panama</structure:Description>
+      </structure:Code>
+      <structure:Code value="FM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].FM">
+        <structure:Description xml:lang="en">Federated States Of Micronesia</structure:Description>
+      </structure:Code>
+      <structure:Code value="UZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].UZ">
+        <structure:Description xml:lang="en">Uzbekistan</structure:Description>
+      </structure:Code>
+      <structure:Code value="RW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].RW">
+        <structure:Description xml:lang="en">Rwanda</structure:Description>
+      </structure:Code>
+      <structure:Code value="DJ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].DJ">
+        <structure:Description xml:lang="en">Djibouti</structure:Description>
+      </structure:Code>
+      <structure:Code value="DZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].DZ">
+        <structure:Description xml:lang="en">Algeria</structure:Description>
+      </structure:Code>
+      <structure:Code value="ET" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].ET">
+        <structure:Description xml:lang="en">Ethiopia</structure:Description>
+      </structure:Code>
+      <structure:Code value="US" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].US">
+        <structure:Description xml:lang="en">United States of America</structure:Description>
+      </structure:Code>
+      <structure:Code value="CN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].CN">
+        <structure:Description xml:lang="en">China</structure:Description>
+      </structure:Code>
+      <structure:Code value="SI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].SI">
+        <structure:Description xml:lang="en">Slovenia</structure:Description>
+      </structure:Code>
+      <structure:Code value="NO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].NO">
+        <structure:Description xml:lang="en">Norway</structure:Description>
+      </structure:Code>
+      <structure:Code value="AE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].AE">
+        <structure:Description xml:lang="en">United Arab Emirates</structure:Description>
+      </structure:Code>
+      <structure:Code value="BB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].BB">
+        <structure:Description xml:lang="en">Barbados</structure:Description>
+      </structure:Code>
+      <structure:Code value="ER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_COUNTRY[1.0].ER">
+        <structure:Description xml:lang="en">Eritrea</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+  </CodeLists>
+</Structure>
+

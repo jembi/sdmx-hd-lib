@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name>SDMX Health Domain</Name>
+    <Prepared>2009-10-30</Prepared>
+    <Sender id="WHO_IMR">
+      <Name>WHO Indicator and Metadata Registry</Name>
+      <Contact>
+        <Name>Patrick Whitaker</Name>
+        <Department>Halth Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-10-30T14:14:45</Extracted>
+  </Header>
+  <CodeLists>
+    <CodeList id="CL_DSOURCE" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_DSOURCE" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Data Source</Name>
+      <Description xml:lang="en">Data source.</Description>
+      <Code value="161" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].161">
+        <Description xml:lang="EN">Population census</Description>
+      </Code>
+      <Code value="164" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].164">
+        <Description xml:lang="EN">Surveillance systems</Description>
+      </Code>
+      <Code value="165" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].165">
+        <Description xml:lang="EN">Patient record system</Description>
+      </Code>
+      <Code value="166" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].166">
+        <Description xml:lang="EN">Facility reporting system</Description>
+      </Code>
+      <Code value="211" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].211">
+        <Description xml:lang="EN">Health facility assessments</Description>
+      </Code>
+      <Code value="219" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].219">
+        <Description xml:lang="EN">Special studies</Description>
+      </Code>
+      <Code value="426" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].426">
+        <Description xml:lang="EN">NHA</Description>
+      </Code>
+      <Code value="427" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].427">
+        <Description xml:lang="EN">PER</Description>
+      </Code>
+      <Code value="256" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].256">
+        <Description xml:lang="EN">Special facility surveys</Description>
+      </Code>
+      <Code value="311" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].311">
+        <Description xml:lang="EN">Sample or sentinel registration systems</Description>
+      </Code>
+      <Code value="336" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].336">
+        <Description xml:lang="EN">Administrative reporting system</Description>
+      </Code>
+      <Code value="365" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].365">
+        <Description xml:lang="EN">Civil registration</Description>
+      </Code>
+      <Code value="315" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].315">
+        <Description xml:lang="EN">Civil registration with complete coverage</Description>
+      </Code>
+      <Code value="316" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].316">
+        <Description xml:lang="EN">Civil registration with complete coverage and medical certification of cause of death</Description>
+      </Code>
+      <Code value="366" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].366">
+        <Description xml:lang="EN">Population-based surveys</Description>
+      </Code>
+      <Code value="162" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].162">
+        <Description xml:lang="EN">Household surveys</Description>
+      </Code>
+      <Code value="215" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].215">
+        <Description xml:lang="EN">Special population surveys</Description>
+      </Code>
+      <Code value="212" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].212">
+        <Description xml:lang="EN">Health facility assessments</Description>
+      </Code>
+      <Code value="220" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].220">
+        <Description xml:lang="EN">Special studies</Description>
+      </Code>
+      <Code value="257" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].257">
+        <Description xml:lang="EN">Special facility surveys</Description>
+      </Code>
+      <Code value="312" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].312">
+        <Description xml:lang="EN">Sample or sentinel registration systems</Description>
+      </Code>
+      <Code value="337" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DSOURCE[1.0].337">
+        <Description xml:lang="EN">Administrative reporting system</Description>
+      </Code>
+    </CodeList>
+  </CodeLists>
+</Structure>

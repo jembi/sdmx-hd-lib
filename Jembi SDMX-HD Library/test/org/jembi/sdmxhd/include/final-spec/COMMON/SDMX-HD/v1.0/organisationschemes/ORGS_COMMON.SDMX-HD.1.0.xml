@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="organisationscheme.xsl"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <OrganisationSchemes>
+    <structure:OrganisationScheme id="ORGS_COMMON" agencyID="SDMX-HD" version="1.0" isFinal="false" urn='urn:sdmx:org.sdmx.infomodel.organisationscheme.OrganisationScheme=SDMX-HD:ORGS_COMMON[1.0]' >
+      <structure:Name xml:lang="en">SDMX-HD Global Organizational Scheme</structure:Name>
+      <structure:Description xml:lang="en">SDMX-HD Global Organizational Scheme, as defined by WHO at time of publication</structure:Description>
+      <structure:Agencies>
+        <structure:Agency id="WHO" version="1.0">
+          <structure:Name xml:lang="en">World Health Organization</structure:Name>
+          <structure:Description xml:lang="en">The United Nations World Health Organization.</structure:Description>
+        </structure:Agency>
+        <structure:Agency id="UNAIDS" version="1.0">
+          <structure:Name xml:lang="en">The Joint United Nations Programme on HIV/AIDS</structure:Name>
+          <structure:Description xml:lang="en">The Joint United Nations Programme on HIV/AIDS.</structure:Description>
+        </structure:Agency>
+        <structure:Agency id="FAO" version="1.0">
+          <structure:Name xml:lang="en">Food and Agriculture Organization</structure:Name>
+          <structure:Description xml:lang="en">The United Nations Food and Agriculture Organization.</structure:Description>
+        </structure:Agency>
+        <structure:Agency id="UNICEF" version="1.0">
+          <structure:Name xml:lang="en">The United Nations Children's Fund</structure:Name>
+          <structure:Description xml:lang="en">The United Nations Children's Fund.</structure:Description>
+        </structure:Agency>
+        <structure:Agency id="UNSD" version="1.0">
+          <structure:Name xml:lang="en">United Nations Statistics Division</structure:Name>
+          <structure:Description xml:lang="en">United Nations Statistics Division</structure:Description>
+        </structure:Agency>
+        <structure:Agency id="USG_CDC" version="1.0">
+          <structure:Name xml:lang="en">United States Government Centre for Disease Control</structure:Name>
+          <structure:Description xml:lang="en">United States Government Centre for Disease Control</structure:Description>
+        </structure:Agency>
+        <structure:Agency id="USG_USAID" version="1.0">
+          <structure:Name xml:lang="en">United States Agency for International Development</structure:Name>
+          <structure:Description xml:lang="en">United States Agency for International Development</structure:Description>
+        </structure:Agency>
+        <structure:Agency id="USG" version="1.0">
+          <structure:Name xml:lang="en">United States Government</structure:Name>
+          <structure:Description xml:lang="en">United States Government</structure:Description>
+        </structure:Agency>		
+        <structure:Agency id="SDMX-HD" version="1.0">
+          <structure:Name xml:lang="en">SDMX-HD</structure:Name>
+          <structure:Description xml:lang="en">SDMX-HD Generic Agency for COMMON Code Lists and Concepts</structure:Description>
+        </structure:Agency>
+        <structure:Agency id="NA_COMMISSION" version="1.0">
+          <structure:Name xml:lang="en">National AIDS Commission</structure:Name>
+          <structure:Description xml:lang="en">National AIDS Commission</structure:Description>
+        </structure:Agency>   
+        <structure:Agency id="NA_COMMITTEE" version="1.0">
+          <structure:Name xml:lang="en">National AIDS Committee</structure:Name>
+          <structure:Description xml:lang="en">National AIDS Committee</structure:Description>
+        </structure:Agency>
+      </structure:Agencies>
+    </structure:OrganisationScheme>
+  </OrganisationSchemes>
+</Structure>
+

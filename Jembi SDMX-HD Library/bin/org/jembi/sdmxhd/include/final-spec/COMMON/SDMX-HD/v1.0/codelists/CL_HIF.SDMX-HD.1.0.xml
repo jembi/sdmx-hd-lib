@@ -1,0 +1,136 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="codelist.xsl"?>
+<Structure xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure"
+	xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+	<Header>
+		<ID>SDMX-HD-DSD</ID>
+		<Test>false</Test>
+		<Truncated>false</Truncated>
+		<Name xml:lang="en">SDMX Health Domain</Name>
+		<Prepared>2009-03-20</Prepared>
+		<Sender id="SDMX-HD">
+			<Name>SDMX-HD Health Domain</Name>
+			<Contact>
+				<Name xml:lang="en">Patrick Whitaker</Name>
+				<Department>Health Care Informatics</Department>
+				<Telephone>+41.22.791.1372</Telephone>
+				<Email>whitakerp@who.int</Email>
+			</Contact>
+		</Sender>
+		<Extracted>2009-03-20T13:03:46</Extracted>
+	</Header>
+	<CodeLists>
+		<structure:CodeList agencyID="SDMX-HD" isFinal="true" id="CL_HIF" version="1.0"
+			urn="urn:sdmx:org.sdmx.infomodel.codelist.CodeList=SDMX-HD:CL_HIF[1.0]">
+			<structure:Name xml:lang="en">Health Indicator Framework</structure:Name>
+			<structure:Description xml:lang="en">ISO DIS 21667 Health informatics, Health indicators
+				conceptual framework</structure:Description>
+			<structure:Code value="1"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].1">
+				<structure:Description xml:lang="en">Health Status</structure:Description>
+			</structure:Code>
+			<structure:Code value="2"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].2">
+				<structure:Description xml:lang="en">Determinants of Health</structure:Description>
+			</structure:Code>
+			<structure:Code value="3"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].3">
+				<structure:Description xml:lang="en">Health System
+					Performance</structure:Description>
+			</structure:Code>
+			<structure:Code value="4"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].4">
+				<structure:Description xml:lang="en">Community and Health System
+					Characteristics</structure:Description>
+			</structure:Code>
+			
+			<structure:Code value="5"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].5">
+				<structure:Description xml:lang="en">Well-being</structure:Description>
+			</structure:Code>
+			<structure:Code value="6"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].6">
+				<structure:Description xml:lang="en">Health Conditions</structure:Description>
+			</structure:Code>
+			<structure:Code value="7"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].7">
+				<structure:Description xml:lang="en">Human Function</structure:Description>
+			</structure:Code>
+			<structure:Code value="8"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].8">
+				<structure:Description xml:lang="en">Deaths</structure:Description>
+			</structure:Code>
+
+			<structure:Code value="9"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].9">
+				<structure:Description xml:lang="en">Health Behaviors</structure:Description>
+			</structure:Code>
+			<structure:Code value="10"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].10">
+				<structure:Description xml:lang="en">Socioeconomic Factors</structure:Description>
+			</structure:Code>
+			<structure:Code value="11"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].11">
+				<structure:Description xml:lang="en">Social and Community
+					Factors</structure:Description>
+			</structure:Code>
+			<structure:Code value="12"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].12">
+				<structure:Description xml:lang="en">Environmental Factors</structure:Description>
+			</structure:Code>
+			<structure:Code value="13"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].13">
+				<structure:Description xml:lang="en">Genetic Factors</structure:Description>
+			</structure:Code>
+			
+			
+			<structure:Code value="14"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].14">
+				<structure:Description xml:lang="en">Acceptability</structure:Description>
+			</structure:Code>
+			<structure:Code value="15"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].15">
+				<structure:Description xml:lang="en">Accessibility</structure:Description>
+			</structure:Code>
+			<structure:Code value="16"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].16">
+				<structure:Description xml:lang="en">Appropriateness</structure:Description>
+			</structure:Code>
+			<structure:Code value="17"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].17">
+				<structure:Description xml:lang="en">Competence</structure:Description>
+			</structure:Code>
+			<structure:Code value="18"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].18">
+				<structure:Description xml:lang="en">Continuity</structure:Description>
+			</structure:Code>
+			<structure:Code value="19"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].19">
+				<structure:Description xml:lang="en">Effectiveness</structure:Description>
+			</structure:Code>
+			<structure:Code value="20"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].20">
+				<structure:Description xml:lang="en">Efficiency</structure:Description>
+			</structure:Code>
+			<structure:Code value="21"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].21">
+				<structure:Description xml:lang="en">Safety</structure:Description>
+			</structure:Code>
+
+			<structure:Code value="22"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].22">
+				<structure:Description xml:lang="en">Resources</structure:Description>
+			</structure:Code>
+			<structure:Code value="23"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].23">
+				<structure:Description xml:lang="en">Population</structure:Description>
+			</structure:Code>
+			<structure:Code value="24"
+				urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_HIF[1.0].24">
+				<structure:Description xml:lang="en">Health System</structure:Description>
+			</structure:Code>
+		</structure:CodeList>
+	</CodeLists>
+</Structure>

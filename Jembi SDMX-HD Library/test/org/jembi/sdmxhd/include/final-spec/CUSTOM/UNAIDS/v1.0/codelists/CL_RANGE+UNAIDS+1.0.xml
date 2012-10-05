@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_RANGE" agencyID="UNAIDS" version="1.0" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_RANGE">
+      <structure:Name xml:lang="en">RANGE</structure:Name>
+      <structure:Description xml:lang="en">Range of measurements taken</structure:Description>
+      <structure:Code value="L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_RANGE.L">
+        <structure:Description xml:lang="en">Low</structure:Description>
+      </structure:Code>
+      <structure:Code value="M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_RANGE.M">
+        <structure:Description xml:lang="en">Median</structure:Description>
+      </structure:Code>
+      <structure:Code value="H" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_RANGE.H">
+        <structure:Description xml:lang="en">High</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+  </CodeLists>
+</Structure>
+

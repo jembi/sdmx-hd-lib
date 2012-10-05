@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="codelist.xsl"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_PROGRAM" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_PROGRAM">
+      <structure:Name xml:lang="en">Program</structure:Name>
+      <structure:Description xml:lang="en">This is a placeholder codelist: populate it with programs for which data is collected and rollup for reporting (monitoring plans, projects, interventions, activities, etc...)</structure:Description>
+    </structure:CodeList>
+  </CodeLists>
+</Structure>
+

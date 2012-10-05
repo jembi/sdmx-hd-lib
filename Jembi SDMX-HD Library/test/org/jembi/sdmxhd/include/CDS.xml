@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactData
+	xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message"
+	xmlns:ns="urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=SDMX-HD:compact"
+	xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact"	
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd
+	urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=SDMX-HD:compact CDS.xsd
+	 http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact SDMXCompactData.xsd" >
+	<Header>
+		<ID>SDMX-HD-CDS</ID>
+		<Test>false</Test>
+		<Truncated>false</Truncated>
+		<Prepared>2009-03-20</Prepared>
+		<Sender id="HSID ">
+			<Name>Health Statistics and Informatics Department </Name>
+		</Sender>
+		<DataSetID>MyDataSet</DataSetID>
+	</Header>
+	
+	<ns:DataSet datasetID="MyDataSet" CODE="SampleData">
+		<!-- The PROGRAM Group list -->
+		<ns:PROGRAMS PROG="0" DISEASE="1"  />		
+		<ns:PROGRAMS PROG="1" DISEASE="3" />
+				
+		<!-- COUNT INDICTAOR VALUE  - related to the groups via : PROG & DISEASE attributes -->		
+		<ns:Series DISEASE="1" PROG="0" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="3" ORGANIZATION="1" VALUE_TYPE="1" REPEATS="0" >
+			<!-- Note the VALUE_CONTRIBUTION attribute which has been added to demostrate Agency Specific Code list usage -->
+			<ns:Obs OBS_VALUE="23.99" DATE_COLLECT="2009-03-18T12:20:29" UNIT="999" TIME_PERIOD="11" VALUE_CONTRIBUTION="0" />
+			<ns:Obs OBS_VALUE="23.76" DATE_COLLECT="2009-03-20T12:20:30" UNIT="999" TIME_PERIOD="11" VALUE_CONTRIBUTION="1" />			
+		</ns:Series>
+		<ns:Series DISEASE="1" PROG="0" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="3" ORGANIZATION="1" VALUE_TYPE="2" REPEATS="0" >
+			<!-- This first value is a special value indicating the Indicator value was "missing" and not just forgotten -->
+			<ns:Obs  DATE_COLLECT="2009-03-18T12:20:29" UNIT="999" TIME_PERIOD="11" SPECIAL_VALUE="0" />
+			<!-- This second value (for Q1,2008) handles the case of Logical Indicators who observed value is a Yes / No answer  -->			
+			<ns:Obs  DATE_COLLECT="2009-03-20T12:20:30" UNIT="999" TIME_PERIOD="42" LOGICAL_VALUE="0" />			
+		</ns:Series>
+		
+		<!-- PERCENTAGE INDICATOR VALUE WITH NUMERATOR and DENOMINATOR VALUES -->
+		<ns:Series DISEASE="3" PROG="0" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="1" ORGANIZATION="1" VALUE_TYPE="1" REPEATS="0">
+			<ns:Obs OBS_VALUE="100" DATE_COLLECT="2009-02-07T12:20:29" UNIT="999" TIME_PERIOD="11" />
+		</ns:Series>
+		<ns:Series DISEASE="3" PROG="0" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="1" ORGANIZATION="1" VALUE_TYPE="1" GENDER="1" REPEATS="0">
+			<ns:Obs OBS_VALUE="100" DATE_COLLECT="2009-02-07T12:20:29" UNIT="999" TIME_PERIOD="11" />
+		</ns:Series>
+		<ns:Series DISEASE="3" PROG="0" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="1" ORGANIZATION="1" VALUE_TYPE="1" GENDER="2" REPEATS="0">
+			<ns:Obs OBS_VALUE="100" DATE_COLLECT="2009-02-07T12:20:29" UNIT="999" TIME_PERIOD="11" />
+		</ns:Series>
+		
+		<ns:Series DISEASE="3" PROG="1" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="0" ORGANIZATION="1" VALUE_TYPE="1" GENDER="1" REPEATS="0" OPERAND="2">
+			<ns:Obs OBS_VALUE="10" DATE_COLLECT="2009-02-07T12:20:29" UNIT="999" TIME_PERIOD="11" />
+		</ns:Series>
+		<ns:Series DISEASE="3" PROG="1" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="0" ORGANIZATION="1" VALUE_TYPE="1" GENDER="2" REPEATS="0" OPERAND="2">
+			<ns:Obs OBS_VALUE="10" DATE_COLLECT="2009-02-07T12:20:29" UNIT="999" TIME_PERIOD="11" />
+		</ns:Series>
+		<ns:Series DISEASE="3" PROG="1" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="0" ORGANIZATION="1" VALUE_TYPE="1" REPEATS="0" OPERAND="2">
+			<ns:Obs OBS_VALUE="10" DATE_COLLECT="2009-02-07T12:20:29" UNIT="999" TIME_PERIOD="11" />
+		</ns:Series>		
+		
+		<ns:Series DISEASE="3" PROG="1" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="2" ORGANIZATION="1" VALUE_TYPE="1" REPEATS="0" OPERAND="1">
+			<ns:Obs OBS_VALUE="10" DATE_COLLECT="2009-02-07T12:20:29" UNIT="999" TIME_PERIOD="11" />
+		</ns:Series>	
+		
+		<ns:Series DISEASE="3" PROG="1" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="2" ORGANIZATION="1" VALUE_TYPE="1" GENDER="1" REPEATS="0" OPERAND="1">
+			<ns:Obs OBS_VALUE="10" DATE_COLLECT="2009-02-07T12:20:29" UNIT="999" TIME_PERIOD="11" />
+		</ns:Series>		
+		<ns:Series DISEASE="3" PROG="1" GEOGRAPHIC_PLACE_NAME="0" INDICATOR="2" ORGANIZATION="1" VALUE_TYPE="1" GENDER="2" REPEATS="0" OPERAND="1">
+			<ns:Obs OBS_VALUE="10" DATE_COLLECT="2009-02-07T12:20:29" UNIT="999" TIME_PERIOD="11" />
+		</ns:Series>
+	
+	</ns:DataSet>
+</CompactData>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_AGE_GROUP" agencyID="UNAIDS" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.codelist=UNAIDS:CL_AGE_GROUP">
+      <structure:Name xml:lang="en">Age Group</structure:Name>
+      <structure:Code value="0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].0">
+        <structure:Description xml:lang="en">0-4</structure:Description>
+      </structure:Code>
+      <structure:Code value="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].1">
+        <structure:Description xml:lang="en">0-12</structure:Description>
+      </structure:Code>
+      <structure:Code value="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].2">
+        <structure:Description xml:lang="en">0-14</structure:Description>
+      </structure:Code>
+      <structure:Code value="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].3">
+        <structure:Description xml:lang="en">5-9</structure:Description>
+      </structure:Code>
+      <structure:Code value="4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].4">
+        <structure:Description xml:lang="en">13+</structure:Description>
+      </structure:Code>
+      <structure:Code value="5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].5">
+        <structure:Description xml:lang="en">15-19</structure:Description>
+      </structure:Code>
+      <structure:Code value="6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].6">
+        <structure:Description xml:lang="en">15-24</structure:Description>
+      </structure:Code>
+      <structure:Code value="7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].7">
+        <structure:Description xml:lang="en">15-49</structure:Description>
+      </structure:Code>
+      <structure:Code value="8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].8">
+        <structure:Description xml:lang="en">15+</structure:Description>
+      </structure:Code>
+      <structure:Code value="9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].9">
+        <structure:Description xml:lang="en">&lt; 20</structure:Description>
+      </structure:Code>
+      <structure:Code value="10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].10">
+        <structure:Description xml:lang="en">20-24</structure:Description>
+      </structure:Code>
+      <structure:Code value="11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].11">
+        <structure:Description xml:lang="en">20+</structure:Description>
+      </structure:Code>
+      <structure:Code value="12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].12">
+        <structure:Description xml:lang="en">&lt; 25</structure:Description>
+      </structure:Code>
+      <structure:Code value="13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].13">
+        <structure:Description xml:lang="en">25+</structure:Description>
+      </structure:Code>
+      <structure:Code value="14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_AGE_GROUP[1.0].14">
+        <structure:Description xml:lang="en">All</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+
+  </CodeLists>
+</Structure>
+

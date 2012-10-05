@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="conceptscheme.xsl"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <Concepts>
+    <structure:ConceptScheme id="CS_CUSTOM_WHO" agencyID="WHO" version="1.0" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=WHO:CS_CUSTOM_WHO">
+      <structure:Name xml:lang="en">WHO Custom Data Elements</structure:Name>
+      <structure:Description xml:lang="en">This Concept Scheme contains un-harmonized data elements.</structure:Description>
+      <structure:Concept id="AGROUP" agencyID="WHO" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=WHO:CS_CUSTOM_WHO[1.0].AGROUP" >
+        <structure:Name xml:lang="en">Age Group</structure:Name>
+        <structure:Description xml:lang="en">Age group of the population for which data are collected.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="COD" agencyID="WHO" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=WHO:CS_CUSTOM_WHO[1.0].COD" >
+        <structure:Name xml:lang="en">Cause of Death</structure:Name>
+        <structure:Description xml:lang="en">Cause of death.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="CODT" agencyID="WHO" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=WHO:CS_CUSTOM_WHO[1.0].CODT" >
+        <structure:Name xml:lang="en">Cause of death type.</structure:Name>
+        <structure:Description xml:lang="en">General cause of death.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="GCODE_REGION" agencyID="WHO" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=WHO:CS_CUSTOM_WHO[1.0].GCODE_REGION" >
+        <structure:Name xml:lang="en">WHO Region</structure:Name>
+        <structure:Description xml:lang="en">WHO region.</structure:Description>
+      </structure:Concept>
+	  <structure:Concept id="MORBID" agencyID="WHO" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=WHO:CS_CUSTOM_WHO[1.0].MORBID" >
+        <structure:Name xml:lang="en">Morbidity</structure:Name>
+        <structure:Description xml:lang="en">Morbidity or mortality indicator type.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="TOPIC" agencyID="WHO" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=WHO:CS_CUSTOM_WHO[1.0].TOPIC" >
+        <structure:Name xml:lang="en">Health Care Topic.</structure:Name>
+        <structure:Description xml:lang="en">Health Care Topic.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+    </structure:ConceptScheme>
+  </Concepts>
+</Structure>
+

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_FREQUENCY" agencyID="UNAIDS" version="1.0" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY">
+      <structure:Name xml:lang="en">Frequency</structure:Name>
+      <structure:Description xml:lang="en">UNAIDS suggested frequency of data collection.</structure:Description>
+      <structure:Code value="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].1">
+        <structure:Description xml:lang="en">Day</structure:Description>
+      </structure:Code>
+      <structure:Code value="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].2">
+        <structure:Description xml:lang="en">Week</structure:Description>
+      </structure:Code>
+      <structure:Code value="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].3">
+        <structure:Description xml:lang="en">Month</structure:Description>
+      </structure:Code>
+      <structure:Code value="4"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].4">
+        <structure:Description xml:lang="en">Quarter</structure:Description>
+      </structure:Code>
+      <structure:Code value="5"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].5">
+        <structure:Description xml:lang="en">Biannual (Six months)</structure:Description>
+      </structure:Code>
+      <structure:Code value="6"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].6">
+        <structure:Description xml:lang="en">Annual</structure:Description>
+      </structure:Code>
+      <structure:Code value="7"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].7">
+        <structure:Description xml:lang="en">Biennial (Two years)</structure:Description>
+      </structure:Code>
+      <structure:Code value="8"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].8">
+        <structure:Description xml:lang="en">Every 2-3 years</structure:Description>
+      </structure:Code>
+      <structure:Code value="9"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].9">
+        <structure:Description xml:lang="en">Every 2-4 years</structure:Description>
+      </structure:Code>
+      <structure:Code value="10"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].10">
+        <structure:Description xml:lang="en">Every 3-5 years</structure:Description>
+      </structure:Code>
+      <structure:Code value="11"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].11">
+        <structure:Description xml:lang="en">Every 4-5 years</structure:Description>
+      </structure:Code>
+      <structure:Code value="12"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].12">
+        <structure:Description xml:lang="en">Continuously</structure:Description>
+      </structure:Code>
+      <structure:Code value="13"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].13">
+        <structure:Description xml:lang="en">Ad hoc</structure:Description>
+      </structure:Code>
+      <structure:Code value="14"  urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_FREQUENCY[1.0].14">
+        <structure:Description xml:lang="en">Periodic</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+  </CodeLists>
+</Structure>
+

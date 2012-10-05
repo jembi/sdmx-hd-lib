@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="codelist.xsl"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_TCOLLECT" agencyID="WHO" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=WHO:CL_TCOLLECT">
+      <structure:Name xml:lang="en">Type of Data Collection</structure:Name>
+      <structure:Description xml:lang="en">Type of data collection.</structure:Description>
+      <structure:Code value="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].1">
+        <structure:Description xml:lang="en">Assessment tool</structure:Description>
+      </structure:Code>
+      <structure:Code value="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].2">
+        <structure:Description xml:lang="en">Census</structure:Description>
+      </structure:Code>
+      <structure:Code value="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].3">
+        <structure:Description xml:lang="en">Cohort study</structure:Description>
+      </structure:Code>
+      <structure:Code value="4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].4">
+        <structure:Description xml:lang="en">Document review</structure:Description>
+      </structure:Code>
+      <structure:Code value="5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].5">
+        <structure:Description xml:lang="en">Drug procurement records</structure:Description>
+      </structure:Code>
+      <structure:Code value="6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].6">
+        <structure:Description xml:lang="en">Estimate</structure:Description>
+      </structure:Code>
+      <structure:Code value="7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].7">
+        <structure:Description xml:lang="en">Exit interview</structure:Description>
+      </structure:Code>
+      <structure:Code value="8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].8">
+        <structure:Description xml:lang="en">Health accounts</structure:Description>
+      </structure:Code>
+      <structure:Code value="9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].9">
+        <structure:Description xml:lang="en">Health facility checklist</structure:Description>
+      </structure:Code>
+      <structure:Code value="10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].10">
+        <structure:Description xml:lang="en">Health Management Information System (HMIS)</structure:Description>
+      </structure:Code>
+      <structure:Code value="11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].11">
+        <structure:Description xml:lang="en">HIV sero-sentinel surveillance</structure:Description>
+      </structure:Code>
+      <structure:Code value="12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].12">
+        <structure:Description xml:lang="en">Key informant interview/survey</structure:Description>
+      </structure:Code>
+      <structure:Code value="13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].13">
+        <structure:Description xml:lang="en">National mortality statistics</structure:Description>
+      </structure:Code>
+      <structure:Code value="14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].14">
+        <structure:Description xml:lang="en">Observation</structure:Description>
+      </structure:Code>
+      <structure:Code value="15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].15">
+        <structure:Description xml:lang="en">Patient records</structure:Description>
+      </structure:Code>
+      <structure:Code value="16" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].16">
+        <structure:Description xml:lang="en">Population-based survey</structure:Description>
+      </structure:Code>
+      <structure:Code value="17" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].17">
+        <structure:Description xml:lang="en">Programme records</structure:Description>
+      </structure:Code>
+      <structure:Code value="18" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].18">
+        <structure:Description xml:lang="en">Programme review</structure:Description>
+      </structure:Code>
+      <structure:Code value="19" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].19">
+        <structure:Description xml:lang="en">Special study</structure:Description>
+      </structure:Code>
+      <structure:Code value="20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].20">
+        <structure:Description xml:lang="en">Survey</structure:Description>
+      </structure:Code>
+      <structure:Code value="21" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0].21">
+        <structure:Description xml:lang="en">Other</structure:Description>
+      </structure:Code>
+      <structure:Code value="_NA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0]._NA">
+        <structure:Description xml:lang="en">Not Applicable</structure:Description>
+      </structure:Code>
+      <structure:Code value="_ALL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0]._ALL">
+        <structure:Description xml:lang="en">All</structure:Description>
+      </structure:Code>
+      <structure:Code value="_UNK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_TCOLLECT[1.0]._UNK">
+        <structure:Description xml:lang="en">Unknown</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+  </CodeLists>
+</Structure>
+

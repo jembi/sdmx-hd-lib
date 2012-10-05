@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="codelist.xsl"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_YEAR" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_YEAR" >
+      <structure:Name xml:lang="en">Years</structure:Name>
+	  <structure:Code value="1990" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].1990"><structure:Description xml:lang="en">1990</structure:Description></structure:Code>
+	  <structure:Code value="1991" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].1991"><structure:Description xml:lang="en">1991</structure:Description></structure:Code>
+	  <structure:Code value="1992" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].1992"><structure:Description xml:lang="en">1992</structure:Description></structure:Code>
+	  <structure:Code value="1993" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].1993"><structure:Description xml:lang="en">1993</structure:Description></structure:Code>
+	  <structure:Code value="1994" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].1994"><structure:Description xml:lang="en">1994</structure:Description></structure:Code>
+	  <structure:Code value="1995" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].1995"><structure:Description xml:lang="en">1995</structure:Description></structure:Code>
+	  <structure:Code value="1996" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].1996"><structure:Description xml:lang="en">1996</structure:Description></structure:Code>
+	  <structure:Code value="1997" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].1997"><structure:Description xml:lang="en">1997</structure:Description></structure:Code>
+	  <structure:Code value="1998" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].1998"><structure:Description xml:lang="en">1998</structure:Description></structure:Code>
+	  <structure:Code value="1999" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].1999"><structure:Description xml:lang="en">1999</structure:Description></structure:Code>
+	  <structure:Code value="2000" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2000"><structure:Description xml:lang="en">2000</structure:Description></structure:Code>
+	  <structure:Code value="2001" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2001"><structure:Description xml:lang="en">2001</structure:Description></structure:Code>
+	  <structure:Code value="2002" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2002"><structure:Description xml:lang="en">2002</structure:Description></structure:Code>
+	  <structure:Code value="2003" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2003"><structure:Description xml:lang="en">2003</structure:Description></structure:Code>
+	  <structure:Code value="2004" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2004"><structure:Description xml:lang="en">2004</structure:Description></structure:Code>
+	  <structure:Code value="2005" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2005"><structure:Description xml:lang="en">2005</structure:Description></structure:Code>
+	  <structure:Code value="2006" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2006"><structure:Description xml:lang="en">2006</structure:Description></structure:Code>
+	  <structure:Code value="2007" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2007"><structure:Description xml:lang="en">2007</structure:Description></structure:Code>
+	  <structure:Code value="2008" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2008"><structure:Description xml:lang="en">2008</structure:Description></structure:Code>
+	  <structure:Code value="2009" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2009"><structure:Description xml:lang="en">2009</structure:Description></structure:Code>
+	  <structure:Code value="2010" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2010"><structure:Description xml:lang="en">2010</structure:Description></structure:Code>
+	  <structure:Code value="2011" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2011"><structure:Description xml:lang="en">2011</structure:Description></structure:Code>
+	  <structure:Code value="2012" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2012"><structure:Description xml:lang="en">2012</structure:Description></structure:Code>
+	  <structure:Code value="2013" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2013"><structure:Description xml:lang="en">2013</structure:Description></structure:Code>
+	  <structure:Code value="2014" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2014"><structure:Description xml:lang="en">2014</structure:Description></structure:Code>
+	  <structure:Code value="2015" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2015"><structure:Description xml:lang="en">2015</structure:Description></structure:Code>
+	  <structure:Code value="2016" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2016"><structure:Description xml:lang="en">2016</structure:Description></structure:Code>
+	  <structure:Code value="2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2017"><structure:Description xml:lang="en">2017</structure:Description></structure:Code>
+	  <structure:Code value="2018" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2018"><structure:Description xml:lang="en">2018</structure:Description></structure:Code>
+	  <structure:Code value="2019" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2019"><structure:Description xml:lang="en">2019</structure:Description></structure:Code>
+	  <structure:Code value="2020" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2020"><structure:Description xml:lang="en">2020</structure:Description></structure:Code>
+	  <structure:Code value="2021" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2021"><structure:Description xml:lang="en">2021</structure:Description></structure:Code>
+	  <structure:Code value="2022" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2022"><structure:Description xml:lang="en">2022</structure:Description></structure:Code>
+	  <structure:Code value="2023" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2023"><structure:Description xml:lang="en">2023</structure:Description></structure:Code>
+	  <structure:Code value="2024" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2024"><structure:Description xml:lang="en">2024</structure:Description></structure:Code>
+	  <structure:Code value="2025" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2025"><structure:Description xml:lang="en">2025</structure:Description></structure:Code>
+	  <structure:Code value="2026" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2026"><structure:Description xml:lang="en">2026</structure:Description></structure:Code>
+	  <structure:Code value="2027" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2027"><structure:Description xml:lang="en">2027</structure:Description></structure:Code>
+	  <structure:Code value="2028" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2028"><structure:Description xml:lang="en">2028</structure:Description></structure:Code>
+	  <structure:Code value="2029" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2029"><structure:Description xml:lang="en">2029</structure:Description></structure:Code>
+	  <structure:Code value="2030" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2030"><structure:Description xml:lang="en">2030</structure:Description></structure:Code>
+	  <structure:Code value="2031" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2031"><structure:Description xml:lang="en">2031</structure:Description></structure:Code>
+	  <structure:Code value="2032" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2032"><structure:Description xml:lang="en">2032</structure:Description></structure:Code>
+	  <structure:Code value="2033" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2033"><structure:Description xml:lang="en">2033</structure:Description></structure:Code>
+	  <structure:Code value="2034" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2034"><structure:Description xml:lang="en">2034</structure:Description></structure:Code>
+	  <structure:Code value="2035" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2035"><structure:Description xml:lang="en">2035</structure:Description></structure:Code>
+	  <structure:Code value="2036" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2036"><structure:Description xml:lang="en">2036</structure:Description></structure:Code>
+	  <structure:Code value="2037" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2037"><structure:Description xml:lang="en">2037</structure:Description></structure:Code>
+	  <structure:Code value="2038" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2038"><structure:Description xml:lang="en">2038</structure:Description></structure:Code>
+	  <structure:Code value="2039" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_YEAR[1.0].2039"><structure:Description xml:lang="en">2039</structure:Description></structure:Code>
+    </structure:CodeList>	
+  </CodeLists>
+</Structure>
+

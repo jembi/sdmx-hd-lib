@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <Concepts>
+    <structure:ConceptScheme id="CS_UNICEF" agencyID="UNICEF" version="1.0" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:CS_UNICEF">
+      <structure:Name xml:lang="en">UNICEF</structure:Name>
+      <structure:Concept id="DI_AREA_ID" agencyID="UNICEF" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:CS_UNICEF[1.0].DI_AREA_ID" >
+        <structure:Name xml:lang="en">Devinfo Area Identifier</structure:Name>
+        <structure:Description xml:lang="en">Devinfo geoplacename identifier.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="DI_SUBGROUP"  agencyID="UNICEF" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:CS_UNICEF[1.0].DI_SUBGROUP" >
+        <structure:Name xml:lang="en">Devinfo Subgroup</structure:Name>
+        <structure:Description xml:lang="en">Devinfo Subgroup data element containing concatenated dimensional information.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="DI_UNIT"  agencyID="UNICEF" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:CS_UNICEF[1.0].DI_UNIT" >
+        <structure:Name xml:lang="en">Devinfo Unit</structure:Name>
+        <structure:Description xml:lang="en">Devinfo Unit.</structure:Description>
+      </structure:Concept>
+    </structure:ConceptScheme>
+  </Concepts>
+</Structure>
+

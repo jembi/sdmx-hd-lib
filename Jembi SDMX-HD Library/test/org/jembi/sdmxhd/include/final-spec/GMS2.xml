@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GenericMetadata 
+  xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message"
+  xmlns:gen="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata"
+  xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata SDMXGenericMetadata.xsd
+  http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd
+  ">
+  <Header xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+		<ID>SDMX-HD-GMS</ID>
+		<Test>false</Test>
+		<Truncated>false</Truncated>
+		<Name xml:lang="en">SDMX Health Domain</Name>			
+		<Prepared>2009-03-20</Prepared>
+              <Sender id="HSID">
+                    <Name>Health Statistics and Informatics Department </Name>
+		</Sender>
+		<Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>  
+  <gen:MetadataSet metadataStructureURI="MSD.xml" datasetID="DATASET_SAMPLE2_ORG">
+    <gen:MetadataStructureRef>MSD_ORG</gen:MetadataStructureRef>
+    <gen:MetadataStructureAgencyRef>SDMX-HD</gen:MetadataStructureAgencyRef>
+    <gen:ReportRef>RS_ORG</gen:ReportRef>
+         
+    <!-- IC_ORGANIZATION -->
+    
+    <gen:AttributeValueSet xmlns:gen="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata">
+      <gen:TargetRef>FTI_ORG</gen:TargetRef>
+      <gen:TargetValues>
+        <gen:ComponentValue component="IC_ORGANIZATION" object="Code">1</gen:ComponentValue>
+      </gen:TargetValues>
+      <gen:ReportedAttribute conceptID="_ACRONYM">
+        <gen:Value xml:lang="en"><![CDATA[W.H.O]]></gen:Value>
+      </gen:ReportedAttribute>
+      <gen:ReportedAttribute conceptID="_ORDER_BY">
+        <gen:Value>0</gen:Value>
+      </gen:ReportedAttribute>
+    </gen:AttributeValueSet>
+		
+  </gen:MetadataSet>
+</GenericMetadata>

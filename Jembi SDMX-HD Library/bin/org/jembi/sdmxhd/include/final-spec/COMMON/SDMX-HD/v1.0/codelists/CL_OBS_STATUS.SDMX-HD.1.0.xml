@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="codelist.xsl"?>
+<Structure xmlns:structure='http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure' xsi:schemaLocation='http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message'>
+	<Header>
+		<ID>SDMX-HD-DSD</ID>
+		<Test>false</Test>
+		<Truncated>false</Truncated>
+		<Name xml:lang='en'>SDMX Health Domain</Name>
+		<Prepared>2009-03-20</Prepared>
+		<Sender id='SDMX-HD'>
+			<Name>SDMX-HD Health Domain</Name>
+			<Contact>
+				<Name xml:lang='en'>Patrick Whitaker</Name>
+				<Department>Health Care Informatics</Department>
+				<Telephone>+41.22.791.1372</Telephone>
+				<Email>whitakerp@who.int</Email>
+			</Contact>
+		</Sender>
+		<Extracted>2009-03-20T13:03:46</Extracted>
+	</Header>
+	<CodeLists>
+		<structure:CodeList agencyID='SDMX-HD' isFinal='true' id='CL_OBS_STATUS' version='1.0' urn='urn:sdmx:org.sdmx.infomodel.codelist.CodeList=SDMX-HD:CL_OBS_STATUS[1.0]'><structure:Name xml:lang='en'>Observation Status</structure:Name><structure:Description xml:lang='en'>Replaces CL_SPECIAL_VALUE&amp;#13;&amp;#10;&amp;#13;&amp;#10;This code list provides coded information about the &amp;quot;status&amp;quot; of an&amp;#13;&amp;#10;observation (with respect events such as the ones reflected in the codes composing the code list).&amp;#13;&amp;#10;&amp;#13;&amp;#10;See: http://sdmx.org/wp-content/uploads/2009/01/02_sdmx_cog_annex_2_cl_2009.pdf</structure:Description><structure:Code value='A' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].A'><structure:Description xml:lang='en'>Normal</structure:Description></structure:Code><structure:Code value='B' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].B'><structure:Description xml:lang='en'>Break</structure:Description></structure:Code><structure:Code value='E' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].E'><structure:Description xml:lang='en'>Estimated value</structure:Description></structure:Code><structure:Code value='I' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].I'><structure:Description xml:lang='en'>Imputed value (CCSA definition)</structure:Description></structure:Code><structure:Code value='P' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].P'><structure:Description xml:lang='en'>Provisional value</structure:Description></structure:Code><structure:Code value='M' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].M'><structure:Description xml:lang='en'>Missing value</structure:Description></structure:Code><structure:Code value='L' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].L'><structure:Description xml:lang='en'>Missing value; data exist but were not collected</structure:Description></structure:Code><structure:Code value='Q' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].Q'><structure:Description xml:lang='en'>Missing value; suppressed</structure:Description></structure:Code><structure:Code value='R' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].R'><structure:Description xml:lang='en'>Revised</structure:Description></structure:Code><structure:Code value='N' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].N'><structure:Description xml:lang='en'>Insignificant</structure:Description></structure:Code><structure:Code value='U' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].U'><structure:Description xml:lang='en'>Unreliable - bad quality</structure:Description></structure:Code><structure:Code value='Z' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_OBS_STATUS[1.0].Z'><structure:Description xml:lang='en'>Not applicable</structure:Description></structure:Code></structure:CodeList></CodeLists>
+</Structure>

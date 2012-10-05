@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="conceptscheme.xsl"?>
+<Structure xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure"
+	xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+	<Header>
+		<ID>SDMX-HD-DSD</ID>
+		<Test>false</Test>
+		<Truncated>false</Truncated>
+		<Name xml:lang="en">SDMX Health Domain</Name>
+		<Prepared>2009-03-19</Prepared>
+		<Sender id="SDMX-HD">
+			<Name>SDMX-HD Health Domain</Name>
+			<Contact>
+				<Name xml:lang="en">Patrick Whitaker</Name>
+				<Department>Health Care Informatics</Department>
+				<Telephone>+41.22.791.1372</Telephone>
+				<Email>whitakerp@who.int</Email>
+			</Contact>
+		</Sender>
+		<Extracted>2009-03-20T13:03:46</Extracted>
+	</Header>
+	<Concepts>
+		<structure:ConceptScheme agencyID="SDMX-HD" isFinal="true" id="CS_COMMON" version="1.0"
+			urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX-HD:CS_COMMON[1.0]">
+			<structure:Name xml:lang="en">SDMX-HD Common Mandatory Data Elements</structure:Name>
+			<structure:Description xml:lang="en">This Concept Scheme contains harmonized data
+				elements.</structure:Description>
+			<structure:Concept id="INDICATOR"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON[1.0].INDICATOR">
+				<structure:Name xml:lang="en">The indicator</structure:Name>
+				<structure:Description xml:lang="en">The indicator</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="OBS_VALUE"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON[1.0].OBS_VALUE">
+				<structure:Name xml:lang="en">Indicator Value</structure:Name>
+				<structure:Description xml:lang="en">Value of indicator.</structure:Description>
+				<structure:TextFormat textType="Decimal"/>
+			</structure:Concept>
+			<structure:Concept id="PROG"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON[1.0].PROG">
+				<structure:Name xml:lang="en">Programme</structure:Name>
+				<structure:Description xml:lang="en">Programme by which indicators rollup for
+					reporting.</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="GEOGRAPHIC_PLACE_NAME"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON[1.0].GEOGRAPHIC_PLACE_NAME">
+				<structure:Name xml:lang="en">Geographical Placename</structure:Name>
+				<structure:Description xml:lang="en">The geographical polygon, line, point etc that
+					the data is associated to.</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="TIME_PERIOD"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON[1.0].TIME_PERIOD">
+				<structure:Name xml:lang="en">Time Period</structure:Name>
+				<structure:Description xml:lang="en">Time Period</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="ORGANIZATION"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON[1.0].ORGANIZATION">
+				<structure:Name xml:lang="en">Providing Organization</structure:Name>
+				<structure:Description xml:lang="en">Organization providing the
+					data.</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="FREQ"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON[1.0].FREQ">
+				<structure:Name xml:lang="en">Frequency</structure:Name>
+				<structure:Description xml:lang="en">Frequency refers to the time interval between
+					the observations of a time series.</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="DATAELEMENT"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON[1.0].DATAELEMENT">
+				<structure:Name xml:lang="en">Data Element</structure:Name>
+				<structure:Description xml:lang="en">Data Element</structure:Description>
+			</structure:Concept>
+		</structure:ConceptScheme>
+	</Concepts>
+</Structure>

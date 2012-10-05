@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CompactData
+	xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message"
+	xmlns:ns="urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=WHO:KF_INDICATOR[1.0]:compact"
+	xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact"	
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd
+	urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=WHO:KF_INDICATOR[1.0]:compact CDS.xsd
+	 http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact SDMXCompactData.xsd" >
+	<Header>
+		<ID>SDMX-HD-CDS</ID>
+		<Test>false</Test>
+		<Truncated>false</Truncated>
+		<Name xml:lang="en">SDMX Health Domain</Name>			
+		<Prepared>2009-03-20</Prepared>
+		<Sender id="HSID ">
+			<Name>Health Statistics and Informatics Department </Name>
+		</Sender>
+		<DataSetID>DATASET_SAMPLE</DataSetID>
+	</Header>
+	<ns:DataSet datasetID="DATASET_SAMPLE" CALENDAR_TYPE="ISO8601" >
+	
+		<!-- COUNT INDICTAOR VALUE   -->
+		
+		<ns:Series PROG="0" GEOGRAPHIC_PLACE_NAME="CH" ORGANIZATION="1" INDICATOR="3" VALUE_TYPE="1" FREQ="AH" UNIT="_NA" >
+			<ns:Obs OBS_VALUE="7" TIME_PERIOD="2008" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T15:09:13' />			
+		</ns:Series>
+		
+		<!-- RATIO INDICTAOR VALUE   -->
+		
+		<ns:Series PROG="0" GEOGRAPHIC_PLACE_NAME="CH" ORGANIZATION="1" INDICATOR="0"  VALUE_TYPE="1"  FREQ="AH"  UNIT="_NA"    >
+			<ns:Obs OBS_VALUE="23.99" TIME_PERIOD="2008" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T15:09:13' />
+			<ns:Obs OBS_VALUE="653.99" TIME_PERIOD="2008-Q1" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T15:08:13' />
+		</ns:Series>
+		
+		<!-- NUM -->
+		
+		<ns:Series GEOGRAPHIC_PLACE_NAME="CH" ORGANIZATION="1" INDICATOR="1"  VALUE_TYPE="1"  FREQ="AH" UNIT="_NA"       >
+			<ns:Obs OBS_VALUE="276" TIME_PERIOD="2008" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T15:11:13' />
+			<ns:Obs OBS_VALUE="9822" TIME_PERIOD="2008-Q1" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T15:12:13' />
+		</ns:Series>
+		
+		<!-- DEN -->		
+		
+		<ns:Series GEOGRAPHIC_PLACE_NAME="CH" ORGANIZATION="1" INDICATOR="2"  VALUE_TYPE="1"  FREQ="AH"  UNIT="_NA"    >
+			<ns:Obs OBS_VALUE="400" TIME_PERIOD="2008" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T15:15:23' />
+			<ns:Obs OBS_VALUE="10000" TIME_PERIOD="2008-Q1" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T15:19:33' />
+		</ns:Series>		
+		
+		<!-- PERCENTAGE INDICTAOR VALUE   -->
+		
+		<ns:Series PROG="0" GEOGRAPHIC_PLACE_NAME="CH-GE" ORGANIZATION="1" INDICATOR="4" VALUE_TYPE="1" GENDER="_ALL" AGROUP="5" GLOCATION="3" FREQ="AH" UNIT="_NA"   >
+			<ns:Obs OBS_VALUE="400" TIME_PERIOD="2008" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T16:09:13' />			
+		</ns:Series>
+
+		<ns:Series PROG="0" GEOGRAPHIC_PLACE_NAME="CH-GE" ORGANIZATION="1" INDICATOR="4" VALUE_TYPE="1" GENDER="_ALL" AGROUP="5" GLOCATION="3"  FREQ="AH"  UNIT="_NA" >
+			<ns:Obs OBS_VALUE="365" TIME_PERIOD="2008" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T15:29:00' />			
+		</ns:Series>
+		
+		<ns:Series PROG="0" GEOGRAPHIC_PLACE_NAME="CH-GE" ORGANIZATION="1" INDICATOR="4" VALUE_TYPE="0" GENDER="_ALL" AGROUP="5" GLOCATION="3" FREQ="AH" UNIT="_NA"  >
+			<ns:Obs OBS_VALUE="1000" TIME_PERIOD="2008" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T15:39:59' />			
+		</ns:Series>
+		
+		<ns:Series PROG="0" GEOGRAPHIC_PLACE_NAME="CH-GE" ORGANIZATION="1" INDICATOR="4" VALUE_TYPE="0" GENDER="_ALL" AGROUP="5" GLOCATION="3" FREQ="AH" UNIT="_NA"   >
+			<ns:Obs OBS_VALUE="578" TIME_PERIOD="2008" DATE_COLLECT="2009-03-20" _CREATED_BY='User1' _UPDATED_BY='User2' _CREATED_ON='2010-03-01T13:57:00' _UPDATED_ON='2010-03-01T15:55:07' />			
+		</ns:Series>		
+		
+	</ns:DataSet>
+</CompactData>

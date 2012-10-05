@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="hierarchies.xsl"?>
+<Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd"
+    xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message"
+    xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">	
+    <Header>
+        <ID>SDMX-HD-DSD</ID>
+        <Test>false</Test>
+        <Truncated>false</Truncated>
+        <Name xml:lang="en">SDMX Health Domain</Name>
+        <Prepared>2009-03-20</Prepared>
+        <Sender id="SenderSystemIdentification">
+            <Name>Sender System Name</Name>
+            <Contact>
+                <Name xml:lang="en">Contact Name</Name>
+                <Department>Agency Department Name</Department>
+                <Telephone>+00.0000.0000</Telephone>
+                <Email>user@host.com</Email>
+            </Contact>
+        </Sender>
+        <Extracted>2009-03-20T13:03:46</Extracted>
+    </Header>
+    <HierarchicalCodelists>
+    	<structure:HierarchicalCodelist id="HCL_COMMON_HY_HIF" version="1.0" isFinal="true" agencyID="SDMX-HD" urn="urn:sdmx:org.sdmx.infomodel.hierarchicalcodelist.HierarchicalCodelist=SDMX-HD:HCL_COMMON_HY_HIF[1.0]" >
+		<structure:Name xml:lang="en">SDMX-HD HIF HIERARCHY</structure:Name>
+		<structure:Description xml:lang="en">Health Indicator Framework</structure:Description>
+    	<structure:CodelistRef>
+    		<structure:AgencyID>SDMX-HD</structure:AgencyID>
+    		<structure:CodelistID>CL_HIF</structure:CodelistID>
+    		<structure:Version>1.0</structure:Version>
+    		<structure:Alias>AL_HIF</structure:Alias>
+    	</structure:CodelistRef>	       			
+    	<structure:Hierarchy id="HY_HEALTH_INDICATOR_FRAMEWORK">
+    		<structure:Name>Health Indicator Framework Hierarchy</structure:Name>
+    		<structure:CodeRef>
+    			<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    			<structure:CodeID>1</structure:CodeID>
+    			<!-- HEALTH_STATUS -->					
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>5</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>6</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>7</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>8</structure:CodeID>
+    			</structure:CodeRef>					
+    		</structure:CodeRef>
+    		<structure:CodeRef>
+    			<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    			<structure:CodeID>2</structure:CodeID>
+    			<!-- DETERMINANTS_OF_HEALTH -->					
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>9</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>10</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>11</structure:CodeID>
+    			</structure:CodeRef>					
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>12</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>13</structure:CodeID>
+    			</structure:CodeRef>					
+    		</structure:CodeRef>
+    		<structure:CodeRef>
+    			<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    			<structure:CodeID>3</structure:CodeID>
+    			<!-- HEALTH_SYSTEM_PERFORMANCE -->
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>14</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>15</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>16</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>17</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>18</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>19</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>20</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>21</structure:CodeID>
+    			</structure:CodeRef>					
+    		</structure:CodeRef>
+    		<structure:CodeRef>
+    			<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    			<structure:CodeID>4</structure:CodeID>
+    			<!-- COMMUNITY_AND_HEALTH_SYSTEM_CHARACTERISTICS -->					
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>22</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>23</structure:CodeID>
+    			</structure:CodeRef>					
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF</structure:CodelistAliasRef>
+    				<structure:CodeID>24</structure:CodeID>
+    			</structure:CodeRef>					
+    		</structure:CodeRef>				
+    	</structure:Hierarchy>     							
+        </structure:HierarchicalCodelist>
+    </HierarchicalCodelists>
+</Structure>

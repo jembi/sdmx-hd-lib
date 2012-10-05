@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="codelist.xsl"?>
+<Structure xmlns:structure='http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure' xsi:schemaLocation='http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message'>
+	<Header>
+		<ID>SDMX-HD-DSD</ID>
+		<Test>false</Test>
+		<Truncated>false</Truncated>
+		<Name xml:lang='en'>SDMX Health Domain</Name>
+		<Prepared>2009-03-20</Prepared>
+		<Sender id='SDMX-HD'>
+			<Name>SDMX-HD Health Domain</Name>
+			<Contact>
+				<Name xml:lang='en'>Patrick Whitaker</Name>
+				<Department>Health Care Informatics</Department>
+				<Telephone>+41.22.791.1372</Telephone>
+				<Email>whitakerp@who.int</Email>
+			</Contact>
+		</Sender>
+		<Extracted>2009-03-20T13:03:46</Extracted>
+	</Header>
+	<CodeLists>
+		<structure:CodeList agencyID='SDMX-HD' isFinal='true' id='CL_CALENDAR_TYPE' version='1.0' urn='urn:sdmx:org.sdmx.infomodel.codelist.CodeList=SDMX-HD:CL_CALENDAR_TYPE[1.0]'><structure:Name xml:lang='en'>Calendar Type</structure:Name><structure:Description xml:lang='en'>The type of calendar system used by a system. This has been created to identify fiscal year observation data and metadata related to dates in SDMX-HD</structure:Description><structure:Code value='ISO8601' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_CALENDAR_TYPE[1.0].ISO8601'><structure:Description xml:lang='en'>SDMX dates are inspired by ISO8601 which represents a Gregorian calendar with a the first day of a year being the 1st of January</structure:Description></structure:Code><structure:Code value='USG_Fiscal' urn='urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_CALENDAR_TYPE[1.0].USG_Fiscal'><structure:Description xml:lang='en'>A United States Government Fiscal Year Calendar based on the Gergorian calendar with a the first day of a year being the 1st of September.</structure:Description></structure:Code></structure:CodeList></CodeLists>
+</Structure>

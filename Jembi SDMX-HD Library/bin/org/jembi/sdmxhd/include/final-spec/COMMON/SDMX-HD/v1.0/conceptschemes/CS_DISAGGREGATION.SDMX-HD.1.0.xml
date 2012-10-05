@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="conceptscheme.xsl"?>
+<Structure xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure"
+	xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+	<Header>
+		<ID>SDMX-HD-DSD</ID>
+		<Test>false</Test>
+		<Truncated>false</Truncated>
+		<Name xml:lang="en">SDMX Health Domain</Name>
+		<Prepared>2009-03-19</Prepared>
+		<Sender id="SDMX-HD">
+			<Name>SDMX-HD Health Domain</Name>
+			<Contact>
+				<Name xml:lang="en">Patrick Whitaker</Name>
+				<Department>Health Care Informatics</Department>
+				<Telephone>+41.22.791.1372</Telephone>
+				<Email>whitakerp@who.int</Email>
+			</Contact>
+		</Sender>
+		<Extracted>2009-03-20T13:03:46</Extracted>
+	</Header>
+	<Concepts>
+		<structure:ConceptScheme agencyID="SDMX-HD" isFinal="true" id="CS_DISAGGREGATION"
+			version="1.0"
+			urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX-HD:CS_DISAGGREGATION[1.0]">
+			<structure:Name xml:lang="en">SDMX-HD Common Disaggregation Elements</structure:Name>
+			<structure:Description xml:lang="en">This Concept Scheme contains harmonized data
+				elements.</structure:Description>
+			<structure:Concept id="AGROUP"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].AGROUP">
+				<structure:Name xml:lang="en">Age Group</structure:Name>
+				<structure:Description xml:lang="en">A group of age ranges by which observational
+					data may be disaggregated</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="EDUC"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].EDUC">
+				<structure:Name xml:lang="en">Education</structure:Name>
+				<structure:Description xml:lang="en">Education level of the population for which
+					data are collected.</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="GENDER"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].GENDER">
+				<structure:Name xml:lang="en">Gender</structure:Name>
+				<structure:Description xml:lang="en">Gender of the population for which data are
+					collected.</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="VALUE_TYPE"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].VALUE_TYPE">
+				<structure:Name xml:lang="en">Type of Value</structure:Name>
+				<structure:Description xml:lang="en">Type of indicator value</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="TPOP"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].TPOP">
+				<structure:Name xml:lang="en">Target Population</structure:Name>
+				<structure:Description xml:lang="en">Terms which describe the focus of the indicator
+					in terms of the specific population, if any.</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="GLOCATION"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].GLOCATION">
+				<structure:Name xml:lang="en">Location</structure:Name>
+				<structure:Description xml:lang="en">Location of the population for which data are
+					collected, e.g. urban or rural.</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="SECTOR"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].SECTOR">
+				<structure:Name xml:lang="en">Sector</structure:Name>
+				<structure:Description xml:lang="en">Type of sector on which data are
+					collected.</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="COD"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].COD">
+				<structure:Name xml:lang="en">Cause of Death</structure:Name>
+				<structure:Description xml:lang="en">Cause of Death</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="INCOME"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].INCOME">
+				<structure:Name xml:lang="en">Income</structure:Name>
+				<structure:Description xml:lang="en">Income</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="MARITAL_STATUS"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].MARITAL_STATUS">
+				<structure:Name xml:lang="en">Marital Status</structure:Name>
+				<structure:Description xml:lang="en">Marital Status</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="BOUNDARIES"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].BOUNDARIES">
+				<structure:Name xml:lang="en">Boundaries</structure:Name>
+				<structure:Description xml:lang="en">Upper and lower boundaries for a
+					point.</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="SERVICES"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].SERVICES">
+				<structure:Name xml:lang="en">Services</structure:Name>
+				<structure:Description xml:lang="en">A classification of inputs into topic areas to
+					facilitate management and analysis of indicators</structure:Description>
+			</structure:Concept>
+			<structure:Concept id="CONDITION_STATUS"
+				urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_DISAGGREGATION[1.0].CONDITION_STATUS">
+				<structure:Name xml:lang="en">Condition Status</structure:Name>
+				<structure:Description xml:lang="en">Condition Status</structure:Description>
+			</structure:Concept>
+		</structure:ConceptScheme>
+	</Concepts>
+</Structure>

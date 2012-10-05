@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>WHO Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+	<structure:CodeList id="CL_GEOGRAPHIC_PLACE_NAME" agencyID="WHO" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist.CodeList=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0]" >
+		<structure:Name xml:lang="en">Geographic Place Name</structure:Name>
+		<structure:Description xml:lang="en">
+			  This list should contain ISO/3166-2 codes for sub-national level-1 places (see http://www.commondatahub.com/live/geography/state_province_region/iso_3166_2_state_codes)
+			  Whenever a sub-national place is included in this list, the country it belongs to must also be included here, so that
+			  GEOGRAPHIC_PLACE_NAME_HIERARCHY can be populated accordingly. The root of the hierarchy is the international level.
+		</structure:Description>
+		<structure:Code value="00" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].00"><structure:Description xml:lang="en">International</structure:Description></structure:Code>
+		<structure:Code value="CH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH"><structure:Description xml:lang="en">Switzerland</structure:Description></structure:Code>
+		<structure:Code value="CH-AG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-AG"><structure:Description xml:lang="en">Aargau</structure:Description></structure:Code>
+		<structure:Code value="CH-AR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-AR"><structure:Description xml:lang="en">Appenzell Ausserrhoden</structure:Description></structure:Code>
+		<structure:Code value="CH-AI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-AI"><structure:Description xml:lang="en">Appenzell Innerrhoden</structure:Description></structure:Code>
+		<structure:Code value="CH-BL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-BL"><structure:Description xml:lang="en">Basel-Landschaft</structure:Description></structure:Code>
+		<structure:Code value="CH-BS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-BS"><structure:Description xml:lang="en">Basel-Stadt</structure:Description></structure:Code>
+		<structure:Code value="CH-BE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-BE"><structure:Description xml:lang="en">Bern</structure:Description></structure:Code>
+		<structure:Code value="CH-FR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-FR"><structure:Description xml:lang="en">Fribourg</structure:Description></structure:Code>
+		<structure:Code value="CH-GE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-GE"><structure:Description xml:lang="en">Genève</structure:Description></structure:Code>
+		<structure:Code value="CH-GL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-GL"><structure:Description xml:lang="en">Glarus</structure:Description></structure:Code>
+		<structure:Code value="CH-GR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-GR"><structure:Description xml:lang="en">Graubünden</structure:Description></structure:Code>
+		<structure:Code value="CH-JU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-JU"><structure:Description xml:lang="en">Jura</structure:Description></structure:Code>
+		<structure:Code value="CH-LU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-LU"><structure:Description xml:lang="en">Luzern</structure:Description></structure:Code>
+		<structure:Code value="CH-NE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-NE"><structure:Description xml:lang="en">Neuchâtel</structure:Description></structure:Code>
+		<structure:Code value="CH-NW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-NW"><structure:Description xml:lang="en">Nidwalden</structure:Description></structure:Code>
+		<structure:Code value="CH-OW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-OW"><structure:Description xml:lang="en">Obwalden</structure:Description></structure:Code>
+		<structure:Code value="CH-SG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-SG"><structure:Description xml:lang="en">Sankt Gallen</structure:Description></structure:Code>
+		<structure:Code value="CH-SH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-SH"><structure:Description xml:lang="en">Schaffhausen</structure:Description></structure:Code>
+		<structure:Code value="CH-SZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-SZ"><structure:Description xml:lang="en">Schwyz</structure:Description></structure:Code>
+		<structure:Code value="CH-SO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-SO"><structure:Description xml:lang="en">Solothurn</structure:Description></structure:Code>
+		<structure:Code value="CH-TG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-TG"><structure:Description xml:lang="en">Thurgau</structure:Description></structure:Code>
+		<structure:Code value="CH-TI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-TI"><structure:Description xml:lang="en">Ticino</structure:Description></structure:Code>
+		<structure:Code value="CH-UR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-UR"><structure:Description xml:lang="en">Uri</structure:Description></structure:Code>
+		<structure:Code value="CH-VS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-VS"><structure:Description xml:lang="en">Valais</structure:Description></structure:Code>
+		<structure:Code value="CH-VD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-VD"><structure:Description xml:lang="en">Vaud</structure:Description></structure:Code>
+		<structure:Code value="CH-ZG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-ZG"><structure:Description xml:lang="en">Zug</structure:Description></structure:Code>
+		<structure:Code value="CH-ZH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_GEOGRAPHIC_PLACE_NAME[1.0].CH-ZH"><structure:Description xml:lang="en">Zürich</structure:Description></structure:Code>
+	</structure:CodeList>
+  </CodeLists>
+</Structure>
+

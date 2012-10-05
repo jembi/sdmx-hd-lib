@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <Concepts>
+    <structure:ConceptScheme id="CS_CUSTOM_UNAIDS" agencyID="UNAIDS" version="1.0" isFinal="true">
+      <structure:Name xml:lang="en">UNAIDS Custom Data Elements</structure:Name>
+      <structure:Description xml:lang="en">This Concept Scheme contains un-harmonized data elements.</structure:Description>	  
+      <structure:Concept id="AGE_GROUP" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_AGE_GROUP" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].AGE_GROUP">
+        <structure:Name xml:lang="en">Age group</structure:Name>
+        <structure:Description xml:lang="en">Age Group</structure:Description>
+      </structure:Concept>	  
+      <structure:Concept id="BOUTCOME" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_BOUTCOME" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].BOUTCOME">
+        <structure:Name xml:lang="en">Behavioral Outcomes</structure:Name>
+        <structure:Description xml:lang="en">Behavioral outcomes.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="COUNTRY" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_COUNTRY" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].COUNTRY">
+        <structure:Name xml:lang="en">Geographic Country</structure:Name>
+        <structure:Description xml:lang="en">Geographic Country</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="DIMPACT" agencyID="UNAIDS" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].DIMPACT">
+        <structure:Name xml:lang="en">Disease Impact</structure:Name>
+        <structure:Description xml:lang="en">Disease impact.</structure:Description>
+      </structure:Concept>	  
+      <structure:Concept id="ETYPE" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_ETYPE" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].ETYPE">
+        <structure:Name xml:lang="en">Epidemic Type</structure:Name>
+        <structure:Description xml:lang="en">Indicates for which type of epidemic the indicator is useful.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="FRAME" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_FRAME" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].FRAME">
+        <structure:Name xml:lang="en">Frame</structure:Name>
+        <structure:Description xml:lang="en">Survey framework</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+      <structure:Concept id="FREQUENCY" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_FREQUENCY" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].FREQUENCY">
+        <structure:Name xml:lang="en">Recommended Frequency</structure:Name>
+        <structure:Description xml:lang="en">Recommended frequency of collection of data.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="GLEVEL" agencyID="UNAIDS" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].GLEVEL" >
+        <structure:Name xml:lang="en">Geographic Level</structure:Name>
+        <structure:Description xml:lang="en">Geographic hierarchy level.</structure:Description>
+      </structure:Concept>	  
+      <structure:Concept id="GOAL" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_GOAL" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].GOAL">
+        <structure:Name xml:lang="en">Goal</structure:Name>
+        <structure:Description xml:lang="en">Indicates whether the indicator is part of a global initiative indicator set or of a country indicator set.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="ICAT" agencyID="UNAIDS" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].ICAT" >
+        <structure:Name xml:lang="en">Indicator Category</structure:Name>
+        <structure:Description xml:lang="en">Indicator category for financial or other indicators.</structure:Description>
+      </structure:Concept>	  
+      <structure:Concept id="ILEVEL" agencyID="UNAIDS" version="1.0"  coreRepresentation="CL_LEVEL" coreRepresentationAgency="UNAIDS"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].ILEVEL">
+        <structure:Name xml:lang="en">Indicator Level</structure:Name>
+        <structure:Description xml:lang="en">Level at which the indicator is relevant and should be used for planning and programme improvement.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="ITYPE" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_ITYPE" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].ITYPE">
+        <structure:Name xml:lang="en">Indicator Type</structure:Name>
+        <structure:Description xml:lang="en">Assigned classification of the indicator by the MERG Indicator TWG.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="PRIORITY" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_PRIORITY" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].PRIORITY">
+        <structure:Name xml:lang="en">Indicator Priority</structure:Name>
+        <structure:Description xml:lang="en">Indicator priority for implementation.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="RATIONALE" agencyID="UNAIDS" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].RATIONALE">
+        <structure:Name xml:lang="en">Purpose</structure:Name>
+        <structure:Description xml:lang="en">Indicates what the indicator intends to measure; the indicator's purpose and rationale.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="QUALITY" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_QUALITY" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].QUALITY">
+        <structure:Name xml:lang="en">Quality</structure:Name>
+        <structure:Description xml:lang="en">An indication of the quality of data.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="SCHOOL" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_SCHOOL" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].SCHOOL">
+        <structure:Name xml:lang="en">School</structure:Name>
+        <structure:Description xml:lang="en">School.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="RANGE" agencyID="UNAIDS" version="1.0" coreRepresentation="CL_RANGE" coreRepresentationAgency="UNAIDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNAIDS:CS_CUSTOM_UNAIDS[1.0].RANGE">
+        <structure:Name xml:lang="en">Range</structure:Name>
+        <structure:Description xml:lang="en">Range.</structure:Description>
+      </structure:Concept>
+    </structure:ConceptScheme>
+  </Concepts>
+</Structure>
+

@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>SDMX-HD v1.0 documentation</title>
+		<meta http-equiv="Content-Type" content="text/xml; charset=iso-8859-1">
+		<style type="text/css"> /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */ /* More-configurable styles */ /******** General ********/ /* Document body */ body { color: Black; background-color: White; font-family: Arial, sans-serif; font-size: 10pt; }
+	/* Horizontal rules */ hr { color: black; }
+	/* Document title */ h1 { font-size: 18pt; letter-spacing: 2px; border-bottom: 1px #ccc solid; padding-top: 5px; padding-bottom: 5px; }
+	/* Main section headers */ h2 { font-size: 14pt; letter-spacing: 1px; }
+	/* Sub-section headers */ h3, h3 a, h3 span { font-size: 12pt; font-weight: bold; color: black; }
+	/* Table displaying the properties of the schema components or the schema document itself */ table.properties th, table.properties th a { color: black; background-color: #F99; /* Pink */ }
+	table.properties td { background-color: #eee; /* Gray */ }
+	/******** Table of Contents Section ********/ /* Controls for switching between printing and viewing modes */ div#printerControls { color: #963; /* Orange-brown */ }
+	/* Controls that can collapse or expand all XML Instance Representation and Schema Component Representation boxes */ div#globalControls { border: 2px solid #999; }
+	/******** Schema Document Properties Section ********/ /* Table displaying the namespaces declared in the schema */ table.namespaces th { background-color: #ccc; }
+	table.namespaces td { background-color: #eee; }
+	/* Target namespace of the schema */ span.targetNS { color: #06C; font-weight: bold; }
+	/******** Schema Components' Sections ********/ /* Name of schema component */ .name { color: #F93; /* Orange */ }
+	/* Hierarchy table */ table.hierarchy { border: 2px solid #999; /* Gray */ }
+	/* XML Instance Representation table */ div.sample div.contents { border: 2px dashed black; }
+	/* Schema Component Representation table */ div.schemaComponent div.contents { border: 2px black solid; }
+	/******** Glossary Section ********/ /* Glossary Terms */ .glossaryTerm { color: #036; /* Blue */ }
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */ /* Printer-version styles */ @media print { /* Ensures that controls are hidden when printing */ div#printerControls { visibility: hidden; }
+	div#globalControls { visibility: hidden; }
+	#legend { display: none; }
+	#legendTOC { display: none; }
+	#glossary { display: none; }
+	#glossaryTOC { display: none; }}
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */ /* Base styles */ /******** General ********/ /* Unordered lists */ ul { margin-left: 1.5em; margin-bottom: 0em; }
+	/* Tables */ table { margin-top: 10px; margin-bottom: 10px; margin-left: 0px; 
+margin-right: 2px; }
+	table th, table td { font-size: 10pt; vertical-align: top; padding-top: 3px; padding-bottom: 3px; padding-left: 10px; padding-right: 10px; }
+	table th { font-weight: bold; text-align: left; }
+	/* Table displaying the properties of the schema components or the schema document itself */ table.properties { width: 90%; }
+	table.properties th { width: 30%; }
+	/* Boxes that can make its content appear and disappear*/ div.box { margin: 1em; }
+	/* Box caption */ div.box span.caption { font-weight: bold; }
+	/* Button to open and close the box */ div.box input.control { width: 1.4em; height: 1.4em; text-align: center; vertical-align: middle; font-size: 11pt; }
+	/* Box contents */ div.box div.contents { margin-top: 3px; }
+	/******** Table of Contents Section ********/ /* Controls for switching between printing and viewing modes */ div#printerControls { white-space: nowrap; font-weight: bold; padding: 5px; margin: 5px; }
+	/* Controls that can collapse or expand all XML Instance Representation and Schema Component Representation boxes */ div#globalControls { padding: 10px; margin: 5px; }
+	/******** Schema Document Properties Section ********/ /* Table displaying the namespaces declared in the schema */ table.namespaces th { }
+	table.namespaces td { }
+	/* Target namespace of the schema */ span.targetNS { }
+	/******** Schema Components' Sections ********/ /* Name of schema component */ .name { }
+	/* Hierarchy table */ table.hierarchy { width: 90%; }
+	table.hierarchy th { font-weight: normal; font-style: italic; width: 20%; }
+	table.hierarchy th, table.hierarchy td { padding: 5px; }
+	/* XML Instance Representation table */ div.sample { width: 90%; }
+	div.sample div.contents { padding: 5px; font-family: Courier New, sans-serif; font-size: 10pt; }
+	/* Normal elements and attributes */ div.sample div.contents, div.sample div.contents a { color: black; }
+	/* Group Headers */ div.sample div.contents .group, div.sample div.contents .group a { color: #999; /* Light gray */ }
+	/* Type Information */ div.sample div.contents .type, div.sample div.contents .type a { color: #999; /* Light gray */ }
+	/* Occurrence Information */ div.sample div.contents .occurs, div.sample div.contents .occurs a { color: #999; /* Light gray */ }
+	/* Fixed values */ div.sample div.contents .fixed { color: #063; /* Green */ font-weight: bold; }
+	/* Simple type constraints */ div.sample div.contents .constraint, div.sample div.contents .constraint a { color: #999; /* Light gray */ }
+	/* Elements and attributes inherited from base type */ div.sample div.contents .inherited, div.sample div.contents .inherited a { color: #666; /* Dark gray */ }
+	/* Elements and attributes added to or changed from base type */ div.sample div.contents .newFields { font-weight: bold; }
+	/* Other type of information */ div.sample div.contents .other, div.sample div.contents .other a { color: #369; /* Blue */ font-style: italic; }
+	/* Link to open up window displaying documentation */ div.sample div.contents a.documentation { text-decoration: none; padding-left: 3px; padding-right: 3px; padding-top: 0px; padding-bottom: 0px; font-weight: bold; font-size: 11pt; background-color: #FFD; color: #069; }
+	/* Invert colors when hovering over link to open up window displaying documentation */ div.sample div.contents a.documentation:hover { color: #FFD; background-color: #069; }
+	/* Schema Component Representation table */ div.schemaComponent { width: 90%; }
+	div.schemaComponent div.contents { font-family: Courier New, sans-serif; font-size: 10pt; padding: 5px; }
+	/* Syntax characters */ div.schemaComponent div.contents { color: #00f; /* blue */ }
+	/* Element and attribute tags */ div.schemaComponent div.contents .scTag { color: #933; /* maroon */ }
+	/* Element and attribute content */ div.schemaComponent div.contents .scContent, div.schemaComponent div.contents .scContent a { color: black; font-weight: bold; }
+	/* Comments */ div.schemaComponent div.contents .comment { color: #999; /* Light gray */ }
+	/******** Legend Section ********/ div#legend table, div#legend div { margin-bottom: 3px; }
+	div#legend div.hint { color: #999; /* Light gray */ width: 90%; margin-left: 1em; margin-bottom: 2em; }
+	/******** Glossary Section ********/ /* Glossary Terms */ .glossaryTerm { font-weight: bold; }
+	/******** Footer ********/ .footer { font-size: 8pt; }
+	.m {color: #0000FF}
+	.ns {color: #993300}
+	.t {color: #993300}
+	        .style1
+            {
+                font-size: medium;
+            }
+            .style2
+            {
+                text-align: left;
+            }
+	        </style>
+	</head>
+	<body>
+		<h1 class="style2"><a name="top">S</a>DMX-HD (Health Domain) v1.0 documentation<br /></h1>
+		<h2>Sample 2 - How to exchange indicator definitions and data</h2>
+		<p>		
+			<h5>What files are located in this folder?</h5>
+			<p>
+			The sample2 folder contains the following files and folders:			
+			<br>
+			<br>
+			<table>
+				<tr>
+					<td colspan=2>
+					Generic SDMX Scheme Validation Files
+					</td>
+				</tr>			
+				<tr>
+					<td><img style="border: 2px black inset" src="../SDMX-HD-v1.0/misc/sample2content0.png"></td>
+					<td width=100%>
+						<ul>
+							<li>These are the standard SDMX v2.0 scheme validation files that are use to perform generic validation of the XML files used in SDMX-HD. For easy of use and to avoid file path mismatches these files are duplicated into each folder that requires them.
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2>
+					Sample files
+					</td>
+				</tr>					
+				<tr>
+					<td><img style="border: 2px black inset" src="../SDMX-HD-v1.0/misc/sample2content1.png"></td>
+					<td width=100%>
+					<ul>
+					<li>Sample 2 is based on Sample 1 and as such contains a similar list of files representing
+					    identical indicator definitions as Sample 1.
+						<ul>
+							<li>sample2.html - This web page
+							<li>IMR Indicators 65,67,75  - Screenshots of three sample indicator definitions 
+                                obtained from the WHO Indicator Metadata Registry. These definitions are used in the sample 
+                                XML files.
+							<li>DSD.xml  - The <font color=red>D</font>ata <font color=red>S</font>tructure <font color=red>D</font>efinition file holds structural information about the data being exchanged								
+							<li>MSD.xml  - The <font color=red>M</font>eta<font color=red>D</font>ata <font color=red>S</font>tructure Definition file 
+                                holds reference metadata about the data being exchanged							
+							<li>GMS.xml  - The <font color=red>G</font>eneric <font color=red>M</font>eta<font color=red>D</font>ataSet file contains all metadata 
+                                that needs to be exchanged
+						</ul>
+					<li>However, <b>the following two files are present only in Sample 2</b>, as the Compact Data Set (CDS.xml) is
+					    necessary only when data is transmitted
+						<ul>
+							<li><b>CDS.xml</b>  - The <font color=red>C</font>ompact <font color=red>D</font>ata<font color=red>S</font>et XML file holds the indicator values enter and some attribute values giving context to that data.														
+							<li><b>CDS.xsd</b>  - The <font color=red>C</font>ompact <font color=red>D</font>ata<font color=red>S</font>et XSD file is a scheme validation file generated from the DSD using the offline metadata tool.
+						</ul>
+					</li>
+					</ul>
+					</td>
+				</tr>
+			</table>
+			</p>
+			<h5>What does this sample showcase?</h5>
+			<p>			
+			This sample includes the same three indicator definition as Sample 1 does.
+			Metadata items related to indicator definitions (CL_INDICATOR) are the same as Sample 1.
+			</p>
+			<p>
+			Sample 2 focuses on how to transmit data (indicator values). Because SDMX-HD messages must be
+			self-contained, indicator definitions must also be packaged, essentially in the same way as sample 1
+			packages them. The following important subjects related to data transmission are covered by Sample 2:
+						<ul>
+							<li>Geographical place names: how to code geographical places with sub-national levels in CL_GEOGRAPHIC_PLACE_NAME based 
+							on <a href="http://www.commondatahub.com/live/geography/state_province_region/iso_3166_2_state_codes">ISO 3166-2</a>,
+							including how to organize them within the HY_GEOGRAPHIC_PLACE_NAME
+							<li>How to build the CDS.xml file and content, validated by the corresponding CDS.xsd file
+							<li>How to provide multiple observations (indicator values) per time period and per indicator
+							<li>How to package observations into series (indicators) by program, geographic place, organization, etc..
+						</ul>
+			</p>
+			<h5>How is this implemented in SDMX-HD?</h5>
+			<p>
+			The three sample indicators are implemented in the DSD,MSD and GMS files in a similar manner as sample 1.
+			In addition, CDS.xml contains the indicator values. The details of how this is achieved are listed below	
+			</p>
+			<table>
+				<tr>
+					<td colspan=2>
+					<BIG><B><font color="orange">DSD File</font></B></BIG> - This file contains the 
+                        codelists, concepts, hierarchies and dimensions (i.e the structure) of the 
+                        indicator definitions. No indicator values or metadata are included in this 
+                        file. Each system need to start with the TemplateDSD.xml file and construct the 
+                        specific DSD.xml file corresponding to the indicator definitions and the 
+                        structure of the data to exchange.
+					</td>
+				</tr>
+				<tr>
+					<td style="width:15pc; font-weight:bold">Customization of the Codelists</td>
+					<td>
+						<I>identical to sample 1</I>
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>
+				<tr>
+					<td style="font-weight:bold">Customization of the Hierarchies</td>
+					<td>
+						<I>identical to sample 1</I>					
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">Customization of the Concepts</td>
+					<td>
+						<I>identical to sample 1</I>					
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">Customization of the Dimensions</td>
+					<td>
+						<I>identical to sample 1</I>					
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">Customization of the Attributes</td>
+					<td>
+						<I>identical to sample 1</I>					
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>
+				<tr>
+					<td colspan=2>
+					<BIG><B><font color="orange">CDS XSD File</font></B></BIG> - This file is the XML validation schema for CDS.xml, generated from the DSD.xml
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+					<b>The absence of the CDS.xsd file when the CDS.xml file is included in the package is considered
+					as an invalid SDMX-HD message. It is required for the recipient of the message to be able to validate
+					the CDS.xml file upon import.</b><br/>&nbsp;<br/>
+					Using the offline metadata tool, the CDS.xsd file is generated with the following namespace :
+					<br>
+					urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=SDMX-HD:KY_INDICATOR[1.0]:compact
+					<br/>&nbsp;<br/>
+					Copy the generated CDS.xsd file is copied to the same folder as the CDS.xml file, modify the CDS.xml file header by adding two lines (in red) to ensure the CDS.xsd is used:
+					<pre>
+&lt;CompactData
+	xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message"
+	<font color=red>xmlns:ns="urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=SDMX-HD:KY_INDICATOR[1.0]:compact"</font>
+	xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact"	
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd
+	<font color=red>urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=SDMX-HD:KY_INDICATOR[1.0]:compact CDS.xsd</font>
+	 http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact SDMXCompactData.xsd" &gt;</pre>
+<br/>The CDS.xml file can now be validated with many XML Editor packages
+					</td>					
+				</tr>				
+				<tr><td colspan=2><hr></td></tr>
+				<tr>
+					<td colspan=2>
+					<BIG><B><font color="orange">CDS XML File</font></B></BIG> - This file contains the actual indicator values.
+					</td>
+				</tr>
+				<tr>
+					<td style="width:15pc; font-weight:bold">Managing the DataSet</td>
+					<td>
+					Each DataSet in the CDS file should have an datasetID. This datasetID attribute can be used to clarify the nature of the data being sent 
+					from a given system or organization. e.g. if SYSTEM A has data about X and data about Y,
+					when you receive data from SYSTEM A you may wisht to know if the dataset contains data about X or Y.
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>
+				<tr>
+					<td style="width:15pc; font-weight:bold">Managing the Series</td>
+					<td>
+					Each of our sample indicators are created as a series (of observations). Each indicator series has attributes to describe the context of the series and answer these basic questions:
+					Which indicator is this series of data for?
+					Which geographical place is the series of data for?
+					What organization provided the series of data?
+					What units of measure does the data use if any?
+					Is the observation a value of type "Value" or a value of type "Target"?
+					How often was the series of data recorded?
+					<pre>
+<font color=green>&lt;!-- COUNT INDICATOR SERIES   --&gt;</font>
+
+	&lt;ns:Series  PROG="0" GEOGRAPHIC_PLACE_NAME="CH" ORGANIZATION="1"
+	INDICATOR="3" VALUE_TYPE="1" FREQ="4" UNIT="_NA"  /&gt;
+
+<font color=green>&lt;!-- RATIO INDICATOR SERIES   --&gt;</font>
+
+	&lt;ns:Series  PROG="0" GEOGRAPHIC_PLACE_NAME="CH" ORGANIZATION="1"
+	INDICATOR="0"  VALUE_TYPE="1"  FREQ="4"  UNIT="_NA"  /&gt;
+
+<font color=green>&lt;!-- NUMERATOR SERIES (Note no PROG attribute as Numerator and Denominators
+are linked to the Ratio Indicator via a hierarchy) --&gt;</font>
+
+	&lt;ns:Series  GEOGRAPHIC_PLACE_NAME="CH" ORGANIZATION="1"
+	INDICATOR="1"  VALUE_TYPE="1"   FREQ="4" UNIT="_NA"   /&gt;
+
+<font color=green>&lt;!-- DENOMINATOR SERIES --&gt;		</font>
+
+	&lt;ns:Series  GEOGRAPHIC_PLACE_NAME="CH" ORGANIZATION="1"
+	INDICATOR="2"  VALUE_TYPE="1"  OPERAND="2" FREQ="4"  UNIT="_NA"  /&gt;
+
+<font color=green>&lt;!-- PERCENTAGE INDICATOR SERIES WITH DISAGREGATION ATTRIBUTES : 
+VALUE_TYPE, GENDER, AGROUP,GLOCATION  --&gt;</font>
+
+	&lt;ns:Series  PROG="0" GEOGRAPHIC_PLACE_NAME="CH-GE" ORGANIZATION="1"
+	INDICATOR="4" VALUE_TYPE="1" GENDER="_ALL" AGROUP="5" GLOCATION="3" FREQ="4" UNIT="_NA"  /&gt;
+	&lt;ns:Series DISEASE="3" PROG="0" GEOGRAPHIC_PLACE_NAME="CH-GE" ORGANIZATION="1"
+	INDICATOR="4" VALUE_TYPE="1" GENDER="_ALL" AGROUP="5" GLOCATION="3" FREQ="4" UNIT="_NA"  /&gt;
+	&lt;ns:Series  PROG="0" GEOGRAPHIC_PLACE_NAME="CH-GE" ORGANIZATION="1"
+	INDICATOR="4" VALUE_TYPE="0" GENDER="_ALL" AGROUP="5" GLOCATION="3" FREQ="4" UNIT="_NA"  /&gt;
+	&lt;ns:Series DISEASE="3" PROG="0" GEOGRAPHIC_PLACE_NAME="CH-GE" ORGANIZATION="1"
+	INDICATOR="4" VALUE_TYPE="0" GENDER="_ALL" AGROUP="5" GLOCATION="3" FREQ="4" UNIT="_NA"  /&gt;
+					</pre>
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="width:15pc; font-weight:bold">Managing the Observations</td>
+					<td>
+					Each series has a list of observations. These observations hold the actual data entered. Looking at the ratio indicator we see two observations recorded:
+					<pre>
+<font color=green>&lt;!-- OBS_VALUE has the actual Indicator Value, TIME_PERIOD has the period
+for which this data is for. DATE_COLLECT is when this data was collected.   --&gt;</font>
+
+&lt;ns:Series  PROG="0" GEOGRAPHIC_PLACE_NAME="CH" ORGANIZATION="1" 
+    INDICATOR="0"  VALUE_TYPE="1"  PERIODICITY="4"  UNIT="_NA"  &gt;					
+	&lt;ns:Obs OBS_VALUE="23.99" TIME_PERIOD="2008" DATE_COLLECT="2009-03-20" /&gt;
+	&lt;ns:Obs OBS_VALUE="653.99" TIME_PERIOD="2008-Q1" DATE_COLLECT="2009-03-20" /&gt;	
+&lt;/ns:Series&gt;	
+					</pre>								
+					</td>
+				</tr>				
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td colspan=2>
+					<BIG><B><font color="orange">MSD File</font></B></BIG>
+					</td>
+				</tr>
+				<tr>
+					<td style="width:15pc; font-weight:bold">Customization of the Codelists</td>
+					<td>
+						<I>identical to sample 1</I>					
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">Customization of the Concepts</td>
+					<td>
+						<I>identical to sample 1</I>					
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">
+					Managing Identifier Component
+					</td>
+					<td>
+                    <I>identical to sample 1</I>
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">
+					Managing Metadata Attributes
+					</td>
+					<td>
+					<I>identical to sample 1</I>
+					</td>					
+				</tr>					
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td colspan=2>
+					<BIG><B><font color="orange">GMS File</font></B></BIG> - This file contains all the actual Indicator metadata values for MetadataAttributes linked to the IdentifierComponents IC_INDICATOR.
+					A second GMS file (GMS2.xml) has all the metadata linked to an Organisation via the IdentifierComponents IC_ORGANISATION
+					</td>				
+				</tr>
+				<tr><td colspan=2><hr></td></tr>
+				<tr>
+					<td style="width:15pc; font-weight:bold">
+					GMS to MSD Relationship
+					</td>				
+					<td>
+						<I>identical to sample 1</I>
+					</td>					
+				</tr>
+				<tr><td colspan=2><hr></td></tr>
+				<tr>
+					<td style="width:15pc; font-weight:bold">Managing AttributeValueSet</td>
+					<td>
+					<I>The metadata in this sample is the same as sample1</I>
+					</td>
+				</tr>
+			</table>
+        </p>
+	</body>
+</html>

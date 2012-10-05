@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+  <Header>
+    <ID>SDMX-HD-MSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name>SDMX Health Domain</Name>
+    <Prepared>2009-10-30</Prepared>
+    <Sender id="WHO_IMR">
+      <Name>WHO Indicator and Metadata Registry</Name>
+      <Contact>
+        <Name>Patrick Whitaker</Name>
+        <Department>Halth Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-10-30T14:14:45</Extracted>
+  </Header>
+  <CodeLists>
+    <CodeList id="CL_DTYPE" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_DTYPE" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/codelists/CL_DTYPE+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Datatype</Name>
+    </CodeList>
+    <CodeList id="CL_PERIODICITY" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_PERIODICITY" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/codelists/CL_PERIODICITY+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Periodicity</Name>
+    </CodeList>
+    <CodeList id="CL_METYPE" agencyID="SDMX-HD" version="1.0" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_METYPE" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/codelists/CL_METYPE+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Monitoring and Evaluation Framework</Name>
+    </CodeList>
+    <CodeList id="CL_VSTATUS" agencyID="SDMX-HD" version="1.0" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_VSTATUS" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/codelists/CL_VSTATUS+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Version Status</Name>
+    </CodeList>
+    <CodeList id="CL_TOPIC" agencyID="WHO" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=WHO:CL_TOPIC" isExternalReference="true" uri="./CUSTOM/WHO/v1.0/codelists/CL_TOPIC+WHO+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="EN">Topic</Name>
+    </CodeList>
+    <CodeList id="CL_KWORDS" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_KWORDS" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/codelists/CL_KWORDS+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Keywords</Name>
+    </CodeList>
+    <CodeList id="CL_DSOURCE" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_DSOURCE" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/codelists/CL_DSOURCE+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Data Source</Name>
+    </CodeList>
+    <CodeList id="CL_M_E_FRAMEWORK" agencyID="WHO" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=WHO:CL_M_E_FRAMEWORK" isExternalReference="true" uri="./CUSTOM/WHO/v1.0/codelists/CL_M_E_FRAMEWORK+WHO+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="EN">M&amp;E Framework</Name>
+    </CodeList>
+    <CodeList id="CL_UNIT" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_UNIT" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/codelists/CL_UNIT+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Unit</Name>
+    </CodeList>
+    <CodeList id="CL_MULT" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_MULT" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/codelists/CL_MULT+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Multiplier</Name>
+    </CodeList>
+  </CodeLists>
+  <Concepts>
+    <ConceptScheme id="CS_COMMON_MSD" agencyID="SDMX-HD" version="1.0" isFinal="true" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/conceptschemes/CS_COMMON_MSD+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">SDMX-HD Common Metadata Elements</Name>
+    </ConceptScheme>
+    <ConceptScheme id="CS_COMMON_GEN" agencyID="SDMX-HD" version="1.0" isFinal="true" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/conceptschemes/CS_COMMON_GEN+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">SDMX-HD Common Generic Elements</Name>
+    </ConceptScheme>
+    <ConceptScheme id="CS_CUSTOM_WHO" agencyID="WHO" version="1.0" isFinal="false" isExternalReference="true" uri="./CUSTOM/WHO/v1.0/conceptschemes/CS_CUSTOM_WHO+WHO+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="EN">WHO concept scheme</Name>
+    </ConceptScheme>
+    <ConceptScheme id="CS_COMMON" agencyID="SDMX-HD" version="1.0" isFinal="true" isExternalReference="true" uri="./COMMON/SDMX-HD/v1.0/conceptschemes/CS_COMMON+SDMX-HD+1.0.xml" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">SDMX-HD Common Data Elements</Name>
+    </ConceptScheme>
+  </Concepts>
+  <MetadataStructureDefinitions>
+    <MetadataStructureDefinition id="MSD_WHO" agencyID="SDMX-HD" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructureDefinition=SDMX-HD:MSD_WHO[1.0]" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">SDMX-HD Metadata Structure Definition</Name>
+      <TargetIdentifiers>
+        <FullTargetIdentifier id="FTI_WHO" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.FullTargetIdentifier=SDMX-HD:MSD_WHO[1.0].FTI_WHO">
+          <Name xml:lang="en">SDMX-HD Full Target Identifier</Name>
+          <IdentifierComponent id="IC_INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_INDICATOR">
+            <Name xml:lang="en">Identifier Component for Indicators</Name>
+            <Description xml:lang="en">Reference the INDICATOR concept defined in DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="External" representationScheme="CL_INDICATOR" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_DTYPE" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_DTYPE">
+            <Name xml:lang="en">Identifier component for Data Type Representation</Name>
+            <Description xml:lang="en">Reference the Data Type Representation concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="Codelist" representationScheme="CL_DTYPE" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_TOPIC" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_TOPIC">
+            <Name xml:lang="en">Identifier component for Topic</Name>
+            <Description xml:lang="en">Reference the Topic concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="Codelist" representationScheme="CL_TOPIC" representationSchemeAgency="WHO" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_KWORDS" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_KWORDS">
+            <Name xml:lang="en">Identifier component for Associated terms</Name>
+            <Description xml:lang="en">Reference the Associated terms concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="External" representationScheme="CL_KWORDS" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_DSOURCE" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_DSOURCE">
+            <Name xml:lang="en">Identifier component for Preferred data sources</Name>
+            <Description xml:lang="en">Reference the Preferred data sources concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="Codelist" representationScheme="CL_DSOURCE" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_DSOURCE" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_DSOURCE">
+            <Name xml:lang="en">Identifier component for Other possible data sources</Name>
+            <Description xml:lang="en">Reference the Other possible data sources concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="Codelist" representationScheme="CL_DSOURCE" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_M_E_FRAMEWORK" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_M_E_FRAMEWORK">
+            <Name xml:lang="en">Identifier component for M&amp;E Framework</Name>
+            <Description xml:lang="en">Reference the M&amp;E Framework concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="Codelist" representationScheme="CL_M_E_FRAMEWORK" representationSchemeAgency="WHO" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_UNIT" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_UNIT">
+            <Name xml:lang="en">Identifier component for Unit of Measure</Name>
+            <Description xml:lang="en">Reference the Unit of Measure concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="Codelist" representationScheme="CL_UNIT" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_MULT" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_MULT">
+            <Name xml:lang="en">Identifier component for Unit Multiplier</Name>
+            <Description xml:lang="en">Reference the Unit Multiplier concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="Codelist" representationScheme="CL_MULT" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_PERIODICITY" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_PERIODICITY">
+            <Name xml:lang="en">Identifier component for Expected frequency of data dissemination</Name>
+            <Description xml:lang="en">Reference the Expected frequency of data dissemination concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="Codelist" representationScheme="CL_PERIODICITY" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_PERIODICITY" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_PERIODICITY">
+            <Name xml:lang="en">Identifier component for Expected frequency of data collection</Name>
+            <Description xml:lang="en">Reference the Expected frequency of data collection concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="Codelist" representationScheme="CL_PERIODICITY" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_SEX" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_SEX">
+            <Name xml:lang="en">Identifier component for Sex</Name>
+            <Description xml:lang="en">Reference the Sex concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="External" representationScheme="CL_SEX" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_GLOCATION" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_GLOCATION">
+            <Name xml:lang="en">Identifier component for Location (urban/rural)</Name>
+            <Description xml:lang="en">Reference the Location (urban/rural) concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="External" representationScheme="CL_GLOCATION" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_BY_ADMINISTRATIVE_AREA" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_BY_ADMINISTRATIVE_AREA">
+            <Name xml:lang="en">Identifier component for By administrative area</Name>
+            <Description xml:lang="en">Reference the By administrative area concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="External" representationScheme="CL_BY_ADMINISTRATIVE_AREA" representationSchemeAgency="WHO" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_EDUCATION_LEVEL" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_EDUCATION_LEVEL">
+            <Name xml:lang="en">Identifier component for Education level</Name>
+            <Description xml:lang="en">Reference the Education level concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="External" representationScheme="CL_EDUCATION_LEVEL" representationSchemeAgency="WHO" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_WEALTH" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_WEALTH">
+            <Name xml:lang="en">Identifier component for Wealth</Name>
+            <Description xml:lang="en">Reference the Wealth concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="External" representationScheme="CL_WEALTH" representationSchemeAgency="WHO" />
+          </IdentifierComponent>
+          <IdentifierComponent id="IC_DISAGG" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.IdentifierComponent=SDMX-HD:MSD_WHO[1.0].FTI_WHO.IC_DISAGG">
+            <Name xml:lang="en">Identifier component for Disaggregation</Name>
+            <Description xml:lang="en">Reference the Disaggregation concept defined in the DSD file</Description>
+            <TargetObjectClass>Concept</TargetObjectClass>
+            <RepresentationScheme representationSchemeType="External" representationScheme="CL_DISAGG" representationSchemeAgency="SDMX-HD" />
+          </IdentifierComponent>
+        </FullTargetIdentifier>
+      </TargetIdentifiers>
+      <ReportStructure id="RS" target="FTI_WHO" urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.ReportStructure=SDMX-HD:MSD_WHO[1.0].RS">
+        <Name xml:lang="en">Full Metadata Structure</Name>
+        <MetadataAttribute usageStatus="Mandatory" conceptRef="DTYPE" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" representationScheme="CL_DTYPE" representationSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="_DESCRIPTION" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_GEN" conceptSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="EXPERT" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="KWORDS" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" representationScheme="CL_KWORDS" representationSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="GUIDE" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="RATIONALE" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="METHOD" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="FREQUENCY" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" representationScheme="CL_PERIODICITY" representationSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="METYPE" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" representationScheme="CL_METYPE" representationSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="PSOURCE" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" representationScheme="CL_DSOURCE" representationSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="OSOURCE" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" representationScheme="CL_DSOURCE" representationSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="FREQ_DISS" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" representationScheme="CL_PERIODICITY" representationSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="LIMIT" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_MSD" conceptSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="_CODE" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_GEN" conceptSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="_CREATED_ON" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_GEN" conceptSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="_UPDATED_ON" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_GEN" conceptSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="_VERSION" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_GEN" conceptSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="_VSTATUS" conceptVersion="1.0" conceptSchemeRef="CS_COMMON_GEN" conceptSchemeAgency="SDMX-HD" representationScheme="CL_VSTATUS" representationSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="SHORT_NAME" conceptVersion="1.0" conceptSchemeRef="CS_CUSTOM_WHO" conceptSchemeAgency="WHO" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="TOPIC" conceptVersion="1.0" conceptSchemeRef="CS_CUSTOM_WHO" conceptSchemeAgency="WHO" representationScheme="CL_TOPIC" representationSchemeAgency="WHO" />
+        <MetadataAttribute usageStatus="Mandatory" conceptRef="METHOD_OF_ESTIMATION" conceptVersion="1.0" conceptSchemeRef="CS_CUSTOM_WHO" conceptSchemeAgency="WHO" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="M_E_FRAMEWORK" conceptVersion="1.0" conceptSchemeRef="CS_CUSTOM_WHO" conceptSchemeAgency="WHO" representationScheme="CL_M_E_FRAMEWORK" representationSchemeAgency="WHO" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="METHOD_OF_ESTIMATION_OF_REGIONAL_AND_GLOBAL_ESTIMATES" conceptVersion="1.0" conceptSchemeRef="CS_CUSTOM_WHO" conceptSchemeAgency="WHO" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="UNIT" conceptVersion="1.0" conceptSchemeRef="CS_COMMON" conceptSchemeAgency="SDMX-HD" representationScheme="CL_UNIT" representationSchemeAgency="SDMX-HD" />
+        <MetadataAttribute usageStatus="Conditional" conceptRef="MULT" conceptVersion="1.0" conceptSchemeRef="CS_COMMON" conceptSchemeAgency="SDMX-HD" representationScheme="CL_MULT" representationSchemeAgency="SDMX-HD" />
+      </ReportStructure>
+    </MetadataStructureDefinition>
+  </MetadataStructureDefinitions>
+</Structure>

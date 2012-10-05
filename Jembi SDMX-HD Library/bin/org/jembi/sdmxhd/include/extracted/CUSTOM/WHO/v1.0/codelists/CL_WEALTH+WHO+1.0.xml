@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name>SDMX Health Domain</Name>
+    <Prepared>2009-10-30</Prepared>
+    <Sender id="WHO_IMR">
+      <Name>WHO Indicator and Metadata Registry</Name>
+      <Contact>
+        <Name>Patrick Whitaker</Name>
+        <Department>Halth Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-10-30T14:14:45</Extracted>
+  </Header>
+  <CodeLists>
+    <CodeList id="CL_WEALTH" agencyID="WHO" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=WHO:CL_WEALTH" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="EN">Wealth</Name>
+      <Description xml:lang="EN"></Description>
+      <Code value="277" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_WEALTH[1.0].277">
+        <Description xml:lang="EN">Wealth quintile</Description>
+      </Code>
+    </CodeList>
+  </CodeLists>
+</Structure>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>REGISTRY_RESPONSE</ID>
+    <Test>true</Test>
+    <Truncated>false</Truncated>
+    <Prepared>2009-02-11T13:16:53</Prepared>
+    <Sender id="EUROSTAT" />
+    <Extracted>2009-02-11T13:16:53</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_SCHOOL" agencyID="UNAIDS" version="1.0" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist=UNAIDS:CL_SCHOOL">
+      <structure:Name xml:lang="en">School Level</structure:Name>
+      <structure:Description xml:lang="en">School level of respondent</structure:Description>
+      <structure:Code value="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_SCHOOL[1.0].1">
+        <structure:Description xml:lang="en">Primary</structure:Description>
+      </structure:Code>
+      <structure:Code value="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNAIDS:CL_SCHOOL[1.0].2">
+        <structure:Description xml:lang="en">Secondary</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+  </CodeLists>
+</Structure>
+

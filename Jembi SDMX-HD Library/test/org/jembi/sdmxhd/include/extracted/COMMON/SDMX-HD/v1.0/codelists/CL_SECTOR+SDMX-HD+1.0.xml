@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="codelist.xsl"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_SECTOR" agencyID="SDMX-HD" version="1.0" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_SECTOR">
+      <structure:Name xml:lang="en">Sector</structure:Name>
+      <structure:Description xml:lang="en">Sector.</structure:Description>
+      <structure:Code value="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_SECTOR[1.0].1">
+        <structure:Description xml:lang="en">Private</structure:Description>
+      </structure:Code>
+      <structure:Code value="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_SECTOR[1.0].2">
+        <structure:Description xml:lang="en">Public</structure:Description>
+      </structure:Code>
+      <structure:Code value="_NA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_SECTOR[1.0]._NA">
+        <structure:Description xml:lang="en">Not Applicable</structure:Description>
+      </structure:Code>
+      <structure:Code value="_ALL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_SECTOR[1.0]._ALL">
+        <structure:Description xml:lang="en">All</structure:Description>
+      </structure:Code>
+      <structure:Code value="_UNK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_SECTOR[1.0]._UNK">
+        <structure:Description xml:lang="en">Unknown</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+  </CodeLists>
+</Structure>
+

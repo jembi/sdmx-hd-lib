@@ -1,0 +1,1018 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GenericMetadata xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+  <Header>
+    <ID>SDMX-HD-GMS</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name>SDMX Health Domain</Name>
+    <Prepared>2009-10-30</Prepared>
+    <Sender id="WHO_IMR">
+      <Name>WHO Indicator and Metadata Registry</Name>
+      <Contact>
+        <Name>Patrick Whitaker</Name>
+        <Department>Halth Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-10-30T14:14:45</Extracted>
+  </Header>
+  <MetadataSet metadataStructureURI="MSD.xml" datasetID="IMR" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata">
+    <MetadataStructureRef>MSD_WHO</MetadataStructureRef>
+    <MetadataStructureAgencyRef>SDMX-HD</MetadataStructureAgencyRef>
+    <ReportRef>RS</ReportRef>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_INDICATOR" object="Codelist">1</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_CODE">
+        <Value><![CDATA[1]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="_CREATED_ON">
+        <Value><![CDATA[01.04.2009 22:00:11]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="_UPDATED_ON">
+        <Value><![CDATA[27.10.2009 13:45:30]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="_VERSION">
+        <Value><![CDATA[0]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="SHORT_NAME">
+        <Value><![CDATA[Infant mortality rate]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="DTYPE">
+        <Value><![CDATA[20]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="TOPIC">
+        <Value><![CDATA[184]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="RATIONALE">
+        <Value><![CDATA[<p>Infant mortality represents an important component of under-five mortality. Like under-five mortality, infant mortality rates measure child survival. They also reflect the social, economic and environmental conditions in which children (and others in society) live, including their health care. Since data on the incidence and prevalence of diseases (morbidity data) frequently are unavailable, mortality rates are often used to identify vulnerable populations. Infant mortality rate is an MDG indicator.</p>]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Infant mortality rate is the probability of a child born in a specific year or period dying before reaching the age of one, if subject to age-specific mortality rates of that period.</p>
+<p>Infant mortality rate is strictly speaking not a rate (i.e. the number of deaths divided by the number of population at risk during a certain period of time) but a probability of death derived from a life table and expressed as rate per 1000 live births.</p>]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="KWORDS">
+        <Value><![CDATA[251]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="PSOURCE">
+        <Value><![CDATA[315]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="OSOURCE">
+        <Value><![CDATA[162]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="OSOURCE">
+        <Value><![CDATA[161]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="METHOD">
+        <Value><![CDATA[<p>Most frequently used methods using the above-mentioned data sources are as follows:<br />
+&bull;&nbsp;Civil registration: Number of deaths at age 0 and population for the same age are used to calculate death rate which are then converted into age-specific probability of dying. <br />
+&bull;&nbsp;Census and surveys: An indirect method is used based on questions to each woman of reproductive age as to how many children she has ever born and how many are still alive. The Brass method and model life tables are then used to obtain an estimate of infant mortality.<br />
+&bull;&nbsp;Surveys: A direct method is used based on birth history - a series of detailed questions on each child a woman has given birth to during her lifetime. To reduce sampling errors, the estimates are generally presented as period rates, for five or 10 years preceding the survey.</p>]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="METHOD_OF_ESTIMATION">
+        <Value><![CDATA[<p>WHO produces trend of IMR with standardized methodology by group of countries depending on the type and quality of source of data available.</p>
+<p>For developed countries where civil registration is complete, IMR is computed directly from data of the civil registry if the data of the year to be estimated is available.</p>
+<p>For countries with adequate trend of data from civil registration, age pattern between infant mortality and under-5 mortality from the most recent data is used as standard to the modified logit life table developed by WHO, in order to convert the projected under-5 mortality rate from a weighted regression into a projected infant mortality rate.</p>
+<p>For countries with survey data, since infant mortality rates from birth histories of surveys are exposed to recall biases, infant mortality is derived from the projection of under-five mortality rates converted into infant mortality rates using Coale-Demeney model life tables.</p>
+<p>The Inter-agency Group for Child Mortality of Estimation which includes representatives from Unicef, WHO, the World Bank and the United Nations Population Division, is actively working to harmonize and carry out joint estimation.</p>
+<p>Predominant type of statistics:&nbsp;adjusted and predicted.<br />
+&nbsp;</p>]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="M_E_FRAMEWORK">
+        <Value><![CDATA[434]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="METHOD_OF_ESTIMATION_OF_REGIONAL_AND_GLOBAL_ESTIMATES">
+        <Value><![CDATA[<p>Global and regional estimates in the Global Health Observatory are derived from numbers of estimated deaths and population for age groups 0 year, aggregated by relevant region.</p>]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="UNIT">
+        <Value><![CDATA[295]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="FREQ_DISS">
+        <Value><![CDATA[174]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="LIMIT">
+        <Value><![CDATA[<p>Civil registration systems are the preferred source of data on infant mortality. However, many developing countries lack fully functioning registration systems that accurately record all births and deaths. Thus, household surveys, such as Demographic and Health Surveys (DHS) and Multiple Indicator Cluster Surveys (MICS), have become the primary source of data on child mortality in developing countries; but there are some limits to their quality.<br />
+<br />
+Estimates obtained from household surveys have attached confidence intervals that need to be considered when comparing values along time or across countries. Similarly, these estimates are often affected by non-sampling errors. Like census data, survey data on child mortality may omit births and deaths, include stillbirths along with live births, and suffer from survivor selection bias and age truncation. Direct estimates of child mortality based on survey data may also suffer from mothers misreporting their children&rsquo;s birth dates, current age or age at death &mdash; perhaps more so if the child has died. The heaping of deaths at age 12 months is especially common. Age heaping may transfer deaths across the one-year boundary and lead to underestimates of infant mortality rates. However, it has little effect on under-five mortality rates; making the U5MR a more robust estimate than the infant mortality rate if the information is drawn from household surveys.</p>
+<p>(<a href="http://mdgs.un.org/unsd/mdg/Metadata.aspx">http://mdgs.un.org/unsd/mdg/Metadata.aspx</a> , accessed on 3 March 2009)<br />
+<br />
+Even though many countries have collected information on child mortality in recent years, the high demand for very recent child mortality trend information is difficult to meet through household surveys. High quality of civil registration systems (completeness of registration) and high quality of survey or census data collection are crucial - WHO does estimate the level of underestimation of civil registration systems and there clearly is substantial variation in data quality and consistency across countries.<br />
+<br />
+Censuses and surveys can provide detailed dissagregation. Often disaggregated under-five mortality rates from household surveys are presented for 10-year periods because of the rapid increase in sampling error if multiple categories are used. Civil registration data usually does not include socio-economic variables but can provide the other disaggregation.</p>]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="GUIDE">
+        <Value><![CDATA[http://www.who.int/healthinfo/morttables/en/index.html WHO Mortality Database]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="GUIDE">
+        <Value><![CDATA[http://www.childinfo.org/ Childinfo: Monitoring the Situation of Children and Women (UNICEF)]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="GUIDE">
+        <Value><![CDATA[http://www.measuredhs.com/ Demographic and Health Surveys (DHS)]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="GUIDE">
+        <Value><![CDATA[http://www.who.int/healthinfo/paper39.pdf Modified logit life table system: principles, empirical validation and application (WHO)]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="GUIDE">
+        <Value><![CDATA[http://www.who.int/whr/2005/en/index.html The World Health Report 2005: Make every mother and child count (WHO, 2005)]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="GUIDE">
+        <Value><![CDATA[http://www.childinfo.org/files/infant_child_mortality_2006.pdf Levels and Trends of Child Mortality in 2006 (UNICEF, WHO, World Bank, UN Population Division, 2007)]]></Value>
+      </ReportedAttribute>
+      <ReportedAttribute conceptID="GUIDE">
+        <Value><![CDATA[http://www.unicef.org/sowc/ The State of the World's Children (UNICEF)]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_TOPIC" object="Codelist">421</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Health System Monitoring]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_TOPIC" object="Codelist">422</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Health System Monitoring]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_TOPIC" object="Codelist">423</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Health System Monitoring]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_TOPIC" object="Codelist">417</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Health System Monitoring]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_TOPIC" object="Codelist">418</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Health System Monitoring]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_TOPIC" object="Codelist">419</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Health System Monitoring]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_TOPIC" object="Codelist">420</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Health System Monitoring]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_TOPIC" object="Codelist">424</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Health System Monitoring]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_TOPIC" object="Codelist">425</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Health System Monitoring]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">201</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Pulmonary (smear-positive and smear-negative) and extrapulmonary TB.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">202</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;set of tabulations that describe the probability of dying, the death rate and the number of survivors for each age or age group. Accordingly, life expectancy at birth is an output of a life table.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">205</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The&nbsp;death of a woman while pregnant or within 42 days after termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management, but not from accidental or incidental causes. To facilitate the identification of maternal deaths in circumstances in which cause-of-death attribution is inadequate, ICD 10 introduced an additional category, pregnancy-related death, which is defined as the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the cause of death.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">235</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p><span style="font-size: 10pt; font-family: Arial; mso-fareast-font-family: SimSun; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">Height-for-age less than -2 standard deviations of the WHO Child Growth Standards median</span></p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">236</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p><span style="font-size: 10pt; font-family: Arial; mso-fareast-font-family: SimSun; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">Height-for-age less than -2 standard deviations of the WHO Child Growth Standards median</span></p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">237</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p><span>Weight-for-height less than -2 standard deviations of the WHO Child Growth Standards median<o:p></o:p></span></p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">238</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p><span>Weight-for-height greater than +2 standard deviations of the WHO Child Growth Standards median<o:p></o:p></span></p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">240</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;period that commences at birth and ends 28 completed days after birth</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">249</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="Word.Document" name="ProgId" />
+<meta content="Microsoft Word 11" name="Generator" />
+<meta content="Microsoft Word 11" name="Originator" />
+<link href="file:///C:\DOCUME~1\hoj\LOCALS~1\Temp\msohtml1\01\clip_filelist.xml" rel="File-List" /><!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG />
+</o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:View>Normal</w:View>
+<w:Zoom>0</w:Zoom>
+<w:PunctuationKerning />
+<w:ValidateAgainstSchemas />
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:Compatibility>
+<w:BreakWrappedTables />
+<w:SnapToGridInCell />
+<w:WrapTextWithPunct />
+<w:UseAsianBreakRules />
+<w:DontGrowAutofit />
+<w:UseFELayout />
+</w:Compatibility>
+</w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+</w:LatentStyles>
+</xml><![endif]--><style type="text/css">
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0mm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0mm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0mm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--></style><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-parent:"";
+mso-padding-alt:0mm 5.4pt 0mm 5.4pt;
+mso-para-margin:0mm;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:#0400;
+mso-fareast-language:#0400;
+mso-bidi-language:#0400;}
+</style>
+<![endif]--></p>
+<p>&nbsp;Weight-for-age less than -3 standard deviations of the WHO Child Growth Standards median</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">251</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The complete expulsion or extraction from its mother of a product of conception, irrespective of the duration of the pregnancy, which, after such separation, breathes or shows any other evidence of life such as beating of the heart, pulsation of the umbilical cord, or definite movement of voluntary muscles, whether or not the umbilical cord has been cut or the placenta is attached. (ICD-10)</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">255</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A pharmaceutical product usually intended to be interchangeable with the originator brand product, manufactured without a licence from the originator manufacturer and marketed after the expiry of patent or other exclusivity rights.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">324</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Weight-for-age less than -2 standard deviations of the WHO Child Growth Standards median</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">325</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Body Mass Index (BMI) &ge; 25.0 kg/m2</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">326</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Body Mass Index (BMI) 25.00-29.99 kg/m2</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">327</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Body Mass Index (BMI) &ge; 30.00 kg/m2</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">328</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The first weight of the fetus or newborn obtained after birth. For live births, birth weight should ideally be measured within the first hour of life before significant postnatal weight loss occurs.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">329</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;weight of less than 2500 g (up to and including 2499 g), irrespective of gestational age. Low birth weight may be subdivided into <strong>very low birth weight </strong>(less than 1500 g) and <strong>extremely low birth weight </strong>(less than 1 000 g).</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">330</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>An infectious disease caused by the parasite Plasmodium and transmitted via the bites of infected mosquitoes. Symptoms usually appear between 10 and 15 days after the mosquito bite and include fever, chills, headache, muscular aching and vomiting. Malaria can be treated with artemisinin-based combination and other therapies. If treated at an early stage, less than one person in a thousand will die from the disease. If not treated, symptoms of severe disease can develop including coma (cerebal malaria), metabolic acidosis, severe aneamia, hypoglycaemia (low blood sugar levels) and in adults, kidney failure or pulmonary oedmea (a build up of fluid in the lungs).&nbsp; By this stage 15-20% of people receiving treatment will die.&nbsp; If untreated, severe malaria is almost always fatal.&nbsp; The symptoms of malaria overlap with other diseases so one can not always be certain that a death is due to malaria particularly as many deaths occur in children who may simultaneously suffer from a range conditions including respiratory infections, diarhoea, and malnutrition. Effective interventions exist to reduce the incidence of malaria including the use of insecticide treated mosquito nets and indoor residual spraying with insecticide.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">331</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Areas of stable malaria transmission (allowing the development of some level of immunity) and areas of unstable malaria transmission (seasonal and less predictable transmission impeding the development of effective immunity)</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">332</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A mosquito net that has been treated within 12 months or is a long-lasting insecticidal net (LLIN)</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">333</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;virus that weakens the immune system, ultimately leading to AIDS, the acquired immunodeficiency syndrome. HIV destroys the body&rsquo;s ability to fight off infection and disease, which can ultimately lead to death.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">335</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>An&nbsp;infectious bacterial disease caused by <em>Mycobacterium tuberculosis</em>, which most commonly affects the lungs. It is transmitted from person to person via droplets from the throat and lungs of people with the active respiratory disease. In healthy people, infection with Mycobacterium tuberculosis often causes no symptoms, since the person's immune system acts to &ldquo;wall off&rdquo; the bacteria. The symptoms of active TB of the lung are coughing, sometimes with sputum or blood, chest pains, weakness, weight loss, fever and night sweats. TB is treatable with a six-month course of antibiotics.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">339</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>An accredited health professional&mdash;such as a midwife, doctor or nurse&mdash;who has been educated and trained to proficiency in the skills needed to manage normal (uncomplicated) pregnancies, childbirth and the immediate postnatal period, and in the identification, management and referral of complications in women and newborns. Traditional birth attendants (TBA), trained or not, are excluded from the category of skilled attendant at delivery.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">340</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The use of a combination of 3 or more antiretroviral drugs for purpose of treatment in accordance with nationally approved treatment protocols (or WHO/UNAIDS standards). ARV regimen prescribed for post exposure prophylaxis are excluded.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">341</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The WHO World Standard Population was based on the average world population structure for the period 2000-2025 as assessed every two years by the United Nations Population Division for each country by age and sex. Estimates from the&nbsp;UN&nbsp;Population Division&nbsp;1998 assessment (being the latest one at the time the WHO Standard Population was chosen) based on population censuses and other demographic sources, adjusted for enumeration errors were used. The use of an average world population as well as a time series of observations removes the effects of historical events such as wars and famine on population age composition. WHO Standard Population is defined to reflect the average age structure of the world's population over the next generation, from the year 2000 to 2025. ( <a href="http://www.who.int/healthinfo/paper31.pdf">http://www.who.int/healthinfo/paper31.pdf</a>&nbsp;)</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">342</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>a) the disease or injury which initiated the train of morbid events leading directly to death, or (b) the circumstances of the accident or violence which produced the fatal injury (ICD-10)&nbsp;</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">343</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The number of years of life lost when a person dies prematurely.&nbsp; It is a measure of premature mortality that takes into account both the frequency of deaths and the age at which death occurs, and is an important input of the DALYs for a disease or health condition. YLLs are calculated from the number of deaths at each age multiplied by a global standard life expectancy for the age at which death occurs. (The Global Burden of Disease: 2004 Update, WHO, 2008)</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">344</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A common currency unit that takes into account differences in relative purchasing power annual average</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">345</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;health-gap measure that extends the concept of potential years of life lost due to premature death to include equivalent years of &lsquo;healthy&rsquo; life lost by virtue of being in states of poor health or disability (Global burden of disease and risk factors, Lopez et al., 2006). DALYs for a disease or health condition are calculated as the sum of the YLLs because of premature mortality in the population and the years lived with a disability (YLDs) for incident cases of the health condition.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">349</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Funds mobilized by the system. The sum of General Government Expenditure on Health and Private Expenditure on Health.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">350</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The value of all goods and services provided in a country by residents and non-residents without regard to their allocation among domestic and foreign claims. <br />
+In the context of National Health Account (NHA), expenditure-based GDP is the total final expenditure at purchasers' prices. For NHA indicators reporting by WHO, GDP data is provided by the United Nations Statistical Department, otherwise by the International Monetary Fund or the World Bank.<br />
+&nbsp;</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">351</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Observed average number of units&nbsp;at which a currency is traded in the banking system</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">352</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The sum of outlays for health maintenance, restoration or enhancement paid for in cash or supplied in kind by government entities, such as the Ministry of Health, other ministries, parastatal organizations or social security agencies (without double counting government transfers to social security and extrabudgetary funds). It includes transfer payments to households to offset medical care costs and extrabudgetary funds to finance health services and goods. The revenue base of these entities may comprise multiple sources, including external funds.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">353</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The&nbsp;sum of outlays for health by private entities, such as commercial or mutual health insurance, non-profit institutions serving households, resident corporations and quasi-corporations not controlled by government with a health services delivery or financing, and households.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">354</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The&nbsp;consolidated outlays of all levels of government: territorial authorities (Central/Federal Government, Provincial/Regional/State/District authorities, Municipal/ Local governments), social security institutions and extrabudgetary funds, including capital outlays. It is provided by the Central Bank/Ministry of Finance to the International Monetary Fund or by the United Nations Statistics Department.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">355</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The&nbsp;expenditure on health by social security institutions. Social security or national health insurance schemes are imposed and controlled by government units for the purpose of providing social benefits to members of the community as a whole or to particular segments of the community. They include direct outlays to medical care providers and to suppliers of medical goods as well as reimbursements to households and the supply of services in kind to the enrollees.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">356</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The&nbsp;sum of resources channeled towards health by all non-resident institutional units that enter into transactions with resident units or have other economic links with resident units, explicitly labeled for health or not, to be used as mean of payments of health goods and services by financing agents in the government or private sectors. They include donations and loans, in cash and in-kind resources.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">357</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The&nbsp;expenditure on health by private insurance institutions. Private insurance enrolment may be contractual or voluntary, and conditions and benefits or basket of benefits are agreed on a voluntary basis between the insurance agent and the beneficiaries. They are thus not controlled by government units for the purpose of providing social benefits to members.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">358</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The&nbsp;expenditure on health by households as direct payments, discretionary. A household is an individual or a group of persons sharing the same libing accommodation, which pool some, or all, of their income and wealth and which consume certain types of goods and services collectively, mainly housing and food.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">359</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The&nbsp;outlay by private enterprises for medical care and health-enhancing benefits other than payment to social security or other prepaid schemes.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">360</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The expenditure on health by non-profit institutions serving households&nbsp;(NPISHs; e.g.&nbsp;NGOs), which are not predominantly financed and controlled by government, that provide goods&nbsp;or services to households free or at prices that are not economically significant.&nbsp;&nbsp;</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">372</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The WHO framework for classifying health workers draws on the latest revisions of international classifications for social and economic statistics, including the International Standard Classification of Occupations (2008 revision), the International Standard Classification of Education (1997 revision) and the International Standard Industrial Classification of All Economic Activities (fourth revision).</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">374</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;chronic disease of man resulting from infection with&nbsp;<em>Mycobacterium leprae </em>which affects mainly nerves and skin. <br />
+There is no gold standard to identify leprosy infection.&nbsp; The diagnosis of leprosy is mainly based on clinical grounds and therefore lacks specificity, notwithstanding intra- and inter- observer variations. <br />
+Clinical, bacteriological, histopathological and immunological tools are all unsatisfactory with regard to reaching a high positive predictive value for screening leprosy in the community. <br />
+For operational purposes, the WHO proposed classifying patients as either paucibacillary or multibacillary leprosy cases.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">376</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>An infant feeding practice whereby the infant receives breast milk (including expressed breast milk or breast milk from a wet nurse) and allows the infant to receive ORS, drops, syrups (vitamins, minerals, medicines), but nothing else.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">377</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The weight in kilograms divided by the square of the height in metres (kg/m2)</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">379</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Include clinic and supply (modern) methods and non-supply (traditional) methods of contraception. Clinic and supply methods include female and male sterilization, intrauterine devices (IUDs), hormonal methods (oral pills, injectables, and hormone-releasing implants, skin patches and vaginal rings), condoms and vaginal barrier methods (diaphragm, cervical cap and spermicidal foams, jellies, creams and sponges). Traditional methods include rhythm, withdrawal, abstinence and lactational amenorrhoea.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">380</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>---</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">381</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;case of TB where Mycobacterium tuberculosis bacilli are visible in the patient's sputum when examined under the microscope. For exact definition, see Global tuberculosis control : epidemiology, strategy, financing : WHO report 2009 (WHO, 2009).</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">382</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Tuberculosis (TB) in a patient who has never received treatment for TB, or who has taken anti-TB drugs for less than 1 month.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">383</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The internationally recommended tuberculosis control strategy directly observed treatment shortcourse, which forms the core of the Stop TB Strategy. The five components of DOTS are:<br />
+1.&nbsp;Political commitment with increased and sustained financing; <br />
+2.&nbsp;Case detection through quality-assured bacteriology; <br />
+3.&nbsp;Standardized treatment with supervision and patient support; <br />
+4.&nbsp;An effective drug supply and management system; and <br />
+5.&nbsp;A monitoring and evaluation system, and impact measurement.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">384</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The process of reporting diagnosed TB cases to WHO. This does not refer to the systems in place in some countries to inform national authorities of cases of certain &quot;notifiable&quot; diseases.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">386</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abroad.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">388</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The continuous, permanent, compulsory and universal recording of the occurrence and characteristics of vital events pertaining to the population as provided through decree or regulation in accordance with the legal requirements of a country.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">389</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Refers to all institutional, legal, technical settings needed to perform the civil registration functions in a technical, sound, coordinated, and standardized manner throughout the country, taking into account cultural and social circumstances particular to the country.<br />
+&nbsp;</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">390</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;case that meets the clinical case definition of the country</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">391</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;case that meets the clinical case definition and is linked epidemiologically to a laboratory-confirmed case</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">392</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;case that meets the clinical case definition and is confirmed by laboratory investigation</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">393</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A disease caused by the bacterium <em>Corynebacterium diphtheriae</em>. This germ produces a toxin that can harm or destroy human body tissues and organs. One type of diphtheria affects the throat and sometimes the tonsils. Another type, more common in the tropics, causes ulcers on the skin.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">394</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>The main cause of viral encephalitis in many countries of Asia. The infection is mosquito-borne and caused by a virus, related to dengue, yellow fever and West Nile viruses. The virus exists in a transmission cycle between mosquitoes and pigs and/or water birds. Humans become infected only incidentally when bitten by an infected mosquito and the disease is predominantly found in rural and periurban settings. The disease is endemic with seasonal distribution in parts of China, the Russian Federation&rsquo;s south-east, and South and South-East Asia.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">395</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A highly contagious, serious disease caused by a virus. It remains a leading cause of death among young children globally, despite the availability of a safe and effective vaccine. Measles is transmitted via droplets from the nose, mouth or throat of infected persons. Initial symptoms, which usually appear 10&ndash;12 days after infection, include high fever, runny nose, bloodshot eyes, and tiny white spots on the inside of the mouth. Several days later, a rash develops, starting on the face and upper neck and gradually spreading downwards.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">396</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>An infection caused by a virus. It is sometimes called infectious parotitis, and it primarily affects the salivary glands. Mumps is mostly a mild childhood disease. It most often affects children between five and nine years old. But the mumps virus can infect adults as well. When it does, complications are more likely to be serious. As more children receive mumps vaccine, it is expected that cases will become more common in older children than in younger ones.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">397</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A&nbsp;disease of the respiratory tract caused by bacteria that live in the mouth, nose, and throat. Also known as whooping cough. Many children who contract pertussis have coughing spells that last four to eight weeks. The disease is most dangerous in infants.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">398</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>An infection caused by a virus. Congenital rubella syndrome (CRS) is an important cause of severe birth defects. When a woman is infected with the rubella virus early in pregnancy, she has a 90% chance of passing the virus on to her fetus. This can cause the death of the fetus, or it may cause CRS. Even though it is a mild childhood illness CRS causes many birth defects. Deafness is the most common, but CRS can also cause defects in the eyes, heart, and brain.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">399</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A disease that is acquired when the spores of the bacterium Clostridium Tetani infect a wound or the umbilical stump. Spores are universally present in the soil. People of all ages can get tetanus but the disease is particularly common and serious in newborn babies (&quot;neonatal tetanus&quot;). It requires treatment in a medical facility, often in a referral hospital. Neonatal tetanus, which is mostly fatal, is particularly common in rural areas where deliveries are at home without adequate sterile procedures.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">400</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>A disease that is caused by the yellow fever virus, which is carried by mosquitoes. It is endemic in 33 countries in Africa and 11 countries in South America. The yellow fever virus can be transmitted by mosquitoes which feed on infected animals in forests, then pass the infection when the same mosquitoes feed on humans travelling through the forest. The greatest risk of an epidemic occurs when infected humans return to urban areas and are fed on by the domestic vector mosquito Aedus aegypti, which then transmits the virus to other humans.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">401</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Sudden onset of weakness and floppiness in any part of the body in a child &lt; 15 years of age OR paralysis in a person of any age in whom polio is suspected.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_KWORDS" object="Codelist">402</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[<p>Clinical case definition: any person with sudden onset of fever (&gt;38.5 C rectal or 38.0 C axillary) and one of the following signs: neck stiffness, altered consciousness or other meningeal signs.</p>]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_DSOURCE" object="Codelist">426</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[National health accounts]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_MULT" object="Codelist">113</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Delete this]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_MULT" object="Codelist">253</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[10's]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_MULT" object="Codelist">409</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[100's]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_MULT" object="Codelist">410</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[1,000s]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_MULT" object="Codelist">411</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[10,000s]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_MULT" object="Codelist">412</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[100,000s]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_MULT" object="Codelist">413</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[1,000,000s]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_MULT" object="Codelist">414</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[Equivalent to no multiplier.]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_MULT" object="Codelist">415</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[.1s]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+    <AttributeValueSet>
+      <TargetRef>FTI_WHO</TargetRef>
+      <TargetValues>
+        <ComponentValue component="IC_MULT" object="Codelist">416</ComponentValue>
+      </TargetValues>
+      <ReportedAttribute conceptID="_DESCRIPTION">
+        <Value><![CDATA[.01s, e.g. percentage]]></Value>
+      </ReportedAttribute>
+    </AttributeValueSet>
+  </MetadataSet>
+</GenericMetadata>

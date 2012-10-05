@@ -1,0 +1,1 @@
+XSLT document() function using '../codelist/' does not work in FF as this is see as a security risk :-(

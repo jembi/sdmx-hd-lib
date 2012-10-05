@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd"
+    xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message"
+    xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">	
+    <Header>
+        <ID>SDMX-HD-DSD</ID>
+        <Test>false</Test>
+        <Truncated>false</Truncated>
+        <Name xml:lang="en">SDMX Health Domain</Name>
+        <Prepared>2009-03-20</Prepared>
+        <Sender id="SenderSystemIdentification">
+            <Name>Sender System Name</Name>
+            <Contact>
+                <Name xml:lang="en">Contact Name</Name>
+                <Department>Agency Department Name</Department>
+                <Telephone>+00.0000.0000</Telephone>
+                <Email>user@host.com</Email>
+            </Contact>
+        </Sender>
+        <Extracted>2009-03-20T13:03:46</Extracted>
+    </Header>
+    <HierarchicalCodelists>
+        <structure:HierarchicalCodelist id="COMMON_HIF_HIERARCHY" version="1.0" isFinal="true" agencyID="SDMX-HD"    >
+	<structure:Name>SDMX-HD HIF HIERARCHY</structure:Name>
+    	<structure:CodelistRef>
+    		<structure:AgencyID>SDMX-HD</structure:AgencyID>
+    		<structure:CodelistID>CL_HIF1</structure:CodelistID>
+    		<structure:Version>1.0</structure:Version>
+    		<structure:Alias>AL_HIF1</structure:Alias>
+    	</structure:CodelistRef>
+    	<structure:CodelistRef>
+    		<structure:AgencyID>SDMX-HD</structure:AgencyID>
+    		<structure:CodelistID>CL_HIF2</structure:CodelistID>
+    		<structure:Version>1.0</structure:Version>
+    		<structure:Alias>AL_HIF2</structure:Alias>
+    	</structure:CodelistRef>			
+    	<structure:Hierarchy id="HEALTH_INDICATOR_FRAMEWORK_HIERARCHY">
+    		<structure:Name>Health Indicator Framework Hierarchy</structure:Name>
+    		<structure:CodeRef>
+    			<structure:CodelistAliasRef>AL_HIF1</structure:CodelistAliasRef>
+    			<structure:CodeID>1</structure:CodeID>
+    			<!-- HIF2 -->					
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>100</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>200</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>300</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>400</structure:CodeID>
+    			</structure:CodeRef>					
+    		</structure:CodeRef>
+    		<structure:CodeRef>
+    			<structure:CodelistAliasRef>AL_HIF1</structure:CodelistAliasRef>
+    			<structure:CodeID>2</structure:CodeID>
+    			<!-- HIF2 -->					
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>500</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>600</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>700</structure:CodeID>
+    			</structure:CodeRef>					
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>800</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>900</structure:CodeID>
+    			</structure:CodeRef>					
+    		</structure:CodeRef>
+    		<structure:CodeRef>
+    			<structure:CodelistAliasRef>AL_HIF1</structure:CodelistAliasRef>
+    			<structure:CodeID>3</structure:CodeID>
+    			<!-- HIF2 -->
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>1000</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>1100</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>1200</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>1300</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>1400</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>1500</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>1600</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>1700</structure:CodeID>
+    			</structure:CodeRef>					
+    		</structure:CodeRef>
+    		<structure:CodeRef>
+    			<structure:CodelistAliasRef>AL_HIF1</structure:CodelistAliasRef>
+    			<structure:CodeID>4</structure:CodeID>
+    			<!-- HIF2 -->					
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>1800</structure:CodeID>
+    			</structure:CodeRef>
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>1900</structure:CodeID>
+    			</structure:CodeRef>					
+    			<structure:CodeRef>
+    				<structure:CodelistAliasRef>AL_HIF2</structure:CodelistAliasRef>
+    				<structure:CodeID>2000</structure:CodeID>
+    			</structure:CodeRef>					
+    		</structure:CodeRef>				
+    	</structure:Hierarchy>     							
+        </structure:HierarchicalCodelist>
+    </HierarchicalCodelists>
+</Structure>

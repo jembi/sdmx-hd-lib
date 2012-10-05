@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name>SDMX Health Domain</Name>
+    <Prepared>2009-10-30</Prepared>
+    <Sender id="WHO_IMR">
+      <Name>WHO Indicator and Metadata Registry</Name>
+      <Contact>
+        <Name>Patrick Whitaker</Name>
+        <Department>Halth Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-10-30T14:14:45</Extracted>
+  </Header>
+  <CodeLists>
+    <CodeList id="CL_KWORDS" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_KWORDS" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Keywords</Name>
+      <Description xml:lang="en">Keywords for searching for this indicator</Description>
+      <Code value="201" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].201">
+        <Description xml:lang="EN">All forms (of tuberculosis)</Description>
+      </Code>
+      <Code value="202" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].202">
+        <Description xml:lang="EN">Life table</Description>
+      </Code>
+      <Code value="205" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].205">
+        <Description xml:lang="EN">Maternal death</Description>
+      </Code>
+      <Code value="235" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].235">
+        <Description xml:lang="EN">Stunting</Description>
+      </Code>
+      <Code value="236" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].236">
+        <Description xml:lang="EN">Severe stunting</Description>
+      </Code>
+      <Code value="237" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].237">
+        <Description xml:lang="EN">Wasting</Description>
+      </Code>
+      <Code value="238" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].238">
+        <Description xml:lang="EN">Child overweight</Description>
+      </Code>
+      <Code value="240" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].240">
+        <Description xml:lang="EN">Neonatal period</Description>
+      </Code>
+      <Code value="249" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].249">
+        <Description xml:lang="EN">Child severe underweight</Description>
+      </Code>
+      <Code value="251" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].251">
+        <Description xml:lang="EN">Live birth</Description>
+      </Code>
+      <Code value="255" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].255">
+        <Description xml:lang="EN">Generic medicines</Description>
+      </Code>
+      <Code value="324" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].324">
+        <Description xml:lang="EN">Child underweight</Description>
+      </Code>
+      <Code value="325" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].325">
+        <Description xml:lang="EN">Adult overweight</Description>
+      </Code>
+      <Code value="326" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].326">
+        <Description xml:lang="EN">Adult pre-obesity</Description>
+      </Code>
+      <Code value="327" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].327">
+        <Description xml:lang="EN">Adult obesity</Description>
+      </Code>
+      <Code value="328" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].328">
+        <Description xml:lang="EN">Birth weight</Description>
+      </Code>
+      <Code value="329" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].329">
+        <Description xml:lang="EN">Low birth weight</Description>
+      </Code>
+      <Code value="330" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].330">
+        <Description xml:lang="EN">Malaria</Description>
+      </Code>
+      <Code value="331" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].331">
+        <Description xml:lang="EN">Malaria-risk areas</Description>
+      </Code>
+      <Code value="332" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].332">
+        <Description xml:lang="EN">Insecticide-treated net (ITN)</Description>
+      </Code>
+      <Code value="333" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].333">
+        <Description xml:lang="EN">Human Immunodeficiency Virus (HIV)</Description>
+      </Code>
+      <Code value="335" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].335">
+        <Description xml:lang="EN">Tuberculosis (TB)</Description>
+      </Code>
+      <Code value="339" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].339">
+        <Description xml:lang="EN">Skilled birth personnel</Description>
+      </Code>
+      <Code value="340" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].340">
+        <Description xml:lang="EN">Antiretroviral treatment</Description>
+      </Code>
+      <Code value="341" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].341">
+        <Description xml:lang="EN">WHO Standard Population</Description>
+      </Code>
+      <Code value="342" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].342">
+        <Description xml:lang="EN">Underlying cause of death</Description>
+      </Code>
+      <Code value="343" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].343">
+        <Description xml:lang="EN">Years of Life Lost (YLL)</Description>
+      </Code>
+      <Code value="344" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].344">
+        <Description xml:lang="EN">International dollar rate / PPP</Description>
+      </Code>
+      <Code value="345" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].345">
+        <Description xml:lang="EN">Disability-adjusted life years (DALY)</Description>
+      </Code>
+      <Code value="349" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].349">
+        <Description xml:lang="EN">Total expenditure on health (THE)</Description>
+      </Code>
+      <Code value="350" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].350">
+        <Description xml:lang="EN">Gross domestic product (GDP)</Description>
+      </Code>
+      <Code value="351" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].351">
+        <Description xml:lang="EN">Exchange rate</Description>
+      </Code>
+      <Code value="352" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].352">
+        <Description xml:lang="EN">General government expenditure on health (GGHE)</Description>
+      </Code>
+      <Code value="353" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].353">
+        <Description xml:lang="EN">Private expenditure on health</Description>
+      </Code>
+      <Code value="354" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].354">
+        <Description xml:lang="EN">General government expenditure (GGE)</Description>
+      </Code>
+      <Code value="355" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].355">
+        <Description xml:lang="EN">Social security funds</Description>
+      </Code>
+      <Code value="356" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].356">
+        <Description xml:lang="EN">Rest of the world funds / External resources for health</Description>
+      </Code>
+      <Code value="357" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].357">
+        <Description xml:lang="EN">Prepaid and risk-pooling plans</Description>
+      </Code>
+      <Code value="358" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].358">
+        <Description xml:lang="EN">Private households' out-of-pocket payment </Description>
+      </Code>
+      <Code value="359" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].359">
+        <Description xml:lang="EN">Firms' expenditure on health</Description>
+      </Code>
+      <Code value="360" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].360">
+        <Description xml:lang="EN">Non-profit institutions serving households </Description>
+      </Code>
+      <Code value="372" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].372">
+        <Description xml:lang="EN">Classification of health workers</Description>
+      </Code>
+      <Code value="374" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].374">
+        <Description xml:lang="EN">Leprosy</Description>
+      </Code>
+      <Code value="376" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].376">
+        <Description xml:lang="EN">Exclusive breastfeeding</Description>
+      </Code>
+      <Code value="377" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].377">
+        <Description xml:lang="EN">Body Mass Index (BMI)</Description>
+      </Code>
+      <Code value="379" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].379">
+        <Description xml:lang="EN">Contraceptive methods</Description>
+      </Code>
+      <Code value="380" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].380">
+        <Description xml:lang="EN">--</Description>
+      </Code>
+      <Code value="381" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].381">
+        <Description xml:lang="EN">Smear-positive tuberculosis</Description>
+      </Code>
+      <Code value="382" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].382">
+        <Description xml:lang="EN">New case of tuberculosis</Description>
+      </Code>
+      <Code value="383" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].383">
+        <Description xml:lang="EN">DOTS</Description>
+      </Code>
+      <Code value="384" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].384">
+        <Description xml:lang="EN">Notification (in the context of reporting tuberculosis cases to WHO)</Description>
+      </Code>
+      <Code value="386" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].386">
+        <Description xml:lang="EN">Gross national income (GNI)</Description>
+      </Code>
+      <Code value="388" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].388">
+        <Description xml:lang="EN">Civil registration</Description>
+      </Code>
+      <Code value="389" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].389">
+        <Description xml:lang="EN">Civil registration system</Description>
+      </Code>
+      <Code value="390" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].390">
+        <Description xml:lang="EN">Clinically-confirmed case</Description>
+      </Code>
+      <Code value="391" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].391">
+        <Description xml:lang="EN">Epidemiologically-confirmed case</Description>
+      </Code>
+      <Code value="392" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].392">
+        <Description xml:lang="EN">Laboratory-confirmed case</Description>
+      </Code>
+      <Code value="393" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].393">
+        <Description xml:lang="EN">Diphtheria</Description>
+      </Code>
+      <Code value="394" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].394">
+        <Description xml:lang="EN">Japanese encephalitis</Description>
+      </Code>
+      <Code value="395" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].395">
+        <Description xml:lang="EN">Measles</Description>
+      </Code>
+      <Code value="396" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].396">
+        <Description xml:lang="EN">Mumps</Description>
+      </Code>
+      <Code value="397" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].397">
+        <Description xml:lang="EN">Pertussis</Description>
+      </Code>
+      <Code value="398" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].398">
+        <Description xml:lang="EN">Rubella</Description>
+      </Code>
+      <Code value="399" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].399">
+        <Description xml:lang="EN">Tetanus</Description>
+      </Code>
+      <Code value="400" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].400">
+        <Description xml:lang="EN">Yellow fever</Description>
+      </Code>
+      <Code value="401" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].401">
+        <Description xml:lang="EN">Acute flaccid paralysis (AFP)</Description>
+      </Code>
+      <Code value="402" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_KWORDS[1.0].402">
+        <Description xml:lang="EN">Meningitis</Description>
+      </Code>
+    </CodeList>
+  </CodeLists>
+</Structure>

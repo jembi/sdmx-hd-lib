@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="conceptscheme.xsl"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <Concepts>
+    <structure:ConceptScheme id="CS_COMMON_MSD" agencyID="SDMX-HD" version="1.0" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD" > 
+      <structure:Name xml:lang="en">SDMX-HD Common Metadata Elements</structure:Name>
+      <structure:Description xml:lang="en">This Concept Scheme contains harmonized data elements used across multiple metadata codelists.</structure:Description> 
+      <structure:Concept id="ASOURCE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].ASOURCE" >
+        <structure:Name xml:lang="en">Administrative Source</structure:Name>
+        <structure:Description xml:lang="en">Public health initiative to which the indicator is linked.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>  
+      <structure:Concept id="CSTYPE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].CSTYPE" >
+        <structure:Name xml:lang="en">Calculation Syntax Type</structure:Name>
+        <structure:Description xml:lang="en">Type of mathematical syntax for calculation.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="CSYNTAX" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].CSYNTAX" >
+        <structure:Name xml:lang="en">Calculation Syntax</structure:Name>
+        <structure:Description xml:lang="en">Calculation expressed in mathematical terms.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="CURRENCY" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].CURRENCY" >
+        <structure:Name xml:lang="en">Currency</structure:Name>
+        <structure:Description xml:lang="en">Currency.</structure:Description>
+      </structure:Concept>
+	  <structure:Concept id="DUNS" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].DUNS" >
+        <structure:Name xml:lang="en">Data Universal Numbering System</structure:Name>
+        <structure:Description xml:lang="en">The Data Universal Numbering System, abbreviated as DUNS or D-U-N-S is a system developed and regulated by Dun and Bradstreet (D&amp;B) which assigns a unique numeric identifier to a single business entity</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>		  
+	  <structure:Concept id="DDATE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].DDATE" >
+        <structure:Name xml:lang="en">Definition Date</structure:Name>
+        <structure:Description xml:lang="en">Date of definition of the indicator.</structure:Description>
+        <structure:TextFormat textType="Date" />
+      </structure:Concept>
+      <structure:Concept id="DISSTAT" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].DISSTAT" >
+        <structure:Name xml:lang="en">Disease Status</structure:Name>
+        <structure:Description xml:lang="en">The status of the disease</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="DOC" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].DOC" >
+        <structure:Name xml:lang="en">Documentation</structure:Name>
+        <structure:Description xml:lang="en">Explanation of how the indicator value is calculated, including an example or hyperlink.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+	  <structure:Concept id="DTYPE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].DTYPE" >
+        <structure:Name xml:lang="en">Datatype</structure:Name>
+        <structure:Description xml:lang="en">Type of indicator value.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="EXPERT" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].EXPERT" >
+        <structure:Name xml:lang="en">Domain Expert</structure:Name>
+        <structure:Description xml:lang="en">Person to contact for questions regarding indicator</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="FREQ_DISS" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].FREQ_DISS" >
+        <structure:Name xml:lang="en">Expected Frequency of Data Dissemination</structure:Name>
+        <structure:Description xml:lang="en">Expected frequency of updates of WHO estimates.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="FREQUENCY" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].FREQUENCY" >
+        <structure:Name xml:lang="en">Recommended Collection</structure:Name>
+        <structure:Description xml:lang="en">Expected frequency of updates of national-level data.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="FPERIOD" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].FPERIOD" >
+        <structure:Name xml:lang="en">Followup Period</structure:Name>
+        <structure:Description xml:lang="en">Followup time periods.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+      <structure:Concept id="GCODE_COUNTRY" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].GCODE_COUNTRY" >
+        <structure:Name xml:lang="en">Country list</structure:Name>
+        <structure:Description xml:lang="en">ISO 3166 two-character country code.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="GBOUNDARY_TYPE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].GBOUNDARY_TYPE" >
+        <structure:Name xml:lang="en">Geographic Boundary Type</structure:Name>
+        <structure:Description xml:lang="en">Type of boundary entity, e.g. administrative.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="GLEVEL" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].GLEVEL" >
+        <structure:Name xml:lang="en">Geographic Level</structure:Name>
+        <structure:Description xml:lang="en">Geographic Administrative Level</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="GLATITUDE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].GLATITUDE" >
+        <structure:Name xml:lang="en">Geographic Latitude</structure:Name>
+        <structure:Description xml:lang="en">Geographic Latitude</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="GLONGITUDE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].GLONGITUDE" >
+        <structure:Name xml:lang="en">Geographic Longitude</structure:Name>
+        <structure:Description xml:lang="en">Geographic Longitude</structure:Description>
+      </structure:Concept>	  
+      <structure:Concept id="GUIDE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].GUIDE" >
+        <structure:Name xml:lang="en">Guidelines</structure:Name>
+        <structure:Description xml:lang="en">Provides the reference document(s) where the indicator is described, including links.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="HIF1" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].HIF1" >
+        <structure:Name xml:lang="en">Health Indicators Framework Level 1</structure:Name>
+        <structure:Description xml:lang="en">ISO/TS 21667:2004(E) Health Indicators Conceptual Framework (hierarchical parent)</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="HIF2" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].HIF2" >
+        <structure:Name xml:lang="en">Health Indicators Framework Level 2</structure:Name>
+        <structure:Description xml:lang="en">ISO/TS 21667:2004(E) Health Indicators Conceptual Framework (hierarchical child)</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="INDICATOR_ICD" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].INDICATOR_ICD" >
+        <structure:Name xml:lang="en">Indicator ICD</structure:Name>
+        <structure:Description xml:lang="en">International Classification of Disease (ICD) codes associated with indicator.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="INDICATOR_OID" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].INDICATOR_OID" >
+        <structure:Name xml:lang="en">Indicator OID</structure:Name>
+        <structure:Description xml:lang="en">Object Identifiers (OID) associated with indicator.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="KWORDS" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].KWORDS" >
+        <structure:Name xml:lang="en">Keywords</structure:Name>
+        <structure:Description xml:lang="en">Keywords for searching for this indicator.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="LIMIT" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].LIMIT" >
+        <structure:Name xml:lang="en">Strengths and limitations</structure:Name>
+        <structure:Description xml:lang="en">Explains (1) the strengths of the indicator, i.e. what the meaning of the indicator is within a programmatic context and why it is useful to collect, and (2) the weaknesses of the indicator, i.e. what the indicator does not measure.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+	  <structure:Concept id="METHOD" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].METHOD" >
+        <structure:Name xml:lang="en">Methodology</structure:Name>
+        <structure:Description xml:lang="en">Indicates the methodology for data collection not otherwise specified.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="METYPE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].METYPE" >
+        <structure:Name xml:lang="en">ME Type</structure:Name>
+        <structure:Description xml:lang="en">Classification of the indicator based on its Monitoring and Evaluation context.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+      <structure:Concept id="ORG_MAINT" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].ORG_MAINT" >
+        <structure:Name xml:lang="en">Maintaining Organization</structure:Name>
+        <structure:Description xml:lang="en">Organization maintaining indicator definition.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="ORG_COMP" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].ORG_COMP" >
+        <structure:Name xml:lang="en">Compiling Organization</structure:Name>
+        <structure:Description xml:lang="en">Organization that compiled the data.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="ORG_RESP" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].ORG_RESP" >
+        <structure:Name xml:lang="en">Responsible Organization</structure:Name>
+        <structure:Description xml:lang="en">Lead agency(s) which published the indicator, indicator source.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+      <structure:Concept id="OSOURCE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].OSOURCE" >
+        <structure:Name xml:lang="en">Other Sources</structure:Name>
+        <structure:Description xml:lang="en">All other data sources from which information for the indicator could be collected.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="OTYPE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].OTYPE" >
+        <structure:Name xml:lang="en">Organization Type</structure:Name>
+        <structure:Description xml:lang="en">Organization type.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="PREFERED" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].PREFERED" >
+        <structure:Name xml:lang="en">Preferred Definition</structure:Name>
+        <structure:Description xml:lang="en">Indicates the preferred indicator among related indicators and versions.</structure:Description>
+        <structure:TextFormat textType="Boolean" />
+      </structure:Concept>
+      <structure:Concept id="PSTATUS" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].PSTATUS" >
+        <structure:Name xml:lang="en">Programme Status</structure:Name>
+        <structure:Description xml:lang="en">Programme status.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+      <structure:Concept id="PTYPE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].PTYPE" >
+        <structure:Name xml:lang="en">Programme Type</structure:Name>
+        <structure:Description xml:lang="en">Programme type hierarchy.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+      <structure:Concept id="PSOURCE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].PSOURCE" >
+        <structure:Name xml:lang="en">Preferred Sources</structure:Name>
+        <structure:Description xml:lang="en">Ideal data sources at the national level from which information for the indicator should be collected.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+      <structure:Concept id="RATIONALE" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].RATIONALE" >
+        <structure:Name xml:lang="en">Rationale or Purpose</structure:Name>
+        <structure:Description xml:lang="en">Rationale or purpose for the indicator.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+      <structure:Concept id="SET" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].SET" >
+        <structure:Name xml:lang="en">Indicator Set</structure:Name>
+        <structure:Description xml:lang="en">Indicator set.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>
+      <structure:Concept id="STATUS" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].STATUS" >
+        <structure:Name xml:lang="en">Status</structure:Name>
+        <structure:Description xml:lang="en">Indicates whether the indicator is in use, not in use, or under development.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+      <structure:Concept id="SHORT_NAME" agencyID="SDMX-HD" version="1.0"  urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX-HD:CS_COMMON_MSD[1.0].SHORT_NAME" >
+        <structure:Name xml:lang="en">Short Name</structure:Name>
+        <structure:Description xml:lang="en">This is an abbreviated version of the indicator name.</structure:Description>
+        <structure:TextFormat textType="String" />
+      </structure:Concept>	  
+    </structure:ConceptScheme>
+  </Concepts>
+</Structure>
+

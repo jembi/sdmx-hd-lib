@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="codelist.xsl"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_SETTING" agencyID="WHO" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=WHO:CL_SETTING">
+      <structure:Name xml:lang="en">Setting</structure:Name>
+      <structure:Description xml:lang="en">Setting of data collection.</structure:Description>
+      <structure:Code value="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].1">
+        <structure:Description xml:lang="en">Commercial</structure:Description>
+      </structure:Code>
+      <structure:Code value="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].2">
+        <structure:Description xml:lang="en">Community</structure:Description>
+      </structure:Code>
+      <structure:Code value="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].3">
+        <structure:Description xml:lang="en">Faith-Based</structure:Description>
+      </structure:Code>
+      <structure:Code value="4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].4">
+        <structure:Description xml:lang="en">Health Care</structure:Description>
+      </structure:Code>
+      <structure:Code value="5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].5">
+        <structure:Description xml:lang="en">Home</structure:Description>
+      </structure:Code>
+      <structure:Code value="6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].6">
+        <structure:Description xml:lang="en">Media</structure:Description>
+      </structure:Code>
+      <structure:Code value="7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].7">
+        <structure:Description xml:lang="en">Migrant/Transient Site</structure:Description>
+      </structure:Code>
+      <structure:Code value="8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].8">
+        <structure:Description xml:lang="en">Outreach</structure:Description>
+      </structure:Code>
+      <structure:Code value="9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].9">
+        <structure:Description xml:lang="en">Private Site</structure:Description>
+      </structure:Code>
+      <structure:Code value="10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].10">
+        <structure:Description xml:lang="en">Prison</structure:Description>
+      </structure:Code>
+      <structure:Code value="11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].11">
+        <structure:Description xml:lang="en">Province/District</structure:Description>
+      </structure:Code>
+      <structure:Code value="12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].12">
+        <structure:Description xml:lang="en">Public Site</structure:Description>
+      </structure:Code>
+      <structure:Code value="13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].13">
+        <structure:Description xml:lang="en">Rural Site</structure:Description>
+      </structure:Code>
+      <structure:Code value="14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].14">
+        <structure:Description xml:lang="en">Schools</structure:Description>
+      </structure:Code>
+      <structure:Code value="15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].15">
+        <structure:Description xml:lang="en">Urban Site</structure:Description>
+      </structure:Code>
+      <structure:Code value="16" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0].16">
+        <structure:Description xml:lang="en">Workplace</structure:Description>
+      </structure:Code>
+      <structure:Code value="_NA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0]._NA">
+        <structure:Description xml:lang="en">Not Applicable</structure:Description>
+      </structure:Code>
+      <structure:Code value="_ALL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0]._ALL">
+        <structure:Description xml:lang="en">All</structure:Description>
+      </structure:Code>
+      <structure:Code value="_UNK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=WHO:CL_SETTING[1.0]._UNK">
+        <structure:Description xml:lang="en">Unknown</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+  </CodeLists>
+</Structure>
+

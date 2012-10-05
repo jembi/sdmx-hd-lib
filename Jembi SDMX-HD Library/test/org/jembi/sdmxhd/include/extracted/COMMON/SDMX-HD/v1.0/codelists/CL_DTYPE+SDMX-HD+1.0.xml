@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name>SDMX Health Domain</Name>
+    <Prepared>2009-10-30</Prepared>
+    <Sender id="WHO_IMR">
+      <Name>WHO Indicator and Metadata Registry</Name>
+      <Contact>
+        <Name>Patrick Whitaker</Name>
+        <Department>Halth Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-10-30T14:14:45</Extracted>
+  </Header>
+  <CodeLists>
+    <CodeList id="CL_DTYPE" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_DTYPE" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Datatype</Name>
+      <Description xml:lang="en">Datatype.</Description>
+      <Code value="12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DTYPE[1.0].12">
+        <Description xml:lang="EN">Count</Description>
+      </Code>
+      <Code value="14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DTYPE[1.0].14">
+        <Description xml:lang="EN">Logical</Description>
+      </Code>
+      <Code value="16" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DTYPE[1.0].16">
+        <Description xml:lang="EN">Money</Description>
+      </Code>
+      <Code value="18" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DTYPE[1.0].18">
+        <Description xml:lang="EN">Percent</Description>
+      </Code>
+      <Code value="20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DTYPE[1.0].20">
+        <Description xml:lang="EN">Ratio</Description>
+      </Code>
+      <Code value="22" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DTYPE[1.0].22">
+        <Description xml:lang="EN">Rate</Description>
+      </Code>
+      <Code value="24" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DTYPE[1.0].24">
+        <Description xml:lang="EN">Score</Description>
+      </Code>
+      <Code value="26" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DTYPE[1.0].26">
+        <Description xml:lang="EN">Statistic</Description>
+      </Code>
+      <Code value="28" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_DTYPE[1.0].28">
+        <Description xml:lang="EN">Categorical</Description>
+      </Code>
+    </CodeList>
+  </CodeLists>
+</Structure>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name>SDMX Health Domain</Name>
+    <Prepared>2009-10-30</Prepared>
+    <Sender id="WHO_IMR">
+      <Name>WHO Indicator and Metadata Registry</Name>
+      <Contact>
+        <Name>Patrick Whitaker</Name>
+        <Department>Halth Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-10-30T14:14:45</Extracted>
+  </Header>
+  <CodeLists>
+    <CodeList id="CL_ORGANIZATION" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_ORGANIZATION" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+      <Name xml:lang="en">Organization</Name>
+      <Description xml:lang="en">This is a placeholder codelist: populate it with organizations participating in your data exchange topology.</Description>
+      <Code value="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_ORGANIZATION[1.0].1">
+        <Description xml:lang="en">WHO - World Health Organization</Description>
+      </Code>
+      <Code value="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_ORGANIZATION[1.0].2">
+        <Description xml:lang="en">UNAIDS - Joint United Nations Programme on HIV/AIDS</Description>
+      </Code>
+      <Code value="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_ORGANIZATION[1.0].3">
+        <Description xml:lang="en">UNICEF - United Nations Childrens Fund</Description>
+      </Code>
+      <Code value="4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_ORGANIZATION[1.0].4">
+        <Description xml:lang="en">USG - United States Government</Description>
+      </Code>
+      <Code value="5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_ORGANIZATION[1.0].5">
+        <Description xml:lang="en">USAID - United States Agency for International Development</Description>
+      </Code>
+      <Code value="6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_ORGANIZATION[1.0].6">
+        <Description xml:lang="en">UNDG - United Nations Development Group</Description>
+      </Code>
+      <Code value="7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_ORGANIZATION[1.0].7">
+        <Description xml:lang="en">GFATM - Global Fund for fighting AIDS, Tuberculosis, and Malaria</Description>
+      </Code>
+      <Code value="8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_ORGANIZATION[1.0].8">
+        <Description xml:lang="en">WB - World Bank</Description>
+      </Code>
+      <Code value="9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_ORGANIZATION[1.0].9">
+        <Description xml:lang="en">MOH - Ministry of Health</Description>
+      </Code>
+    </CodeList>
+  </CodeLists>
+</Structure>

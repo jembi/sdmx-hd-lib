@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="codelist.xsl"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>SDMX-HD-DSD</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="en">SDMX Health Domain</Name>
+    <Prepared>2009-03-20</Prepared>
+    <Sender id="SDMX-HD">
+      <Name>SDMX-HD Health Domain</Name>
+      <Contact>
+        <Name xml:lang="en">Patrick Whitaker</Name>
+        <Department>Health Care Informatics</Department>
+        <Telephone>+41.22.791.1372</Telephone>
+        <Email>whitakerp@who.int</Email>
+      </Contact>
+    </Sender>
+    <Extracted>2009-03-20T13:03:46</Extracted>
+  </Header>
+  <CodeLists>
+    <structure:CodeList id="CL_WEEK" agencyID="SDMX-HD" version="1.0" isFinal="false" urn="urn:sdmx:org.sdmx.infomodel.codelist=SDMX-HD:CL_WEEK" >
+      <structure:Name xml:lang="en">Weeks</structure:Name>
+      <structure:Code value="W01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W01">
+        <structure:Description xml:lang="en">Week 1</structure:Description>
+      </structure:Code>
+      <structure:Code value="W02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W02">
+        <structure:Description xml:lang="en">Week 2</structure:Description>
+      </structure:Code>
+      <structure:Code value="W03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W03">
+        <structure:Description xml:lang="en">Week 3</structure:Description>
+      </structure:Code>
+      <structure:Code value="W04" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W04">
+        <structure:Description xml:lang="en">Week 4</structure:Description>
+      </structure:Code>
+      <structure:Code value="W05" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W05">
+        <structure:Description xml:lang="en">Week 5</structure:Description>
+      </structure:Code>
+      <structure:Code value="W06" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W06">
+        <structure:Description xml:lang="en">Week 6</structure:Description>
+      </structure:Code>
+      <structure:Code value="W07" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W07">
+        <structure:Description xml:lang="en">Week 7</structure:Description>
+      </structure:Code>
+      <structure:Code value="W08" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W08">
+        <structure:Description xml:lang="en">Week 8</structure:Description>
+      </structure:Code>
+      <structure:Code value="W09" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W09">
+        <structure:Description xml:lang="en">Week 9</structure:Description>
+      </structure:Code>
+      <structure:Code value="W10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W10">
+        <structure:Description xml:lang="en">Week 10</structure:Description>
+      </structure:Code>
+      <structure:Code value="W11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W11">
+        <structure:Description xml:lang="en">Week 11</structure:Description>
+      </structure:Code>
+      <structure:Code value="W12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W12">
+        <structure:Description xml:lang="en">Week 12</structure:Description>
+      </structure:Code>
+      <structure:Code value="W13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W13">
+        <structure:Description xml:lang="en">Week 13</structure:Description>
+      </structure:Code>
+      <structure:Code value="W14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W14">
+        <structure:Description xml:lang="en">Week 14</structure:Description>
+      </structure:Code>
+      <structure:Code value="W15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W15">
+        <structure:Description xml:lang="en">Week 15</structure:Description>
+      </structure:Code>
+      <structure:Code value="W16" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W16">
+        <structure:Description xml:lang="en">Week 16</structure:Description>
+      </structure:Code>
+      <structure:Code value="W17" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W17">
+        <structure:Description xml:lang="en">Week 17</structure:Description>
+      </structure:Code>
+      <structure:Code value="W18" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W18">
+        <structure:Description xml:lang="en">Week 18</structure:Description>
+      </structure:Code>
+      <structure:Code value="W19" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W19">
+        <structure:Description xml:lang="en">Week 19</structure:Description>
+      </structure:Code>
+      <structure:Code value="W20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W20">
+        <structure:Description xml:lang="en">Week 20</structure:Description>
+      </structure:Code>
+      <structure:Code value="W21" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W21">
+        <structure:Description xml:lang="en">Week 21</structure:Description>
+      </structure:Code>
+      <structure:Code value="W22" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W22">
+        <structure:Description xml:lang="en">Week 22</structure:Description>
+      </structure:Code>
+      <structure:Code value="W23" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W23">
+        <structure:Description xml:lang="en">Week 23</structure:Description>
+      </structure:Code>
+      <structure:Code value="W24" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W24">
+        <structure:Description xml:lang="en">Week 24</structure:Description>
+      </structure:Code>
+      <structure:Code value="W25" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W25">
+        <structure:Description xml:lang="en">Week 25</structure:Description>
+      </structure:Code>
+      <structure:Code value="W26" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W26">
+        <structure:Description xml:lang="en">Week 26</structure:Description>
+      </structure:Code>
+      <structure:Code value="W27" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W27">
+        <structure:Description xml:lang="en">Week 27</structure:Description>
+      </structure:Code>
+      <structure:Code value="W28" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W28">
+        <structure:Description xml:lang="en">Week 28</structure:Description>
+      </structure:Code>
+      <structure:Code value="W29" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W29">
+        <structure:Description xml:lang="en">Week 29</structure:Description>
+      </structure:Code>
+      <structure:Code value="W30" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W30">
+        <structure:Description xml:lang="en">Week 30</structure:Description>
+      </structure:Code>
+      <structure:Code value="W31" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W31">
+        <structure:Description xml:lang="en">Week 31</structure:Description>
+      </structure:Code>
+      <structure:Code value="W32" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W32">
+        <structure:Description xml:lang="en">Week 32</structure:Description>
+      </structure:Code>
+      <structure:Code value="W33" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W33">
+        <structure:Description xml:lang="en">Week 33</structure:Description>
+      </structure:Code>
+      <structure:Code value="W34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W34">
+        <structure:Description xml:lang="en">Week 34</structure:Description>
+      </structure:Code>
+      <structure:Code value="W35" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W35">
+        <structure:Description xml:lang="en">Week 35</structure:Description>
+      </structure:Code>
+      <structure:Code value="W36" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W36">
+        <structure:Description xml:lang="en">Week 36</structure:Description>
+      </structure:Code>
+      <structure:Code value="W37" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W37">
+        <structure:Description xml:lang="en">Week 37</structure:Description>
+      </structure:Code>
+      <structure:Code value="W38" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W38">
+        <structure:Description xml:lang="en">Week 38</structure:Description>
+      </structure:Code>
+      <structure:Code value="W39" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W39">
+        <structure:Description xml:lang="en">Week 39</structure:Description>
+      </structure:Code>
+      <structure:Code value="W40" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W40">
+        <structure:Description xml:lang="en">Week 40</structure:Description>
+      </structure:Code>
+      <structure:Code value="W41" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W41">
+        <structure:Description xml:lang="en">Week 41</structure:Description>
+      </structure:Code>
+      <structure:Code value="W42" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W42">
+        <structure:Description xml:lang="en">Week 42</structure:Description>
+      </structure:Code>
+      <structure:Code value="W43" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W43">
+        <structure:Description xml:lang="en">Week 43</structure:Description>
+      </structure:Code>
+      <structure:Code value="W44" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W44">
+        <structure:Description xml:lang="en">Week 44</structure:Description>
+      </structure:Code>
+      <structure:Code value="W45" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W45">
+        <structure:Description xml:lang="en">Week 45</structure:Description>
+      </structure:Code>
+      <structure:Code value="W46" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W46">
+        <structure:Description xml:lang="en">Week 46</structure:Description>
+      </structure:Code>
+      <structure:Code value="W47" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W47">
+        <structure:Description xml:lang="en">Week 47</structure:Description>
+      </structure:Code>
+      <structure:Code value="W48" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W48">
+        <structure:Description xml:lang="en">Week 48</structure:Description>
+      </structure:Code>
+      <structure:Code value="W49" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W49">
+        <structure:Description xml:lang="en">Week 49</structure:Description>
+      </structure:Code>
+      <structure:Code value="W50" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W50">
+        <structure:Description xml:lang="en">Week 50</structure:Description>
+      </structure:Code>
+      <structure:Code value="W51" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W51">
+        <structure:Description xml:lang="en">Week 51</structure:Description>
+      </structure:Code>
+      <structure:Code value="W52" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX-HD:CL_WEEK[1.0].W52">
+        <structure:Description xml:lang="en">Week 52</structure:Description>
+      </structure:Code>	  
+    </structure:CodeList>	
+  </CodeLists>
+</Structure>
