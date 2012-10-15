@@ -7,6 +7,7 @@
   <property name="build" location="build"/>
   <property name="dist"  location="dist"/>
   <property name="test"  location="test"/>
+  <property name="test-output"  location="test-reports"/>
 
   <target name="init">
     <!-- Create the time stamp -->
@@ -35,21 +36,28 @@
     <!-- Delete the ${build} and ${dist} directory trees -->
     <delete dir="${build}"/>
     <delete dir="${dist}"/>
+  	<delete dir="${test-output}"/>
   </target>
 	
   <target name="test" depends="compile">
-    <junit>
+  	<mkdir dir="${test-output}/raw"/>
+    <junit printsummary="true" failureproperty="junit.failure">
       <classpath>
         <pathelement location="bin" />    
         <pathelement location="lib/junit-4.10.jar"/>
       </classpath>    
-      <batchtest>
+      <batchtest todir="${test-output}/raw">
          <fileset dir="${test}">
             <include name="**/*Test*" />
          </fileset>
       </batchtest>
-      <formatter type="brief" usefile="false"/>
+      <formatter type="xml"/>
     </junit>
+  	<junitreport todir="${test-output}">
+      <fileset dir="${test-output}/raw"/>
+      <!-- <report todir="${test-output}"/> -->
+    </junitreport>
+  	<fail if="junit.failure" message="Unit test(s) failed.  See reports!"/>
   </target>
 	
 </project>
