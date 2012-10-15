@@ -40,7 +40,7 @@ public class CodeListsParserTest {
 	@Test
 	public void parse_shouldReturnValidCodeListsGivenAnAppropriateEventReader()
 			throws Exception {
-		File f = new File("test/sdmxhd/include/DSD.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/DSD.xml");
 		List<CodeList> codeLists = null;
 
 		XMLInputFactory factory = XMLInputFactory.newInstance();
@@ -72,7 +72,7 @@ public class CodeListsParserTest {
 
 	@Test
 	public void parse_shouldWorkWithExternalReferences() throws Exception {
-		ZipFile zf = new ZipFile("test/sdmxhd/include/SDMX-HD.v1.0 sample1.zip");
+		ZipFile zf = new ZipFile("test/org/jembi/sdmxhd/include/SDMX-HD.v1.0 sample1.zip");
 		ZipEntry entry = zf.getEntry("DSD.xml");
 		InputStream is = zf.getInputStream(entry);
 

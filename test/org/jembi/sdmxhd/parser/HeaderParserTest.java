@@ -36,7 +36,7 @@ public class HeaderParserTest {
 
 	@Test
 	public void testParse() throws FileNotFoundException, XMLStreamException {
-		File f = new File("test/sdmxhd/include/CDS.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/CDS.xml");
 		Header h = new Header();
 
 		XMLInputFactory factory = XMLInputFactory.newInstance();

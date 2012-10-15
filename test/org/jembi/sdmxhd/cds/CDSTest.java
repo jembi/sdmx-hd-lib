@@ -64,7 +64,7 @@ public class CDSTest {
 				.toXML("urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=SDMX-HD:SL-HIV:1.0:compact");
 
 		FileWriter fw = new FileWriter(new File(
-				"test/sdmxhd/include/generatedCDS.xml"));
+				"test/org/jembi/sdmxhd/include/generatedCDS.xml"));
 		fw.write(xml);
 		fw.close();
 

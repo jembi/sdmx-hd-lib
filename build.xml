@@ -6,6 +6,7 @@
   <property name="src" location="src"/>
   <property name="build" location="build"/>
   <property name="dist"  location="dist"/>
+  <property name="test"  location="test"/>
 
   <target name="init">
     <!-- Create the time stamp -->
@@ -35,4 +36,20 @@
     <delete dir="${build}"/>
     <delete dir="${dist}"/>
   </target>
+	
+  <target name="test" depends="compile">
+    <junit>
+      <classpath>
+        <pathelement location="bin" />    
+        <pathelement location="lib/junit-4.10.jar"/>
+      </classpath>    
+      <batchtest>
+         <fileset dir="${test}">
+            <include name="**/*Test*" />
+         </fileset>
+      </batchtest>
+      <formatter type="brief" usefile="false"/>
+    </junit>
+  </target>
+	
 </project>

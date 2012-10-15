@@ -36,7 +36,7 @@ public class DSDParserTest {
 
 	@Test
 	public void parse_shouldreturnAValidDSDObject() throws Exception {
-		File f = new File("test/sdmxhd/include/DSD.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/DSD.xml");
 
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 		XMLEventReader eventReader = factory
@@ -50,54 +50,6 @@ public class DSDParserTest {
 		Assert.assertEquals(13, dsd.getCodeLists().size());
 		Assert.assertEquals(1, dsd.getHierarchicalCodelists().size());
 		Assert.assertEquals(1, dsd.getKeyFamilies().size());
-	}
-
-	@Test
-	public void sierraLeoneTest() throws Exception {
-		File f = new File(
-				"/home/ryan/Documents/Jembi Projects/Sierra Leone Implmentation/SMDX-HD work in progress/art_sl_structure v2 edited.xml");
-
-		XMLInputFactory factory = XMLInputFactory.newInstance();
-		XMLEventReader eventReader = factory
-				.createXMLEventReader(new FileReader(f));
-
-		DSDParser parser = new DSDParser();
-		DSD dsd = parser.parse(eventReader, null);
-
-		Assert.assertNotNull(dsd);
-
-		List<Dimension> allIndicatorDimensions = dsd
-				.getAllIndicatorDimensions("SL-ART-SUMMARY");
-
-		List<List<DimensionWrapper>> allCombinationofDimensionsForIndicator = dsd
-				.getAllCombinationofDimensionsForIndicator(
-						"ART enrollment stage 2", "SL-ART-SUMMARY");
-		Assert.assertNotNull(allCombinationofDimensionsForIndicator.get(0).get(
-				0).getCode());
-	}
-
-	@Test
-	public void sierraLeoneTest2() throws Exception {
-		File f = new File(
-				"/home/ryan/Documents/Jembi Projects/Sierra Leone Implmentation/SMDX-HD work in progress/art_sl_structure_v5_altns_edited.xml");
-
-		XMLInputFactory factory = XMLInputFactory.newInstance();
-		XMLEventReader eventReader = factory
-				.createXMLEventReader(new FileReader(f));
-
-		DSDParser parser = new DSDParser();
-		DSD dsd = parser.parse(eventReader, null);
-
-		Assert.assertNotNull(dsd);
-
-		List<Dimension> allIndicatorDimensions = dsd
-				.getAllIndicatorDimensions("SL-ART-SUMMARY");
-
-		List<List<DimensionWrapper>> allCombinationofDimensionsForIndicator = dsd
-				.getAllCombinationofDimensionsForIndicator(
-						"ART enrollment stage 2", "SL-ART-SUMMARY");
-		Assert.assertNotNull(allCombinationofDimensionsForIndicator.get(0).get(
-				0).getCode());
 	}
 
 }

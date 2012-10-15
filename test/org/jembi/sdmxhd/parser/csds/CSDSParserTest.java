@@ -37,7 +37,7 @@ public class CSDSParserTest {
 	@Test
 	public void testParse() throws XMLStreamException, IOException,
 			ExternalRefrenceNotFoundException {
-		File f = new File("test/sdmxhd/include/generatedCSDS.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/generatedCSDS.xml");
 
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 		XMLEventReader eventReader = factory

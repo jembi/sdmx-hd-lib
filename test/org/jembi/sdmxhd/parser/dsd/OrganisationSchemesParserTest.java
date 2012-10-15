@@ -37,7 +37,7 @@ public class OrganisationSchemesParserTest {
 
 	@Test
 	public void parseTest() throws Exception {
-		File f = new File("test/sdmxhd/include/orgDSD.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/orgDSD.xml");
 		List<OrganisationScheme> orgScheme = null;
 
 		XMLInputFactory factory = XMLInputFactory.newInstance();

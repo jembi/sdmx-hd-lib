@@ -32,7 +32,7 @@ public class SDMXHDParserTest {
 
 		SDMXHDParser parser = new SDMXHDParser();
 		SDMXHDMessage msg = parser.parse(new ZipFile(
-				"test/sdmxhd/include/SDMX-HD.v1.0 sample1.zip"));
+				"test/org/jembi/sdmxhd/include/SDMX-HD.v1.0 sample1.zip"));
 
 		Assert.assertNotNull(msg);
 		Assert.assertNotNull(msg.getDsd());
@@ -49,7 +49,7 @@ public class SDMXHDParserTest {
 
 		SDMXHDParser parser = new SDMXHDParser();
 		SDMXHDMessage msg = parser.parse(new ZipFile(
-				"test/sdmxhd/include/SDMX-HD.v1.0 sample2.zip"));
+				"test/org/jembi/sdmxhd/include/SDMX-HD.v1.0 sample2.zip"));
 
 		Assert.assertNotNull(msg);
 		Assert.assertNotNull(msg.getDsd());
@@ -77,7 +77,7 @@ public class SDMXHDParserTest {
 
 		SDMXHDParser parser = new SDMXHDParser();
 		ZipFile zf = new ZipFile(
-				"test/sdmxhd/include/SDMX-HD-v1.0 TRACnet Demo Data.zip");
+				"test/org/jembi/sdmxhd/include/SDMX-HD-v1.0 TRACnet Demo Data.zip");
 		SDMXHDMessage msg = parser.parse(zf);
 
 		Assert.assertNotNull(msg);

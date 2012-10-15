@@ -37,7 +37,7 @@ public class CDSParserTest {
 	@Test
 	public void testParse() throws XMLStreamException, IOException,
 			ExternalRefrenceNotFoundException {
-		File f = new File("test/sdmxhd/include/CDS.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/CDS.xml");
 
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 		XMLEventReader eventReader = factory

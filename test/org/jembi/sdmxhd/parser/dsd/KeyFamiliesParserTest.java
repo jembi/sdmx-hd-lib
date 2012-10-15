@@ -36,7 +36,7 @@ public class KeyFamiliesParserTest {
 
 	@Test
 	public void parse_shouldReturnAValidkeyFamiliesObject() throws Exception {
-		File f = new File("test/sdmxhd/include/DSD.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/DSD.xml");
 		List<KeyFamily> keyFamily = null;
 
 		XMLInputFactory factory = XMLInputFactory.newInstance();

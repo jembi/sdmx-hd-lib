@@ -33,7 +33,7 @@ public class HierarchyTest {
 
 	@Test
 	public void testFindCodeRef() throws Exception {
-		File f = new File("test/sdmxhd/include/DSD.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/DSD.xml");
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 		XMLEventReader eventReader = factory
 				.createXMLEventReader(new FileReader(f));

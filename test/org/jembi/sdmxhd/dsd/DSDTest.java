@@ -46,7 +46,7 @@ public class DSDTest {
 
 	@Test
 	public void testGetIndicatorNames() throws Exception {
-		File f = new File("test/sdmxhd/include/DSD.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/DSD.xml");
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 		XMLEventReader eventReader = factory
 				.createXMLEventReader(new FileReader(f));
@@ -85,7 +85,7 @@ public class DSDTest {
 
 	@Test
 	public void testGetAllDimensions() throws Exception {
-		File f = new File("test/sdmxhd/include/DSD.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/DSD.xml");
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 		XMLEventReader eventReader = factory
 				.createXMLEventReader(new FileReader(f));
@@ -116,7 +116,7 @@ public class DSDTest {
 
 	@Test
 	public void testGetDimensions() throws Exception {
-		File f = new File("test/sdmxhd/include/DSD.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/DSD.xml");
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 		XMLEventReader eventReader = factory
 				.createXMLEventReader(new FileReader(f));
@@ -136,7 +136,7 @@ public class DSDTest {
 
 	@Test
 	public void testToXML() throws Exception {
-		File f = new File("test/sdmxhd/include/DSD.xml");
+		File f = new File("test/org/jembi/sdmxhd/include/DSD.xml");
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 
 		XMLEventReader eventReader = factory
@@ -157,7 +157,7 @@ public class DSDTest {
 			ExternalRefrenceNotFoundException, SchemaValidationException {
 		SDMXHDParser parser = new SDMXHDParser();
 		SDMXHDMessage msg = parser.parse(new ZipFile(
-				"test/sdmxhd/include/SDMX-HD.v1.0 sample1.USG [complete].zip"));
+				"test/org/jembi/sdmxhd/include/SDMX-HD.v1.0 sample1.USG [complete].zip"));
 
 		DSD dsd = msg.getDsd();
 		List<Dimension> allIndicatorDimensions = dsd
@@ -169,7 +169,7 @@ public class DSDTest {
 	@Test
 	public void testGetAllCombinationOfDimensions() throws Exception {
 		File f = new File(
-				"test/sdmxhd/include/art_sl_structure_v4.5_edited_no_disag_hy.xml");
+				"test/org/jembi/sdmxhd/include/art_sl_structure_v4.5_edited_no_disag_hy.xml");
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 
 		XMLEventReader eventReader = factory

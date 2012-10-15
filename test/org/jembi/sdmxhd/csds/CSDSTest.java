@@ -67,7 +67,7 @@ public class CSDSTest {
 				.toXML("urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=SDMX-HD:SL-HIV:1.0:cross");
 
 		FileWriter fw = new FileWriter(new File(
-				"test/sdmxhd/include/generatedCSDS.xml"));
+				"test/org/jembi/sdmxhd/include/generatedCSDS.xml"));
 		fw.write(xml);
 		fw.close();
 
