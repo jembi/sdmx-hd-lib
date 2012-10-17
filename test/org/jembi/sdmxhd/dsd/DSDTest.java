@@ -155,11 +155,16 @@ public class DSDTest {
 	public void testAllIndicatorDimensions() throws ZipException,
 			ValidationException, XMLStreamException, IOException,
 			ExternalRefrenceNotFoundException, SchemaValidationException {
-		SDMXHDParser parser = new SDMXHDParser();
-		SDMXHDMessage msg = parser.parse(new ZipFile(
-				"test/org/jembi/sdmxhd/include/SDMX-HD.v1.0 sample1.USG [complete].zip"));
+		File f = new File(
+				"test/org/jembi/sdmxhd/include/DSD.xml");
+		XMLInputFactory factory = XMLInputFactory.newInstance();
 
-		DSD dsd = msg.getDsd();
+		XMLEventReader eventReader = factory
+				.createXMLEventReader(new FileReader(f));
+
+		DSDParser dsdParser = new DSDParser();
+		DSD dsd = dsdParser.parse(eventReader, null);
+		
 		List<Dimension> allIndicatorDimensions = dsd
 				.getAllIndicatorDimensions("SDMX-HD");
 
@@ -179,10 +184,27 @@ public class DSDTest {
 		DSD dsd = dsdParser.parse(eventReader, null);
 
 		List<List<DimensionWrapper>> allCombinationOfDimensions = dsd
-				.getAllCombinationOfDimensions("SDMX-HD");
+				.getAllCombinationOfDimensions("ART-SUMMARY");
+		
+		Assert.assertNotNull(allCombinationOfDimensions);
+	}
+	
+	@Test
+	public void testGetAllIndicatorDimensions() throws Exception {
+		File f = new File(
+				"test/org/jembi/sdmxhd/include/DSD.xml");
+		XMLInputFactory factory = XMLInputFactory.newInstance();
+
+		XMLEventReader eventReader = factory
+				.createXMLEventReader(new FileReader(f));
+
+		DSDParser dsdParser = new DSDParser();
+		DSD dsd = dsdParser.parse(eventReader, null);
+
 		List<Dimension> allIndicatorDimensions = dsd
-				.getAllIndicatorDimensions("ART-SUMMARY");
-		String s = "";
+				.getAllIndicatorDimensions("SDMX-HD");
+		
+		Assert.assertNotNull(allIndicatorDimensions);
 	}
 
 }

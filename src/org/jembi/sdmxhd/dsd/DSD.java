@@ -392,12 +392,22 @@ public class DSD {
 		}
 
 		HierarchicalCodelist hierarchicalCodelist = getHierarchicalCodeList(Constants.HCL_CONFIGURATION_HIERARCHIES);
+		
+		if (hierarchicalCodelist == null) {
+			// Try older name for this HCL
+			hierarchicalCodelist = getHierarchicalCodeList(Constants.HCL_CONFIGURATION_HIERARCHIES_BACKWARDS_COMPATIBLE);
+		}
 
 		Hierarchy hierarchy = hierarchicalCodelist
 				.getHierarchy(Constants.INDICATOR_DISAGGREGATION_HIERARCHY);
 
 		if (hierarchy == null) {
-			return null;
+			// Try older name for this hierarchy
+			hierarchy = hierarchicalCodelist.getHierarchy(Constants.INDICATOR_DISAGGREGATION_HIERARCHY_BACKWARDS_COMPATIBLE);
+			
+			if (hierarchy == null) {
+				return null;
+			}
 		}
 
 		CodeRef codeRef = hierarchy.findCodeRef(hierarchicalCodelist
