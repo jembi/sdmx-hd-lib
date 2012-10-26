@@ -46,10 +46,9 @@
 package org.jembi.sdmxhd.util;
 
 import java.io.InputStream;
-
 import junit.framework.TestCase;
-
 import org.junit.Test;
+import org.jembi.sdmxhd.util.URLHandler;;
 
 /**
  * 
@@ -62,7 +61,7 @@ public class URLHandlerTest extends TestCase {
 
 	protected void setUp() throws Exception {
 		// set base url to sample zip file
-		String sample = "test/sdmxhd/include/SDMX-HD.v1.0 sample1.zip";
+		String sample = "test/org/jembi/sdmxhd/include/SDMX-HD.v1.0 sample1.zip";
 		String baseURL = "jar:file:" + sample + "!";
 		// create a handler for this zipfile
 		uri_handler = new URLHandler(baseURL);
