@@ -1,4 +1,4 @@
-SDMX-HD Parser
+SDMX-HD Parser[![Build Status](https://secure.travis-ci.org/jembi/sdmx-hd-lib.png)](http://travis-ci.org/jembi/sdmx-hd-lib)
 ==============
 
 This project is a SDMX-HD Parser. It is being developed to aid in the OpenMRS to TRACnet integration. This parser allows a complex SDMX-HD message to be parsed into a data structure that is easier to work with.
