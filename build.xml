@@ -41,7 +41,7 @@
 	
   <target name="test" depends="compile">
   	<mkdir dir="${test-output}/raw"/>
-    <junit printsummary="true" failureproperty="junit.failure">
+    <junit failureproperty="junit.failure">
       <classpath>
         <pathelement location="bin" />    
         <pathelement location="lib/junit-4.10.jar"/>
@@ -52,6 +52,7 @@
          </fileset>
       </batchtest>
       <formatter type="xml"/>
+      <formatter type="plain" usefile="false" />
     </junit>
   	<junitreport todir="${test-output}">
       <fileset dir="${test-output}/raw"/>

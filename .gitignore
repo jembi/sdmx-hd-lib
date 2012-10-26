@@ -1,4 +1,4 @@
-/build
-/dist
-/test-reports
-/bin
+build
+dist
+test-reports
+bin

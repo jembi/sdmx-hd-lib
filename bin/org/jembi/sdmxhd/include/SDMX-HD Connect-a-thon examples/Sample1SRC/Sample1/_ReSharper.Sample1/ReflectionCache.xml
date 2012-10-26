@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Assemblies Version="1073741833">
-  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="afc6be7c-4282-4c1a-bc13-80ab0e0b55b2" Timestamp="633529680480000000" XmlDocIndexTimestamp="633490003300000000" />
-  <Assembly Name="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="175f7b78-5642-4af4-b8ed-9f65f7e0416c" Timestamp="633529680480000000" XmlDocIndexTimestamp="633490003300000000" />
-  <Assembly Name="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="dd5d7960-7817-49a4-a65a-ced6180b272a" Timestamp="633529680480000000" XmlDocIndexTimestamp="633490003300000000" />
-  <Assembly Name="WHO.SDMX.HealthDomain.Library, Version=1.0.0.0, Culture=neutral" Image="2d57b903-d587-4cc5-b3fb-1ddad2edae04" Timestamp="633912977535711062" />
-  <Assembly Name="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="03ecd50b-9d83-4e2f-9763-53545646c903" Timestamp="633529521980000000" XmlDocIndexTimestamp="633490003300000000" />
-  <Assembly Name="JetBrains.Annotations, Version=4.0.819.19, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="781075c9-fa1a-46c7-baf5-6a847e3cf313" Timestamp="633486419860000000" XmlDocIndexTimestamp="633486419860000000" />
-</Assemblies>

@@ -1,8 +1,0 @@
-D:\_SVN\SDMX-HD\main\Samples\Sample1SRC\Sample1\Sample1\bin\Debug\Sample1.exe
-D:\_SVN\SDMX-HD\main\Samples\Sample1SRC\Sample1\Sample1\bin\Debug\Sample1.pdb
-D:\_SVN\SDMX-HD\main\Samples\Sample1SRC\Sample1\Sample1\bin\Debug\WHO.SDMX.HealthDomain.Library.dll
-D:\_SVN\SDMX-HD\main\Samples\Sample1SRC\Sample1\Sample1\bin\Debug\WHO.SDMX.HealthDomain.Library.pdb
-D:\_SVN\SDMX-HD\main\Samples\Sample1SRC\Sample1\Sample1\bin\Debug\WHO.SDMX.HealthDomain.Library.xml
-D:\_SVN\SDMX-HD\main\Samples\Sample1SRC\Sample1\Sample1\obj\Debug\ResolveAssemblyReference.cache
-D:\_SVN\SDMX-HD\main\Samples\Sample1SRC\Sample1\Sample1\obj\Debug\Sample1.exe
-D:\_SVN\SDMX-HD\main\Samples\Sample1SRC\Sample1\Sample1\obj\Debug\Sample1.pdb
