@@ -5,6 +5,8 @@
   <!-- set global properties for this build -->
   <property name="src" location="src"/>
   <property name="build" location="build"/>
+  <property name="build-src" location="${build}/src"/>
+  <property name="build-test" location="${build}/test"/>
   <property name="dist"  location="dist"/>
   <property name="test"  location="test"/>
   <property name="test-output"  location="test-reports"/>
@@ -13,13 +15,21 @@
     <!-- Create the time stamp -->
     <tstamp/>
     <!-- Create the build directory structure used by compile -->
-    <mkdir dir="${build}"/>
+    <mkdir dir="${build-src}"/>
+  	<mkdir dir="${build-test}"/>
   </target>
 
   <target name="compile" depends="init"
         description="compile the source " >
     <!-- Compile the java code from ${src} into ${build} -->
-    <javac srcdir="${src}" destdir="${build}"/>
+    <javac srcdir="${src}" destdir="${build-src}"/>
+  	<!-- Compile the java code from ${src} into ${build} -->
+  	<javac srcdir="${test}" destdir="${build-test}">
+  		<classpath>
+	    	<pathelement location="lib/junit-4.10.jar"/>
+	    	<pathelement location="${build-src}" />
+	    </classpath>
+  	</javac>
   </target>
 
   <target name="dist" depends="compile"
@@ -28,14 +38,14 @@
     <mkdir dir="${dist}"/>
 
     <!-- Put everything in ${build} into a .jar file -->
-    <jar jarfile="${dist}/jembi-sdmx-hd-library-0.3.2.jar" basedir="${build}"/>
+    <jar jarfile="${dist}/jembi-sdmx-hd-library-0.3.2.jar" basedir="${build-src}"/>
   </target>
 
   <target name="clean"
         description="clean up" >
     <!-- Delete the ${build} and ${dist} directory trees -->
     <delete dir="${build}"/>
-    <delete dir="${dist}"/>
+  	<delete dir="${dist}"/>
   	<delete dir="${test-output}"/>
   </target>
 	
@@ -43,8 +53,9 @@
   	<mkdir dir="${test-output}/raw"/>
     <junit failureproperty="junit.failure">
       <classpath>
-        <pathelement location="bin" />    
-        <pathelement location="lib/junit-4.10.jar"/>
+      	<pathelement location="lib/junit-4.10.jar"/>
+        <pathelement location="${build-src}" />
+      	<pathelement location="${build-test}" />
       </classpath>    
       <batchtest todir="${test-output}/raw">
          <fileset dir="${test}">
