@@ -3,6 +3,7 @@
         An ant file to build and clean the SDMX-HD Parser project
     </description>
   <!-- set global properties for this build -->
+  <property name="version" value="0.3.2"/>
   <property name="src" location="src"/>
   <property name="build" location="build"/>
   <property name="build-src" location="${build}/src"/>
@@ -38,7 +39,7 @@
     <mkdir dir="${dist}"/>
 
     <!-- Put everything in ${build} into a .jar file -->
-    <jar jarfile="${dist}/jembi-sdmx-hd-library-0.3.2.jar" basedir="${build-src}"/>
+    <jar jarfile="${dist}/sdmx-hd-lib-${version}.jar" basedir="${build-src}"/>
   </target>
 
   <target name="clean"
